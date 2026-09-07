@@ -7,6 +7,36 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.37.3] - 2026-09-07
+
+The last block was standing next to the smoke.
+
+**A smelter's stack was the one piece of relief left that was a box**, on the argument that a stack
+is a box. It was also, like every block before it, standing where the drawing puts nothing -- and
+here something else already knew where a stack belongs. The plume is vented at the middle of the
+north edge and the block sat in the corner above the mould, so a working smelter has always smoked
+out of a patch of bare roof beside its own chimney.
+
+**There is a stack drawn now, over the vent**, and it is relief rather than a block for the reason
+every cap in this release turned out to matter: a block's cap is plain plate whatever the plan
+underneath says, and the one thing a stack must have on top of it is a hole. Turned, tapered, and
+open at the mouth.
+
+![A smelter running](docs/screenshots/v1.37.3/31-smelter-working.png)
+
+**And that empties the apparatus behind it.** `ReliefOf` returned a list of blocks per building;
+every one of those buildings is cut from its own heightmap now, so the struct, the routine that
+turned a block with its hull, the one that raised four walls and a cap for each, the one that laid
+their shadows on the roof, the one that worked out what a block was standing on, and the two
+constants for how far a roof shadow reached are all gone with it. Working out the tallest thing on
+a hull used to mean finding the best stack of block-upon-relief; it is the highest pixel of the
+plan. 345 lines out, 9 in.
+
+**Every hull in the game is now cut to the shape its own drawing describes**, which is what the
+three releases starting at 1.37.0 were for.
+
+---
+
 ## [1.37.2] - 2026-09-07
 
 The escape pod is standing on its feet.
