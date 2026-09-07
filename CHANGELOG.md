@@ -7,6 +7,60 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.40.0] - 2026-09-07
+
+Everything a sound needs except the sounds.
+
+**Escape, then OPTIONS, then SOUND.** A volume for each of four channels -- music, ambience,
+effects and the interface -- and a master over them, in steps of ten percent, on the same page in
+both menus for the same reason the graphics page is: speakers belong to the room the machine is in
+rather than to the planet. Arrows rather than a slider, like every other setting in the game, and a
+channel stops at silence instead of wrapping round to full, because a volume that answers one more
+notch of quiet with the loudest thing in the game is a volume that does it through headphones.
+
+![The sound page](docs/screenshots/v1.40.0/57d-sound.png)
+
+**The game does not ship with any sounds yet, and the page says so.** That is the whole shape of
+this release: what has been built is everything *around* a sound -- the channels, the settings, the
+mixer, the ear, and forty-nine moments in the game that already ask to be heard. Every button in
+both menus, pressed and hovered. Panels and rings opening. A placement, a run of belt, a
+disassembly, a bite out of an outcrop, a stack lifted and put down, one burned. A machine starting,
+stopping, and each item out of it. Construction finishing. The wheel, while somebody is turning it.
+The sweep going out and each deposit it finds. Footfalls, taken off the walk cycle rather than a
+timer, so they land with the legs at any speed. A grid going dark. Somebody arriving, leaving, or
+saying something.
+
+**Adding a sound is a file.** Drop `build-placed.wav` into `Assets/_Factory/Resources/Sound` and
+that is the entire job -- no prefab, no inspector, no reference to wire. The name comes from the cue
+itself, so a clip can never be looking for a file called something else, and numbered variants
+(`tool-hit-1`, `-2`, `-3`) are picked between at random for anything that repeats. A cue with no
+clip is silence and nothing else: no warning, no cost, which is exactly why all forty-nine call
+sites could go in before a single sound existed. The game keeps the list of what has been asked for
+and had nothing to play -- the work left to do, counted by the game rather than by hand.
+
+**Sound cannot reach the simulation**, which was the one thing worth being careful about. A headless
+host makes none at all. Pitch variation and clip choice come from the director's own random stream
+rather than the shared one, so a machine that happened to hear something cannot pull a number out
+from under a co-op run. The cues that belong to a machine's state are raised from the drawing half
+rather than the simulated half. And the other side of that rule is free: cues are raised where
+actions are applied, and every machine applies everybody's actions -- so a mate building something
+across the base is heard from across the base, with no networking of its own.
+
+**The ear is on the player, not on the camera.** It was on the camera in the scene, which was right
+while the camera looked straight down from above and wrong the moment the view was tilted: the
+camera now stands tens of units back and above what is in the middle of its picture. Sixteen voices,
+oldest taken when they are all busy -- a mixing limit rather than a memory one -- and loops get a
+source of their own and a handle back, so a machine that is taken down stops its own hum.
+
+The game also goes quiet when its window is put behind something else, unless you say otherwise on
+the page. The opposite of what the engine does on its own, and the right way round for a game played
+alongside a browser for hours.
+
+See `docs/design/sound.md` for the channels, the rules and what is deliberately still missing --
+belt ambience, ducking, and footsteps that know what they are landing on.
+
+---
+
 ## [1.39.0] - 2026-09-07
 
 A cheat page, in the pause menu of every run.
