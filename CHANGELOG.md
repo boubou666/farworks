@@ -7,6 +7,48 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.43.1] - 2026-09-08
+
+The character had shape and no depth. The light knows what is in front of what now.
+
+**A figure is not its own silhouette.** The suit was lit off its outline, and the only shape an
+outline can suggest is a pillow -- one lump, highest wherever the picture is thickest. Run deep
+enough to be felt that swells a hard suit into a bar of soap, so it was run at a sixth and the
+character stayed flat. But a figure is a helmet in front of a collar in front of a chest plate in
+front of a torso, with arms hanging outside all of it, and none of that is in the outline. So it is
+drawn twice over in the one pass: once in colour, and once in how far toward the eye each part of it
+stands. The depths are a stacking order before they are a measurement, and what was authored is the
+gaps between them -- a part a pixel proud of its neighbour is a part that can drop a pixel of shadow
+onto it.
+
+**Contact shadow is what reads as depth at forty-eight pixels.** A march toward the light finds
+whatever stands in the way: under the jaw, under a shoulder plate, down the side of the pack, along
+the arm that crosses the chest in profile. A crease term closes the joins the sun cannot reach --
+the gap an arm hangs in, the seam between two legs -- because a crease is dark whichever way the
+light happens to be. And the surface normal taken off the relief rounds each part on its own axis,
+so the helmet is a sphere and an arm is a cylinder, instead of both being swellings of one lump.
+
+**It is lit by two lights, because out of doors there are two.** Shading by multiplying one grey by
+another leaves a lit face and a shaded face the same colour at two brightnesses, which reads as a
+printed picture rather than as a surface however much contrast is put between them. A warm sun and a
+cold sky, multiplied over the paint rather than blended toward it, so the warning lamps shift with
+the light instead of being washed out by it; the pair average to white on every channel, so this
+tilts the light without dimming it. Whatever faces up takes a little sky, and a thin bounce off the
+ground runs down the shaded edge, which is the oldest trick there is for making something look
+round. The whole is then cut into eleven levels, for the reason a dome is terraced: left smooth, a
+figure this size gets a different value in every pixel and reads as a photograph of a model rather
+than as a drawing.
+
+![The character standing on the regolith, beside an outcrop](docs/screenshots/v1.43.1/13a-lit.png)
+
+The suit still has to be legible against dark rock, so the mean value is within four of where the
+painting put it. What has changed is the range, which was 21 to 247 and is now 9 to 255.
+
+**Also:** the art dump writes every frame of the walk rather than the standing pose alone. A figure
+posed off its phase never goes wrong on the frame you would have thought to ask for.
+
+---
+
 ## [1.43.0] - 2026-09-08
 
 The sky does something, and the base lights up when it stops giving light.
