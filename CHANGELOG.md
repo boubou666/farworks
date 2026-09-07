@@ -7,6 +7,87 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.43.0] - 2026-09-08
+
+The sky does something, and the base lights up when it stops giving light.
+
+**Weather.** Seven spells -- clear, fair, overcast, drizzle, rain, a downpour and a storm -- picked
+off a chain that never steps more than a place or two, so the sky walks from one to the next rather
+than cutting between them. Each spell settles three figures: how much cloud is over the sky, how
+hard it is raining and how electric it is. They ease over about half a minute, so a downpour is
+something you watch arrive. It is stepped beside the clock rather than drawn, which means a host
+with no screen has weather, everybody on one planet stands in the same shower, and a save left in
+the rain comes back to it. And it is rolled off the planet's own seed, so the same seed gets the
+same afternoons in the same order on any machine, with nothing passing between them.
+
+**Cloud shadows, on the ground.** There is no sky in this game -- the camera looks down and the top
+of the picture is more planet -- so cloud can only be known by what it takes away. Slow, faint dark
+patches cross the base, anchored to the map and not to the view: the shader follows each corner of
+one full-screen quad down the line of sight until it meets the ground and reads the cloud field
+*there*, which is exact rather than approximate because an orthographic camera has one line of
+sight for every pixel. Two layers at different sizes and speeds, so it never repeats. Strongest on
+a fair day with cloud crossing it, and weakest under a solid overcast, where there is no beam left
+to interrupt.
+
+![A clear sky over the landing site](docs/screenshots/v1.43.0/76-clear.png)
+
+![The same ground a moment later, with cloud crossing it](docs/screenshots/v1.43.0/77-fair.png)
+
+**Rain at three weights.** Three sheets of streaks between the eye and the world at different sizes
+and speeds, and the sheets come in one at a time as it gets heavier -- so drizzle is genuinely a
+handful of drops with the planet showing between them and a downpour is four times as many, rather
+than the same rain painted more opaquely. It slants with the wind, which is the same wind that
+carries the cloud shadows, so turning the camera a quarter leans the rain the other way. And it
+lands: rings open and fade on whatever surface is actually under them.
+
+![Drizzle](docs/screenshots/v1.43.0/79-drizzle.png)
+
+![A downpour](docs/screenshots/v1.43.0/81-downpour.png)
+
+**It does not fall indoors.** The rain is one sheet across the whole screen and knows nothing about
+where it is, so every roof on the map stamps its own shape into the stencil buffer and the sheet
+draws where the stencil is still clear. That comes out geometrically exact for nothing: the dry
+patch is the room, in perspective, whatever shape somebody built. It holds when the cutaway fades
+that roof away to show the room underneath -- which is precisely the moment anybody would notice
+rain falling on their head indoors -- and no splash is started on a floor with a lid over it.
+
+**Storms are heavy rain with the sky going off over it.** Same cloud, same rain, same dark, plus
+lightning: a hard stab and a weaker return stroke behind it, over the whole screen, above the wash
+that says what time of day it is, because a bolt lights the night rather than being dimmed by it.
+The thunder follows its own flash by however far off the strike was. When a strike happens is world
+state and everybody sees the same one; what it looks like runs on real time, so a storm at four
+times speed has four times the lightning in it and each bolt still lasts as long as a bolt lasts.
+
+![A storm at midday, and a room staying dry](docs/screenshots/v1.43.0/83-storm-close.png)
+
+**A bad sky keeps the daylight.** One multiply, in the one place every cue in the game already went
+through: shadows soften and go out, the wash over the world thickens and cools, and a storm at
+midday comes down to about a fifth of the light a clear one has. Nothing else had to be told that
+weather exists.
+
+**And the base burns lamps.** Every building that is not fabric -- not a wall, a floor or a flight
+of steps -- throws a warm pool on the ground it stands on and carries a light over its roofline.
+They are added to what is behind them rather than drawn over it, and they are laid on over the
+darkness rather than under it, which is the whole difference between a lamp and a picture of one.
+They come up off the daylight rather than off the clock, so the same lamps that come on at dusk
+come on at midday under a storm, and they go out with the grid: a base going dark is a grid that
+has gone down, seen from across the map without opening a panel.
+
+![The base after dark](docs/screenshots/v1.43.0/84-lamps.png)
+
+![Midday, under a storm, with the lamps up](docs/screenshots/v1.43.0/85-storm-lamps.png)
+
+**Also.** The readout carries a SKY line beside the clock. The cheat page has a WEATHER row that
+pins a spell and stops the sky running, because a storm that gets rained off twenty seconds after
+somebody asked for it is not a cheat. Saves carry the spell and how far through it they were. Two
+cues are named and waiting for a recording, `Rain` and `Thunder`. And there is a `weather` capture
+scene, which shoots the seven skies and asserts the chain of consequences behind them -- that a
+worse sky is gloomier, that gloom is what puts the lamps up, that rain is only drawn while it is
+raining, that it lands, that no roof lets it through, and that a storm actually throws lightning
+rather than merely being darker.
+
+---
+
 ## [1.42.0] - 2026-09-08
 
 The trees grew up, and started standing on the ground.
