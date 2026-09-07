@@ -7,6 +7,42 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.40.1] - 2026-09-07
+
+Sound put in its place: where a noise comes from, and how far it carries.
+
+**The ear stands where the view is looking**, on the ground, and it is turned exactly as the camera
+is turned. The turn is the whole of the panning. The view can be spun a quarter at a time, and an ear
+left pointing north would have put a machine on the right of the screen into the left ear the moment
+somebody turned the camera -- which is worse than no panning at all.
+
+**Panning is geometry rather than a fudge.** A sound is panned by the angle between it and where the
+ear points, never by how far off it is, so an ear lying flat on the ground hears everything due east
+at ninety degrees to the right whether it is one tile away or thirty: a smelter you are standing
+beside would be entirely in one ear. The ear therefore stands back off the ground along the line of
+sight, by a third of half the width of the view, and the angle then falls out of the distance for
+free. A tile to your right is a few degrees off centre and barely panned; the edge of the screen is
+past seventy degrees and firmly to the right; everything between slides across as you walk past it.
+A fraction of the view rather than a distance, so it holds at every zoom.
+
+**Earshot is measured in screens, not in metres.** The falloff curve is written out rather than left
+to the engine's linear or logarithmic modes, because neither can say the thing this game needs to
+say: everything on screen is clearly audible, and everything off it fades quickly. Its axis is
+normalised to the corner of the screen and half again, recomputed every frame from the camera -- so a
+sound underfoot is at 0.91, one at the corner of the picture is at 0.50, and one a screen beyond it
+is gone. Zoom out over the whole base and the whole base is audible; zoom in on one smelter and the
+factory behind you drops away.
+
+A little spread takes the edge off the extremes, because a sound entirely in one ear is fine in a
+game where turning your head is the answer and unpleasant in one looked at from overhead.
+
+None of this can be judged by ear yet -- there are still no clips -- so the capture pass checks the
+arithmetic instead, at both ends of the zoom: that the ear is turned within a degree of the camera,
+that a sound at the corner of the screen comes back well clear of silence, and that one a screen
+past it comes back at nothing.
+
+---
+
 ## [1.40.0] - 2026-09-07
 
 Everything a sound needs except the sounds.
