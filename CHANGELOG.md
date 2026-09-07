@@ -7,6 +7,74 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.38.0] - 2026-09-07
+
+The building blocks, reworked: what may stand on what, where you are allowed to put it, and what
+the pieces look like once they are standing.
+
+**A foundation is a floor, so anything stands on one.** A machine always could. A wall could not,
+nor a door, nor a flight of steps -- a block on the ground refused every other block, foundations
+included, on the argument that stacking them would turn a floor plan into a guessing game about
+what is underneath. The guess is answered by looking, and what the rule actually cost was the
+obvious thing: laying a slab and building the room on it. Now the only thing refused on a deck is
+another deck, which is genuinely two floors in one place.
+
+![A wall and a door standing on a slab floor](docs/screenshots/v1.38.0/64-blocks-door-open.png)
+
+**A deck holds itself up, and nothing else does.** A roof used to need something load-bearing
+within three tiles of it on the floor below, so a base could only grow upward from inside a room
+it had already built -- and a wall that happened to be carrying something refused to come out of
+the run it was in. A foundation may now be laid in **mid air**, which is how a second storey gets
+started over open ground; everything that is not a deck still wants a floor under it, which is what
+makes laying a floor worth doing. The support rule is gone, and so is the wall that would not
+budge.
+
+**And a way to say which storey you mean.** A cursor can only ever point at a place on the screen,
+and one screen pixel is the ground, the roof of the shed behind it and every floor in between --
+so as soon as a slab can go in the air, the mouse has run out of answers. `F` takes the ghost off
+the cursor: the arrows walk it a tile at a time in the direction you are facing, `Page Up` and
+`Page Down` move it a storey, and the prompt says which storey it is on. One press is one tile;
+holding repeats. The mode stays up between pieces, because laying a floor by hand is laying forty
+slabs by hand. `F` again gives the arrows back to the walk.
+
+![Aiming a foundation two storeys up](docs/screenshots/v1.38.0/66b-aiming-by-hand.png)
+
+**The blocks are cut from heightmaps now**, which is the last of the eleven-hull conversion from
+1.37.0 -- the four things a base is made of were the ones that never got one, and they were the
+four flat lids left in the game.
+
+- A **foundation** is a cast slab with a kerb round it and a pin at each corner, poured level with
+  the floor so nothing standing on it sinks and it throws no shadow. Two slabs side by side meet in
+  a shallow ridge with a score between them, so a floor is countable in tiles from any quarter
+  rather than by a line painted on it.
+- A **wall** is a panel held between two rails, and the rails stand up. They are cut from the same
+  shape the wall is, so a run is capped along its length, a corner is capped round its corner, and
+  a wall with nothing to join is a post that stands a little proud of both.
+- A **door** carries the same rails through the opening, with **jambs** standing higher than
+  anything on a wall -- which is what makes a doorway findable down a long run of one. The opening
+  was cut back off the rails to make room for them; it used to leave one pixel of rail top and
+  bottom, which was fine while a rail was a painted line.
+- A **deck** gets an edge beam and its bolts. Its joists are drawn and deliberately *not* raised:
+  standing them up as ribs was three dark bands to a tile, and over a roofed base the floor stopped
+  being a floor and became a rack of trays.
+- A **staircase** gets a handrail, sloping with the climb rather than stepping with the treads, on
+  a post every other step. It is the one block with nothing standing above the floor it lands on,
+  so a flight against a wall used to end in nothing at all.
+
+![A wall and the deck it carries, from underneath](docs/screenshots/v1.38.0/69-under-the-roof.png)
+
+**Also:** relief on these is painted *down* rather than up. A cap on a hull drawn in plate takes
+the plan's own pixel and adds the light of the sky, so a kerb painted in the slab's own concrete
+comes back as a pale band round every slab in the base -- the same lesson the miner's cutter head
+taught in 1.37.4, learned again on four more pieces.
+
+**Known:** a mark on the ground under a floating ghost was built and dropped -- it reports itself
+enabled, sprited, coloured and correctly positioned, and rasterises nothing. Written up as
+[KNOWN-ISSUES 7](docs/KNOWN-ISSUES.md) rather than shipped dead. The storey is said in words in the
+prompt instead, which is the information it was for.
+
+---
+
 ## [1.37.4] - 2026-09-07
 
 The miner's drill bit has not been visible since the world went 3D.
@@ -1100,7 +1168,7 @@ pretending.
   the low side and the cliff hides you. Buildings can fade because each is a few renderers with
   something watching them; terrain is one mesh per chunk with no per-thing anything, so the fix
   belongs in the terrain shader. Turning the view a quarter is a way out in the meantime. Recorded
-  in KNOWN-ISSUES.md.
+  in [KNOWN-ISSUES.md](docs/KNOWN-ISSUES.md).
 
 - **A flight of steps is still a picture of a ramp** rather than something built. It is drawn the
   whole way up, as it has been since 1.26.0, but it has no sides of its own and reads flatter than
@@ -3209,7 +3277,7 @@ The Main Station is upgraded as far as it goes. What comes after it is milestone
 
 ### Added
 
-- **`docs/KNOWN-ISSUES.md`**, where a bug found while doing something else
+- **[`docs/KNOWN-ISSUES.md`](docs/KNOWN-ISSUES.md)**, where a bug found while doing something else
   goes instead of being chased. Each entry carries what was seen, what the evidence says and where
   to start, so it can be picked up cold rather than rediscovered. It opens with the one that costs
   real time: interface clicks being dropped when the capture is launched from a script, which is
