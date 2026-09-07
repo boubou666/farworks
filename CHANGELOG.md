@@ -7,6 +7,40 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.37.1] - 2026-09-07
+
+The belt was the flattest thing left on the planet.
+
+**Every machine around it grew relief in 1.37.0 and the belt did not**, so a run of them read as a
+decal painted on the floor between raised things. A belt is also not a hull: `Belt` is its own
+component, never extruded, no slab, height nought, its tiles sitting a hundredth of a unit off the
+ground. There was no heightmap to write for it.
+
+**What it gets instead is a rail hull** -- three static meshes, one per shape a tile can be --
+raised from a plan that is only the rail pixels, asked with the same tests the sprite uses to decide
+what a rail is rather than read back off the finished picture. The surface between the rails does
+not move: the stock rides where it always rode, at the height it always rode, and machines meet the
+belt at their ports exactly where they met it before.
+
+**Only the outer lip stands up**, because the rollers are drawn down the middle of a rail and they
+slide with the belt. A lid over the full width froze them -- a lid is the plan reproduced, and the
+plan one is cut from here has to be a single picture for every frame, or this becomes a mesh swap
+per tile per frame of every run in the base. So the lip rises, and the roller course stays at the
+surface wearing the sprite that moves.
+
+![A belt running into a crafter](docs/screenshots/v1.37.1/39-belt-corner.png)
+![A packed run](docs/screenshots/v1.37.1/40-belt-packed.png)
+
+**Fixed:** relief was being tinted against the plan's own average colour on hulls drawn in plate.
+That normalisation exists because the sheet a machine's relief sits on already carries that colour,
+having been mixed from it -- and the plate sheet does not. It is generic, the same for everything
+using it. The belt is the first hull on plate to carry a heightmap and it came out with rails lit
+like strip lights, because rails are the brightest thing on a belt and the formula read that as a
+reason to make them brighter still. Every machine has a flank of its own, so nothing shipped in
+1.37.0 was affected.
+
+---
+
 ## [1.37.0] - 2026-09-07
 
 Every building was a prism.
