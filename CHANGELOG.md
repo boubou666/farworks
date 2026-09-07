@@ -7,6 +7,32 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.37.4] - 2026-09-07
+
+The miner's drill bit has not been visible since the world went 3D.
+
+**It was sitting on the floor.** A hundredth of a unit up, which was right when a miner was a
+picture and the ground and the deck were the same plane. Once the frame became a solid one and a
+third of a unit tall, the bit stayed down there -- behind the machine's own front face, from every
+angle the camera can be turned to. The one moving part that tells you a miner is cutting has been
+hidden for the whole of that time. It is at the height of the deck the frame leaves a hole in now,
+which is where its sprite was always drawn to sit: sized to that hole and no wider.
+
+**And it is a cutter head rather than a disc with three lines on it.** A boss over the shaft
+standing highest, three arms as ribs off it, a cutter proud at the end of each and a tip proud of
+that, and the rim nearly down at the plate. One mesh for the life of the game, carried by the
+transform that already spins, because a bit spinning is a bit turned and the shape never changes
+with the angle -- the same trade the belt's rails make.
+
+![A miner cutting](docs/screenshots/v1.37.4/53-miner-cutting.png)
+
+**Also:** the head is painted darker than the drawing beneath it. A lid on a hull drawn in plate
+takes the plan's own pixel and adds the light of the sky, and it takes it flat -- there is no fall
+across a lid the way there is down a wall. Painted in the sprite's own steel it came back as one
+pale mass with the form shading that made it read as metal thrown away.
+
+---
+
 ## [1.37.3] - 2026-09-07
 
 The last block was standing next to the smoke.
