@@ -7,6 +7,188 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.37.0] - 2026-09-07
+
+Every building was a prism.
+
+**The outline was already exact and the height was a single number.** A hull is traced from the
+picture painted on top of it -- the mesh walks every pixel of the plan and raises a wall wherever a
+solid pixel meets an empty one, so a smelter notched in by a pixel gets a face notched in by a
+pixel. That part was right. What was wrong is that `Stands` was one float for the whole footprint,
+so whatever shape the outline cut, the thing standing in it had a flat lid, dead vertical sides and
+exactly one altitude. No slope, no chamfer, no dome, no recess. The only relief in the game came
+from a handful of axis-aligned boxes bolted onto the lid.
+
+**A plan carries a height per pixel now.** A wall goes up wherever the height changes rather than
+only where the machine stops, and the raised part of a plan gets a lid of its own. What that buys
+is every shape a box cannot hold: a domed firebox, a tapered hopper, a chamfered lip, a dished
+well, a barrel, a roof that steps. Depth is measured up from the roof plane and never down -- the
+roof is still the sprite, one flat quad, so a recess is made by raising what surrounds it.
+
+**Curves are terraced on purpose.** A heightmap is read a pixel at a time, so a smooth dome is not
+smooth once it is built: every column of the curve lands on its own height, gets its own one-pixel
+riser, and the result is corduroy. Four wide steps read as a turned casting where twenty-six narrow
+ones read as noise. Deliberate steps beat accidental ones.
+
+**Eleven hulls were converted, and nine of the eleven blocks turned out to be doing harm.** Six
+were sitting on top of the thing that mattered: the container's contents, the miner's shaft, the
+pod's canopy, the crafting station's tools, the treadwheel's wheel, the pole's mast. Two more were
+painting over the material itself -- a block's cap is plain plate whatever the plan underneath it
+says, so the timber crate was rendering grey and the pod's beacon was rendering blank. Only the
+crate's lid was the right shape to begin with, and even that was the wrong colour.
+
+- **The smelter** has a domed firebox where it had a box, its charging hopper leans back toward
+  the mouth it is fed from, and the mould has a chamfered lip with the casting well set inside it.
+
+  ![A smelter running](docs/screenshots/v1.37.0/31-smelter-working.png)
+
+- **The crafter** is cut the opposite way round, because a machine tool is a frame with a bed sunk
+  into it: the edge rises, and the deepest line on the whole thing is the groove the stock runs
+  along. The rotary tool head is four terraced discs.
+
+  ![A crafter and its ports](docs/screenshots/v1.37.0/34-crafter-ports.png)
+
+- **The station** grows in its heightmap, so every upgrade adds equipment a player can see from
+  outside their own base. The socket is a dead collar until the well is brought up and then it is
+  the mouth of a terraced tower. The heat exchangers get their ten fins a side, one at a time. The
+  dishes are terraced down to a floor and back up to a feed horn. The beacon is the last thing
+  there is to add, so it stands highest.
+
+  ![The station on the day you put it down](docs/screenshots/v1.37.0/90-station-tier-0.png)
+  ![The station nine upgrades later](docs/screenshots/v1.37.0/90-station-tier-8.png)
+
+- **The container** was the sharpest of them. It is drawn with a pallet of stock inside it on
+  purpose -- so that a full one and an empty one are not the same picture from above -- and its
+  block was a lid over all of it. Wall up, floor down, and the wall corrugated, because that is
+  what a container is. **The crate** beside it keeps its lid, which was right, and gains the
+  grooves between its planks, the steel strapped over them and a catch you could get a finger
+  under. It is also timber now instead of grey.
+
+  ![A line of stores](docs/screenshots/v1.37.0/71-storage-line.png)
+
+- **The miner** had a box over the hole in the middle of its frame, which is the shaft the bit
+  works in and the entire reason a frame is a frame. The deck comes up so the shaft can be a
+  shaft, the corner blocks are legs, and the motor's seven vents are seven openings.
+
+  ![A miner cutting](docs/screenshots/v1.37.0/53-miner-cutting.png)
+
+- **The escape pod** is terraced out from its spine, so it falls away in every direction at once
+  rather than having a barrel's flanks and a tube's ends. The canopy bulges out of the crown, the
+  panel seams are cut into the curve, and the scorch the drawing has carried since the day it was
+  written is a dent.
+
+  ![The pod before it is recycled](docs/screenshots/v1.37.0/02-tutorial-recycle.png)
+
+- **The crafting station** was a backboard built out of a block, which is the wrong thing to build
+  a backboard out of: what a backboard is for is the four tools hanging on it, and they were being
+  flattened into a grey panel.
+
+  ![Two benches](docs/screenshots/v1.37.0/36b-benches.png)
+
+- **The treadwheel** was the worst of them. Its block was an axle housing laid down the middle of
+  the bed, where the drawing puts nothing and the wheel puts itself -- so the wheel a player runs
+  in was under a grey slab. Its frame is relief now: two bearing blocks, a dynamo with the windings
+  sunk into its case, and the rail you lean on to push.
+
+  ![Turning the wheel](docs/screenshots/v1.37.0/43-turning-the-wheel.png)
+
+- **The pole** is drawn end on, so which of its parts is highest is the whole subject, and flat
+  there was no answer. Bottom to top now: plate, arm, insulators, mast.
+
+  ![A grid, with a pole on it](docs/screenshots/v1.37.0/45-the-grid.png)
+
+**And the conveyor lift had never been drawn at all.** It is extruded as `ConveyorLiftUp` or
+`ConveyorLiftDown`, and every switch that asked about it spelled the style `ConveyorLift` -- so
+three labels had never once matched. Its relief block never appeared, it never got a flank, and the
+elevation written for it, a ladder frame with the buckets climbing, has been sitting unreachable
+since the day it was added. The tallest thing a base can have was rendering as a black slab. All
+three now name the styles that exist, and its plan is relief besides: the casing, the two rails
+standing off it, and the run set down between them.
+
+![Under the roof, beside the lift](docs/screenshots/v1.37.0/69-under-the-roof.png)
+
+**Also:** `Pixels` gained `Fill`, `Disc`, `Dome`, `Ramp` and `Sink` for height buffers, so relief is
+described with the same calls that drew the sprite. `Sink` subtracts rather than sets, because a
+groove given a height of its own is a plank lying on the hull rather than a groove cut into it. And
+a new capture scene, `stationtiers`, photographs the station at all nine upgrades in one run -- out
+of the release pass, since it is nine pictures of one building.
+
+---
+
+## [1.36.0] - 2026-09-07
+
+A rock is not one height.
+
+**The deposits were a mesa, and no amount of drawing was going to fix them.** An outcrop was one
+picture with one height under it: ten boulders painted from above, each with its own lit face and
+its own shaded one, and then every last pixel of it raised to exactly the same altitude. So the
+paint said "round stones sitting at different heights" and the geometry said "one plate cut with a
+jigsaw", and the geometry is what the eye believes. Round the outside of the plate ran a single
+tall vertical face taken down to half light at the foot -- which on a machine is a flank, and on
+rock is a hole the rock is standing in.
+
+**An outcrop is three solids now**, and every stone is drawn into whichever one matches how tall it
+stands: a wide skirt of shattered rubble, a pair of blocks stood on it, and one that stands clear
+above the rest. Deliberately not three shrunken copies of one outline -- that is a wedding cake,
+and a wedding cake is no more a rock than a mesa is. Different stones in each, so the silhouette
+steps down to the ground at its own edges and the one tall face spends most of its life behind the
+low ones, whichever way the camera has been turned.
+
+**And the stones are faceted from an apex.** Painted as a blob with a lighter blob smeared over
+its lit half -- which is what they were -- a stone at this size is a flat pad with a smudge on it,
+and a group of those stacked is a pile of pancakes at any heights you like. What broken stone
+actually has is flat faces meeting at hard edges. So each one gets a high point set up-light of its
+middle and a triangle run from there down to every corner of its outline, each face lit by how far
+it turns toward the light. Six sides, knocked about, and squashed along an axis of its own: a
+seven-sided outline with a light jitter is a regular hexagon with a bad shave, and a field of those
+reads as floor tiles, which is precisely what they looked like.
+
+**Iron ore is rust, and it was being drawn in iron.** The ore lumps took the colour of the metal
+you get out, which for iron is a pale grey -- so an iron outcrop, a limestone one and a plain
+boulder were three pictures of the same thing, and the only way to tell them apart was to walk over
+and read the tooltip. An ore whose own colour has nothing to say against grey stone now borrows its
+fleck, which exists for exactly this. Coal keeps its black. And the lumps are chunky and few where
+they were small and many: twenty-six single pixels of fleck on a picture ninety-six across is
+noise at the distance this is actually looked at.
+
+**Then the ore was painted down the sides of the rock.** A hull takes the colour of its side from
+the plan pixel above it, so a lump reaching the outline paints the whole flank of that stone in
+ore -- a rust stripe running from the top of the rock to the floor, which at a glance is a stripe
+painted on a rock rather than ore in one. Placing the ore inside the outline was most of the answer
+and not all of it, because an outline is jittered corner by corner and then squashed, so how far it
+is from the middle of a stone to its edge is not a number the placing knows. Two pixels in from
+wherever the picture stops, the rock is now the rock again, whatever was drawn over it.
+
+**And the block on a machine's roof stopped popping.** How much of a building has been put up is a
+fraction measured from the floor, and everything above was written as a fraction of the hull alone
+-- nought at the floor, one at the roof. Which put every corner of every stack, housing and aerial
+at one as well, there being nowhere higher to be, so the clip that draws a building from the ground
+up let all of them through in the same frame: the last one. A machine grew out of the floor over
+the whole of its construction and then, once it had finished, its chimney appeared. The fraction is
+measured against the whole thing now, roof furniture included, and the plan on the roof is
+uncovered by the time the walls under it are done -- so the stack grows out of a finished roof over
+what is left of the sweep, in the order a thing is actually put up.
+
+### Changed
+
+- Ore deposits: three stacked solids instead of one raised plan, faceted stones, ore in the colour
+  that says which ore it is, and a side face that no longer takes the rock down to near black.
+
+- What stands off a machine's roof is built during the construction animation rather than appearing
+  when it ends.
+
+- The outcrop check no longer counts daylight down the columns of one picture -- there is no
+  painted face left for that fault to happen to, and a gap between two stones standing side by side
+  is a gap. It checks the shape that can still go wrong: a skirt broken into scattered pebbles, a
+  tier that came out empty, and tiers that stopped stepping and are three plates of one size
+  stacked.
+
+### Fixed
+
+- Ore no longer paints itself down the side of the stone it is sitting in.
+
+---
+
 ## [1.35.0] - 2026-09-06
 
 A walk, and a suit to walk in.
