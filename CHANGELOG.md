@@ -7,6 +7,30 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.37.2] - 2026-09-07
+
+The escape pod is standing on its feet.
+
+**Its landing struts were the one part of it given a height and no shape.** Everything else on the
+capsule was cut to the curve the drawing describes -- the barrel, the canopy bulging out of the
+crown, the seams sunk into the hull -- and then the two struts were set at a flat sixth of a unit
+and left there, sitting neither on the pod nor on the ground. That is the exact fault the heightmap
+was for.
+
+**A strut carries weight**, so it leaves the hull at the height of the hull's own flank and runs
+down and out to a pad lying flat on the dirt. Which is a ramp, and the ramp is the whole of what was
+missing.
+
+**It needed something drawn under it, too.** Relief is cut from the plan, so a leg with nothing at
+its outer end can only ever be a leg ending in mid air -- and the drawing gave a strut a dark bar
+and stopped. There are pads now, wide enough to read as feet rather than as the end of a bar. That
+width is what made the difference: the first attempt was correct and almost invisible, because a
+capsule's own bulk stands in front of anything small on its flanks.
+
+![The pod before it is recycled](docs/screenshots/v1.37.2/02-tutorial-recycle.png)
+
+---
+
 ## [1.37.1] - 2026-09-07
 
 The belt was the flattest thing left on the planet.
