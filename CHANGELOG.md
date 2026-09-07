@@ -7,6 +7,48 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.39.0] - 2026-09-07
+
+A cheat page, in the pause menu of every run.
+
+**Escape, then CHEATS.** The cheats have been on the function keys since 0.27.0 and only existed
+at all in the editor or in a build launched with `-factoryDev`, which is the right home for a
+shortcut and the wrong one for the two of them that are switches rather than presses. Running the
+clock fast and never running out of concrete are things you reach for part way through an ordinary
+evening with the game, and a cheat you have to relaunch with a command line flag to get at is a
+cheat that does not exist.
+
+![The cheat page](docs/screenshots/v1.39.0/57c-cheats.png)
+
+**Game speed** is the ladder the `-` and `=` keys already walked, from a quarter speed to eight
+times, with the rung it is on written where you can see it. In a co-op run the row is greyed for a
+client: the clock is the host's, because a client running its own copy faster is not a faster game,
+it is two machines disagreeing about how much has happened.
+
+**Infinite resources** is new. While it is on, every ore, bar and part in the hold goes back to a
+full stack several times a second -- so a belt priced by the tile, a machine fed by hand and a wall
+paid for out of the pack all behave exactly as they really do, and simply never run you out. It is
+deliberately a different cheat from **building is free**, which is also on the page: free building
+skips the paying, and this skips the fetching. It hands over no tools, because those are not
+resources.
+
+The four handouts that were only ever on keys -- fill the hold, charge every store, unlock
+everything, complete the next task -- are on the page too, under their own heading. Switches change
+how the run behaves from here on and handouts change what is in it this second, and a page that
+mixed the two would be a page where you could not tell which press you were about to be living with.
+
+**The shortcut keys have not moved** and are still development kit: `F1` is one fat finger from
+filling a hold nobody asked to have filled. Nothing on the page is written into a save, and every
+load reloads the scene, so a loaded game comes back with every cheat off.
+
+**Fixed on the way:** the cheat tick sat behind the guard that keeps stray key presses out of the
+game while something is being typed into and while the capture pass drives the clock. A switch is
+not a key press -- so a hold that stopped refilling itself because somebody opened a text field,
+and one that did nothing whatsoever for the length of a capture run. The switches tick on their own
+now, and the keys stayed behind the guard where they belong.
+
+---
+
 ## [1.38.0] - 2026-09-07
 
 The building blocks, reworked: what may stand on what, where you are allowed to put it, and what
