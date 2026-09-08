@@ -7,6 +7,45 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.51.1] - 2026-09-08
+
+**The Biomass Burner carries a whole first base.** It shipped at 90 kW yesterday, on the argument
+that a burner should be worth one machine and that a second block of machines should cost a second
+burner. That is a tidy rule and it was the wrong one.
+
+A miner, a smelter and a crafter draw 180 kW between them. At 90 the reward for finishing the first
+milestone was a grid that could no longer run the base you already had — and the only answer to
+that is to go and stand at the wheel again, which is the exact thing this machine exists to end. A
+machine whose whole point is buying your afternoon back must not be the thing you have to stand
+over.
+
+So it makes **240 kW**, which is exactly what a treadwheel makes when somebody is turning it
+properly. It clears the whole chain with sixty spare to bank.
+
+The rate was never what separated it from anything, and now it does not pretend to be. **From the
+wheel:** the wheel is free forever and wants you standing on it; this wants feeding and lets you
+go. **From the coal burner still to come:** the fuel, which is the one axis this system actually
+models — coal will run at the same rate on far better fuel, so the walk comes round far less often.
+
+![One fire carrying the whole base](docs/screenshots/v1.51.1/89-the-burner-lit.png)
+
+**And the errand did not get longer with it.** A leaf went from 450 kJ to 1200 alongside the rate,
+so it is still five seconds of burner: a bush is still half a minute, filling a box is still a walk
+of about thirty of them, and a full box is still a quarter of an hour — of the whole base running
+now, rather than of one machine.
+
+### Changed
+
+- Biomass Burner: 90 kW → 240 kW.
+- Leaves: 450 kJ → 1200 kJ, so seconds-per-leaf is unchanged.
+
+### Added
+
+- The `burner` capture scene runs a smelter *and* a crafter off one fire, and checks separately
+  that one burner's supply clears a miner, a smelter and a crafter with at least 20% to spare —
+  a fact about four numbers in the database, which should fail the day one of them moves rather
+  than the day somebody plays it.
+
 ## [1.51.0] - 2026-09-08
 
 **Something to Burn — the last task of the first milestone, and the first power that works while
