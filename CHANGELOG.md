@@ -7,6 +7,41 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.46.1] - 2026-09-08
+
+**A base built shoulder to shoulder is as bright as one lamp.** Sixteen storage boxes on sixteen
+tiles at midnight came to about seven times white -- eleven thousand pixels of ground clipped to
+255,255,255, a hole cut in the planet where a dense base should have been. One building on its own
+was fine, which is why it shipped.
+
+**A crate is not a shed.** A pool was the building's footprint plus a flat six tiles, on the
+argument that light carries the same distance off a shed as off a station. It does. But a box
+standing on one tile was lighting a clearing seven across, the same clearing the main station
+lights, so packing sixteen of them landed sixteen full pools on the same ground. A pool is part the
+building's own size now and part spill: a box lights four tiles, a smelter five and a half, the
+station seven, and how bright it is falls with the size of the thing throwing it.
+
+**And lit ground is not the sum of the lamps over it.** Sizing alone only moves the number, because
+the pools were being *added* -- which is right for a source and wrong for a floor. Two lamps hanging
+side by side are twice the lamp; a floor under two lamps is lit floor, not twice as lit. So a pool
+now takes the brighter of itself and what is already there. A packed base is exactly as bright as
+one lamp, and the constant that says how bright means that, rather than meaning how bright one of
+however many -- it can be tuned by looking at a single building and trusted for a base of forty.
+
+The lamp over each roof still adds, because it is a source. Nothing changed in daylight: a maximum
+is blind to coverage, so the pool writes its own alpha into its colour, and a lamp at nought writes
+black and leaves the ground exactly as it found it.
+
+Eleven thousand clipped pixels to none, with the single building unchanged at eleven -- the lamp's
+own core, which is meant to be blown. The packed base is a capture shot of its own now, so the next
+change to a lamp is measured against it rather than argued about.
+
+![Sixteen stores on sixteen tiles](docs/screenshots/v1.46.1/87-packed-at-night.png)
+
+![One building, unchanged](docs/screenshots/v1.46.1/84-lamps.png)
+
+---
+
 ## [1.46.0] - 2026-09-08
 
 **A machine's own fittings stay lit after dark.** Its side is drawn -- a fire under the smelter's
