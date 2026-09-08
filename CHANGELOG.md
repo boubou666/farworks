@@ -7,6 +7,45 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.52.0] - 2026-09-08
+
+**You land on open plains. Always.** The pod used to come down at the middle of the map whatever
+was there, and on a planet whose middle is cut up by terraces that is a run which begins by refusing
+to build the first thing the tutorial asks for — a footprint straddling a cliff edge has no height
+to be at, so there was simply nowhere to put a station, with nothing on screen explaining why.
+
+**The middle is still tried first, and taken when it works.** That matters more than it looks: a
+planet that already offered flat ground there comes out bit for bit as it did before any of this
+existed, so every seed that was never broken is untouched. Seven of ten sampled seeds did not move
+at all; the rest found open ground one to five tiles away.
+
+Failing that, the landing site spirals outward for a naturally flat pad — nothing is rewritten, you
+simply land where the planet is already open. Only if a sixty-tile search finds nothing at all does
+the ground get levelled by hand, which is the guarantee. None of the seeds sampled needed it.
+
+**Your existing worlds are safe, and now permanently so.** A save records where it landed and hands
+it back, so nothing is searched for on a load and no future change to that search can move a planet
+somebody has already built on. A save written before this lands at the middle of the map, which is
+where those runs landed — verified by loading a real 161-building save on both binaries and getting
+the identical pod tile, storey and position.
+
+**And the placement check knew about one floor.** `AimPlacement` asked whether a building could go
+down on the *ground* floor whatever floor it was aiming at. On a low-country landing site those are
+the same question; on a spawn up on the third terrace it is never true anywhere, which is the other
+half of why seed 1341 could not stand a station on a landing pad with nothing on it.
+
+### Added
+
+- The `terrain` scene checks the landing pad: one terrace, no ramps through the middle, every tile
+  buildable, and room for a Main Station. Ten seeds pass, including the one that used to fail.
+- `SaveGame.SpawnX` / `SpawnY` / `SpawnLevelled`, so a planet is arranged the same way every time
+  it is loaded. Absent from older saves, which read as the middle of the map and no levelling.
+
+### Fixed
+
+- A landing site on ground too broken to build on.
+- `AimPlacement` judging every placement against storey zero rather than the one being aimed at.
+
 ## [1.51.2] - 2026-09-08
 
 **A bush gives three to ten leaves instead of four to eight.** It was always a roll rather than a
