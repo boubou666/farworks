@@ -7,6 +7,19 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.49.1] - 2026-09-08
+
+**The store's readout comes down two rows.** It was drawn at the top of the door — which on the
+storage container reads as a panel mounted high, and on the box, whose whole elevation is
+twenty-two pixels, reads as jammed under the coping with a single row of daylight above it. The
+door pulls come down with it: they sit two rows under the readout and the strip is wide enough to
+cross them, so moving one without the other would have drawn the readout straight through the
+handles rather than above them.
+
+![The readout, with room above it](docs/screenshots/v1.49.1/storage-readout.png)
+
+---
+
 ## [1.49.0] - 2026-09-08
 
 **The build menu opens on the kinds of thing there are.** Two screens now: the kinds, then the
