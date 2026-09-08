@@ -7,6 +7,38 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.46.0] - 2026-09-08
+
+**A machine's own fittings stay lit after dark.** Its side is drawn -- a fire under the smelter's
+door, the window a crafter's rollers turn behind, the hazard band along the foot of the station --
+and every one of those was paint. Paint at midnight is paint with a dark wash over it, so the one
+hour those fittings ought to be the only thing left of a building was the hour they went out with
+everything around them. The lamps put a base in a pool of its own light and hung a source over each
+roof, which is what a base at night is from across the map. Up close it was still a shed.
+
+**The same rectangle is drawn twice now: once as paint, once as the shape of a light.** As an
+elevation is built, whatever on it is a light goes down on a second sheet as well, so the two
+cannot drift apart -- a fitting that moves takes its own glow with it. The outside walls are then
+raised a second time as geometry carrying nothing but that sheet, added to the wall rather than
+covering it, and laid on over the wash rather than under it. That pass is flat white: a window is a
+source and not a lit surface, so the dark side of a machine is exactly as bright as its sunny side.
+
+**Which fittings are lights is a judgement about the machine and not about the colour.** The fire
+in a smelter's throat is lit; the highlight along the top of its door is the same paint catching
+the sky. Three machines had nothing lit drawn on them at all and now have one honest thing each: a
+console on the crafting bench, a status pip on a store, a work lamp on the miner's housing. A pole,
+a treadwheel, a ladder and a wrecked capsule stay dark, because they have no lights.
+
+They burn off the same figure as the lamps -- the same hour, the same weather, the same grid -- and
+they go out with the wall when the cutaway fades it. A machine whose windows answered one of those
+while its lamp answered another would read as two buildings standing in the same place.
+
+![The smelter after dark](docs/screenshots/v1.46.0/31a-smelter-after-dark.png)
+
+![The station's wall at midnight](docs/screenshots/v1.46.0/86-windows.png)
+
+---
+
 ## [1.45.1] - 2026-09-08
 
 **The lamps on a building light the ground it stands on now, instead of the floor underneath it.**
