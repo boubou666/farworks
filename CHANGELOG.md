@@ -7,6 +7,33 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.52.1] - 2026-09-09
+
+Nothing here changes the game. It is the capture pass — the scripted playthrough that takes the
+screenshots and asserts that the whole loop still connects — learning to arrange a base on a planet
+it did not choose.
+
+**The pass built its base from wherever the player happened to be standing**, which is wherever the
+scene before it finished. It now measures from the Main Station, and stands the player beside it
+first: the station is on the landing pad, and the pad is guaranteed to be one terrace of buildable
+ground, so it is the one piece of the map known to be flat. Standing the player there is the other
+half rather than a nicety — a placement is judged at the storey the ghost is on, which is the
+storey the player is on.
+
+Seed 1341 went from four failures to none; 1337 and 7 are clean too. Seed 2026 still fails, at a
+different and older cause, which is written down rather than chased.
+
+### Added
+
+- `docs/PROJECT-AUDIT.md` — a working document on the state of the project, its known risks and a
+  recommended order of priority, shared between the humans and the agents working on it.
+
+### Fixed
+
+- The capture pass arranging its base relative to the player rather than to the station.
+- A capture scene asserting a bush prompt while standing against a smelter, which offers the
+  smelter's screen — rightly, and the scene was testing the wrong thing.
+
 ## [1.52.0] - 2026-09-08
 
 **You land on open plains. Always.** The pod used to come down at the middle of the map whatever
