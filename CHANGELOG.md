@@ -7,6 +7,37 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.44.0] - 2026-09-08
+
+**The loading screen is a panel now, not four words adrift in the dark.** It was the one screen in
+the game nobody had designed: a title, a phase and a three pixel line, centred in a black rectangle
+with nothing else on it at all. It now wears the boot screen's own panel -- same padding, same thin
+border, same accent ticked into the four corners -- because it is the screen immediately after that
+one and the two ought to look like the same program. The faint console grid the machine panels are
+drawn on goes down behind it, so the ground reads as a screen rather than as a window that failed
+to draw.
+
+**It names the planet for the whole of the wait.** The designation used to arrive on the last frame
+before the screen was taken away, because it was read off the finished world -- which meant the
+thing the screen is about was on it for sixteen milliseconds. A designation is a property of the
+seed rather than of the terrain, and the seed is settled before generation starts, so the name is
+up before the first tile is laid, with the seed and the size of the map under the bar. That is the
+line to copy down when a planet is worth handing to somebody else.
+
+**And a line of advice per load.** Eighteen of them, one drawn at random, each a rule that is
+written nowhere on the screen it applies to: that a belt is two clicks rather than a footprint,
+that a bench stops the moment you walk off it while a machine does not, that every machine takes in
+on its west edge and puts out on its east and that this is why a row of them facing one way needs
+no corner in the belt. The wait is a second and a half and it was previously spent looking at
+nothing.
+
+The bar itself is unchanged in what it knows -- it still moves because a phase finished rather than
+because a timer said it should -- but it now says the figure out loud beside the phase.
+
+![The screen while a planet is being rolled](docs/screenshots/v1.44.0/00g-loading.png)
+
+---
+
 ## [1.43.2] - 2026-09-08
 
 Everything else that stands up and turns to face you gets what the character got in 1.43.1.
@@ -241,8 +272,6 @@ the relief and no side face. The line stays because it is the one thing on a flo
 standing off the surface between two slabs that are flush against each other is a ridge through
 the middle of one floor.
 
-
-
 **And the geometry between them goes with it.** Two tiles flush against each other each raised the
 face on the boundary they share: two identical quads in the same plane, and which of them was
 drawn changed with the camera, so the floor of a base crawled as you walked round it. Each piece
@@ -260,7 +289,6 @@ version of a floor. A wall has a height, and the top of it is the whole of what 
 it stands down to about a third while somebody is behind it and comes back up when they are not --
 visually, and only visually; nothing walks through a stooped wall that could not walk through it
 standing up.
-
 
 **A hull being seen through no longer stamps the depth buffer.** A hull is solid geometry, and it
 went on writing depth while the cutaway had turned it to glass -- so the room behind it was
@@ -281,7 +309,6 @@ bigger. A slab squashed to four fifths about its own centre leaves a fifth of a 
 between its shadow and its neighbour's, so a roofed base laid a shadow with its own tiles ruled
 across it in gaps. A piece that tiles throws its silhouette at its own size, and the union of them
 is the building.
-
 
 **A stair on a foundation can be taken apart.** A tile can carry two buildings -- that is what a
 floor is for -- and it answered with whichever was built first, which is always the floor. So a
@@ -776,10 +803,8 @@ what is left of the sweep, in the order a thing is actually put up.
 - Ore deposits: three stacked solids instead of one raised plan, faceted stones, ore in the colour
   that says which ore it is, and a side face that no longer takes the rock down to near black.
 
-
 - What stands off a machine's roof is built during the construction animation rather than appearing
   when it ends.
-
 
 - The outcrop check no longer counts daylight down the columns of one picture -- there is no
   painted face left for that fault to happen to, and a gap between two stones standing side by side
@@ -878,9 +903,6 @@ The figure in the equipment panel is the same suit, redrawn with the space that 
 - The character's picture is 48px rather than 40, so the figure stands a tile and a half and its
   head is a fifth of it rather than a quarter.
 
-
-
-
 ### Added
 
 - `Pixels.Plate` and `Pixels.Wedge`: a rectangle with its corners cut, and one that narrows as it
@@ -921,7 +943,6 @@ under the character somebody is watching is the ground under where they are watc
 - A character riding a climb no longer drags their shadow a third of a tile down the slope. Holding
   them toward the camera to clear the treads is a depth trick and moves them nowhere on screen --
   but a shadow is on the ground, and it took its ground point off the same transform.
-
 
 ---
 
@@ -972,11 +993,9 @@ now, drawn with the space that panel has, with the boxes led to the part of the 
   shelf it arrives at — which is the first time the way up a cliff can be seen without walking into
   it.
 
-
 - **A staircase faces the way it was placed.** The rotate key always offered four quarters and all
   four built the same flight, because the one hull whose sides are real geometry was the one hull
   never told which way its owner had been turned.
-
 
 ### Changed
 
@@ -984,12 +1003,10 @@ now, drawn with the space that panel has, with the boxes led to the part of the 
   read off the surface under their feet, so the rise takes exactly as long as the walk that earns
   it. The storey underneath still changes in one step, and there is nothing left for it to show.
 
-
 - **The character is redrawn**, in four values rather than one pale grey: dark boots that put them
   on the ground, a collar so the helmet sits on a neck, a chest that tapers to a waist, and a
   faceplate cut as a band across the dome rather than set into it as a circle. The figure in the
   equipment panel is the same suit now instead of a different person in a different palette.
-
 
 - The character's picture is drawn at forty pixels rather than scaled up from thirty-two, so the
   figure sits on the same pixel grid as the ground it walks on.
@@ -1548,7 +1565,6 @@ pretending.
   it: "up" means away from you, whichever quarter away from you happens to be, including part way
   through a swing.
 
-
 ### Changed
 
 - **The ground is solid.** Terraces are meshes at their own height and a cliff is a vertical face,
@@ -1556,7 +1572,6 @@ pretending.
   them, because a step lifted straight up the screen shows nothing at all from the east or the
   west — which left the top of a shelf invisible from three approaches out of four. The honest four
   are less code than the faked one was.
-
 
   The terrain keeps a depth buffer now. Sorting order could never answer whether a shelf is in
   front of a patch of low country, because the answer depends on how far north the patch is;
@@ -1568,7 +1583,6 @@ pretending.
   notches in by a pixel has a face that notches in by a pixel. Each face knows which way it points
   and is lit by how far it turns toward the light, instead of every side wearing the south face's
   shading.
-
 
   They are plated rather than smooth: courses across, joins down, grain over the whole of it,
   sampled by where on the wall each pixel is. A short wall and a long one are plated at the same
@@ -1582,13 +1596,11 @@ pretending.
   of one, and which drawing you get is decided in your terms — somebody walking north is walking
   away from you from one quarter and across you from the next.
 
-
 - **So does the wood.** Plants are stood upright and kept square to the camera, which also means
   they are never foreshortened and the sheet is drawn at exactly the size it was authored. They
   scale the same both ways: a real height applied to the vertical axis alone pulls a tree to three
   times its drawn proportions, and `Size` has always said it is the width with the height following
   the artwork.
-
 
 - **The cutaway follows the camera.** It used to answer one question — how much of the ceiling over
   your head this is — and a disc around you answered it completely, because looking straight down
@@ -1596,7 +1608,6 @@ pretending.
   anything standing between it and you, which here is mostly the wall on your own floor: two tiles
   of solid geometry a metre from the lens. Whether a wall is in the way is worked out from where
   the camera is standing and how steeply it looks down, both of which change while you play.
-
 
 ### Notes
 
@@ -1634,7 +1645,6 @@ a special case to do it. This release is the rule, applied to everything.
   high as the terrace beside it that the definitions call the same height. A deck lines up with the
   tops of the walls carrying it instead of floating a storey above them.
 
-
   The anchor moves rather than the transform, deliberately. Sprites sharing an order are drawn back
   to front by where their transform sits, so lifting the transform would sort a tall thing as
   though it stood further away. The transform stays on the ground and only the picture rises.
@@ -1648,13 +1658,11 @@ a special case to do it. This release is the rule, applied to everything.
   shows no side — the south end of a flight is the end that meets the floor, and there is nothing
   there to show.
 
-
 - **A tree is as tall as it says it is.** Flora was the last thing drawing to its own scale. An
   ironbark calls itself 2.2 tiles and was drawn between 1.21 and 1.73 world units tall, where the
   rule puts that height at 0.75 — so a wood stood about twice the height of a wall the same
   definitions call slightly shorter than it, and towered over any base built beside it. Width still
   comes from Size and the same jitter varies both, so a stand of them is as ragged as it was.
-
 
 - **A flight is no longer turned.** Its landing is its own tile one storey up and a storey is drawn
   up the screen, so the climb goes north wherever the flight is placed. Turning the picture would
@@ -1705,7 +1713,6 @@ thing anybody does with a flight of steps once the ground has heights in it.
   while the floor started at the top of it, and read as a staircase standing most of a tile short of
   the thing it was meant to join. Stairs and lift shafts now carry a riser across that gap, drawn
   over the cliff face they cross and meeting the floor above.
-
 
   It is a piece of its own rather than part of the hull, because the hull turns and this must not: a
   landing is the flight's own tile one storey up, and up is up the screen whichever way the treads
@@ -1812,13 +1819,11 @@ wrong was everything around it: who got to change it, when, and what the picture
   up under the cursor, whatever storey it is on — and hold the primary button for two seconds to
   take it up.
 
-
 - **A batch, for when it is a row rather than a building.** `E` marks what is under the cursor and
   puts it on a list, drawn in amber against the red of the cursor; press it again on the same thing
   to take it off. The hold then takes the whole list apart at once and says one line about the lot
   rather than one line each. The list is the mode's: leaving the mode forgets it, because a mark is
   half a sentence and finding a hold undoing a choice made minutes ago is worse than remarking.
-
 
 - **The teardown has no reach any more.** There was a two tile rule, added when actions started
   arriving from other machines, and it was the old gesture written down: standing against a hull is
@@ -1842,7 +1847,6 @@ wrong was everything around it: who got to change it, when, and what the picture
   row the stock travels down. The shadow follows the hull and is no longer flattened across the
   wrong axis, and the placement ghost is turned the same way, so what it shows is what goes down.
 
-
 - **Trees no longer grow out of ore.** The woods are seeded before the ore is buried, deliberately,
   so that adding an ore to the game never moves a deposit an existing save is standing on — which
   left whatever was growing there standing on top of the outcrop the moment the outcrop arrived. A
@@ -1860,7 +1864,6 @@ wrong was everything around it: who got to change it, when, and what the picture
   band there is only the band's width while around it there is however much of the circumference
   the sector comes to. At the sides that box was wider than the band and a three-part cost ran out
   over the rim. It is sized from the sector it rides on now, and the cost wraps inside it.
-
 
 - **The hand-in strip's eyebrow is no longer printed under its own title.** A label is only as wide
   as flexbox says it is and its text carries on at its own size when that is not wide enough, so a
@@ -1882,7 +1885,6 @@ wrong was everything around it: who got to change it, when, and what the picture
   only reasons anybody opens it — and made the in-game list nine deep, half of it settings and half
   of it ways out of the run. The two you touch once and then never again are worth a press.
 
-
   Escape steps back through the new landing rather than over it: one press from the graphics page
   reaches OPTIONS, a second reaches the front. Which page sits under which is written down once and
   read by both the BACK buttons and the escape handler, because a BACK that goes somewhere escape
@@ -1892,7 +1894,6 @@ wrong was everything around it: who got to change it, when, and what the picture
   panel and its control at the other, with the gap between them changing on every line — which is
   right for a save and its date, and wrong for six settings that read as two unrelated lists down
   opposite sides. The name column has a width now and the controls follow it immediately.
-
 
 ### Fixed
 
@@ -1913,7 +1914,6 @@ wrong was everything around it: who got to change it, when, and what the picture
   monitor belongs to the person in front of it rather than to the planet they are standing on, so
   setting it up before a run and fixing it halfway through one are the same act.
 
-
   Six settings, in three groups. **Window mode** is windowed, borderless or fullscreen — borderless
   is its own entry and not a tick box beside fullscreen, because what a player knows about it is
   that alt-tabbing out is instant, and that is a choice between three things rather than two things
@@ -1932,7 +1932,6 @@ wrong was everything around it: who got to change it, when, and what the picture
   driven from the game loop and not from the page, because a player looking at an unreadable screen
   is exactly the player who will close the menu.
 
-
 - **Moving the game to another screen actually moves it.** A window that is not windowed cannot be
   walked across: exclusive fullscreen owns the display it is on, and a borderless window is pinned
   to the one it fills. So choosing another monitor puts the frame back on, walks the window over,
@@ -1947,7 +1946,6 @@ wrong was everything around it: who got to change it, when, and what the picture
   called OPTIONS because it was the only settings page there was. With a graphics page beside it, a
   button called OPTIONS is a button that does not say which options — and the in-game menu has
   called the same panel CONTROLS all along.
-
 
 - **One panel for every screen in the game, cloned rather than shared.** The boot screen, the run
   and the loading screen each loaded the interface settings asset out of `Resources` for
@@ -2724,7 +2722,6 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
-
 ## [1.3.1] - 2026-09-05
 
 ### Fixed
@@ -3206,7 +3203,6 @@ build them out of, and you can see that it has.
 
 ---
 
-
 ## [0.40.0] - 2026-09-05 — "Somewhere to Put It"
 
 ### Added
@@ -3249,7 +3245,6 @@ build them out of, and you can see that it has.
 
 ---
 
-
 ## [0.39.0] - 2026-09-04 — "Rock, Not Puddle"
 
 ### Added
@@ -3290,7 +3285,6 @@ build them out of, and you can see that it has.
   dark stalk instead.
 
 ---
-
 
 ## [0.38.0] - 2026-09-04 — "Standing Up"
 
@@ -3784,8 +3778,6 @@ Tools, so that trying a change costs minutes rather than an hour.
   back to front beside a crafter running across, so chaining two of them meant a bend in the belt
   and a tile of jog for no reason anybody could see.
 
-
-
 - **The smelter is redrawn to match.** Its material path used to run down the left column: hopper
   at the top, throat, mould at the bottom. It runs left to right along the upper row now — hopper
   at the west end, throat, mould at the east — with the firebox and its stack below. The hull has
@@ -3801,8 +3793,6 @@ Tools, so that trying a change costs minutes rather than an hour.
   It is strongest exactly where land meets water and thins into the deep in one direction and up
   the bank in the other, weighted to the wet side so it washes onto the shore rather than standing
   on it.
-
-
 
 - It moves on its own rhythm — dragged along behind a river, creeping and rocking on a lake — so
   the two sheets slide past each other instead of moving as one painted picture. Only the rim is
@@ -3899,7 +3889,6 @@ everything that is working shows it.
   plates and four rods, it is the only place personal kit is made, and walking the length of a
   factory to reach the single one is a queue rather than a decision.
 
-
 - **Hand crafting only happens at a bench you work at** — the Main Station and the crafting
   station. Standing beside a smelter used to open the fabricator, because a smelter names a recipe
   list too; but that list is what the machine is set to, not an invitation to roll bars by hand at
@@ -3913,8 +3902,6 @@ everything that is working shows it.
   rest. A part moves only while the work does and stops where it was rather than snapping home, so
   a stopped line reads from across the base — and the reason is on the machine's screen when you
   walk over.
-
-
 
 ### Notes
 
@@ -3969,7 +3956,6 @@ The game asks what you want before it makes you a planet.
   screen with **New game**, **Continue**, **Load game**, **Options** and **Quit** on it, and
   nothing is built until you have said which.
 
-
 - **Continue** takes the newer of the two automatic slots and says on the button when it was
   written, so "carry on" is a thing you can read before you press it. It is only there when there
   is something to carry on from.
@@ -3977,12 +3963,10 @@ The game asks what you want before it makes you a planet.
   every save you named under another, each with the date it was written. Deleting one asks first.
   A file that will not open says so on the page instead of quietly landing you on a fresh planet.
 
-
 - **Options carries the controls page** — the same list, the same click-then-press rebinding, the
   same reset. Bindings belong to the person at the keyboard rather than to a run, so setting them
   up before a planet exists is the natural place to do it and was previously the one place you
   could not.
-
 
 - **Nothing is generated behind the menu.** No planet, no player, no interface: `GameRoot` stops
   before any of it when the boot asked for the menu. Starting or loading reloads the scene, which
@@ -4268,9 +4252,7 @@ The pod used to hand over the pistol and the scanner. It hands over the metal no
 
 The player, with what is worn and what is in hand:
 
-
 The bench, and the two things it makes:
-
 
 ---
 
@@ -4320,9 +4302,7 @@ The drill. Everything since the mining pistol has been building toward not needi
 
 A drill on a node, with a wheel turning beside it:
 
-
 Its screen — no recipe, no input, just what it is cutting and how fast:
-
 
 ---
 
@@ -4366,9 +4346,7 @@ planet already generated.
 
 The survey putting limestone on the map, and a bed up close:
 
-
 Burning it down into concrete:
-
 
 ---
 
@@ -4410,9 +4388,7 @@ designed in — but nothing on screen said so, and the readout quietly lied abou
 
 Two grids, coloured apart, with both listed:
 
-
 A pole that would weld them together, saying so first:
-
 
 ---
 
@@ -4499,12 +4475,9 @@ grid. The only thing you have to make one with is a wheel you turn yourself.
 
 Turning the wheel to keep a smelter running:
 
-
 The moment the cell dies — everything dark at once:
 
-
 A pole carrying the grid out to the crafter:
-
 
 ---
 
@@ -4571,12 +4544,9 @@ fetching and carrying that every previous release quietly relied on is over.
 
 A belt out of a smelter, round a bend and into a crafter:
 
-
 The bend, and the port corner where the run leaves the machine:
 
-
 Clogged, because the crafter at the far end has a full input:
-
 
 ---
 
@@ -4661,15 +4631,11 @@ its hull where material goes in and comes out — which is the thing belts will 
 
 A crafter beside its ports — cyan in on the left, amber out on the right:
 
-
 Its screen, with the side each box faces named under it:
-
 
 The incinerator, set apart under the hold:
 
-
 The station showing what it draws from, with the tiles no longer colliding:
-
 
 ---
 
@@ -4755,16 +4721,12 @@ to load, and the reason stacks now need to be draggable.
 
 A smelter casting bars on its own while the player stands clear:
 
-
 Its screen — recipe on the left, the two boxes it moves material between on the right, and the
 cargo hold you load it from underneath:
 
-
 Shift-click, with the preset, the slider and the typed figure all driving one number:
 
-
 The cost of the Main Station on its way from the player to the frame:
-
 
 ---
 
@@ -4832,12 +4794,9 @@ on, and a building you regret is a building you can take back.
 
 The station as a screen, with the copper line unlocked:
 
-
 Eight slots:
 
-
 The Main Station taken apart into a full hold, its refund on the ground:
-
 
 ---
 
@@ -4900,12 +4859,9 @@ buys is copper — which the planet had all along.
 
 The first set, worked through and waiting to be reported:
 
-
 The second set's delivery, with the stock counted out:
 
-
 A copper deposit that has just surfaced, on ground reserved for it since generation:
-
 
 ---
 
@@ -4957,9 +4913,7 @@ symptom, and the second one had been quietly wrong everywhere the interface touc
 
 A survey bearing now sits on the deposit it names:
 
-
 The survey menu, opened by a genuine click:
-
 
 ---
 
@@ -5006,9 +4960,7 @@ is beyond the horizon, and finding it is what the new survey scanner is for.
 
 The pulse mid-sweep, with the prompt reporting progress and one find already marked:
 
-
 After the sweep: one deposit named on screen, two pinned to the edge with distances:
-
 
 ### Known gaps
 
@@ -5066,12 +5018,9 @@ opening objectives follows it, and finishing them earns the iron rod rather than
 
 Objectives running, with live counts:
 
-
 The reward for finishing them:
 
-
 The fabricator with the iron rod now offered:
-
 
 ### Known gaps
 
@@ -5114,9 +5063,7 @@ hour traces back to the one ore on the planet.
 
 The pod stripped down to iron:
 
-
 The fabricator with both iron recipes, rods short because the plates went into the station:
-
 
 ### Known gaps
 
@@ -5158,8 +5105,6 @@ The fabricator with both iron recipes, rods short because the plates went into t
 
 The same character in the open and in the outcrop's shadow:
 
-
-
 ---
 
 ## [0.8.0] - 2026-09-02 — "Relief"
@@ -5200,9 +5145,7 @@ they stand in something else's shadow.
 
 An outcrop with real volume, lit from the upper left:
 
-
 The player standing in the station's shadow, visibly dimmed:
-
 
 ### Known gaps
 
@@ -5240,7 +5183,6 @@ The player standing in the station's shadow, visibly dimmed:
   readable.
 
 ### Screenshots
-
 
 ---
 
@@ -5287,9 +5229,7 @@ copper.
 
 An iron outcrop and the Main Station, both throwing shadows:
 
-
 From above: consistent shadow direction across the whole scene, and slope shading on the ground:
-
 
 ### Known gaps
 
@@ -5338,9 +5278,7 @@ at a visible edge, and the surface reads as one continuous planet rather than a 
 
 Ground at walking distance — scree and grain, no grid:
 
-
 Zoomed out, with the ice sheet fading into regolith rather than butting against it:
-
 
 ### Known gaps
 
@@ -5392,12 +5330,9 @@ until you have actually done the thing.
 
 Step one, with the movement cluster showing the labels this keyboard actually has:
 
-
 Step two, at the pod, holding to strip it:
 
-
 Step four, counting iron out of an outcrop:
-
 
 ### Known gaps
 
@@ -5460,13 +5395,10 @@ stretching into place.
 
 An iron outcrop as one object, framed and being cut on its near face:
 
-
 The station uncovering itself from the ground up — the deck and console are already solid while
 the top is still scaffold:
 
-
 Copper, iron and coal outcrops scattered as landmarks:
-
 
 ### Known gaps
 
@@ -5530,12 +5462,9 @@ lingers once it has been stripped.
 
 Pod stripped and gone, leaving exactly the Main Station's cost in your pack:
 
-
 The fabricator mid-job, one iron plate queued behind the one being made:
 
-
 Uniform 2x2 deposits scattered across the surface:
-
 
 ### Known gaps
 
@@ -5622,21 +5551,15 @@ fabricator are both `F`. The in-game control legend lists the current bindings.
 
 The radial build menu, with the only structure available so far:
 
-
 Placement: a 3x2 wireframe footprint with the station shown as a hologram inside it:
-
 
 The hull rising out of its scaffold — usable already, still building:
 
-
 Cutting a Pure iron deposit at 2.4 units per second:
-
 
 The fabricator, with two recipes short of material:
 
-
 Deposits as sparse landmarks rather than an ore carpet:
-
 
 ### Known gaps
 
@@ -5647,7 +5570,6 @@ Deposits as sparse landmarks rather than an ore carpet:
 [0.2.0]: https://github.com/boubou666/factory/releases/tag/v0.2.0
 
 ---
-
 
 ## [0.1.0] - 2026-09-02 — "Landfall"
 
@@ -5719,18 +5641,13 @@ pod for a mining tool, and start pulling ore out of the ground.
 
 Landing site, pod intact, nothing in the hold:
 
-
 After recycling the pod — tool in slot 1, salvage collected:
-
 
 Mining a silica vein; the bracket fills as the cut progresses:
 
-
 The cargo hold with the item inspector:
 
-
 Zoomed out — ore clusters, an ice sheet and bedrock ridges:
-
 
 ### Known gaps
 
