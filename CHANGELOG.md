@@ -7,6 +7,33 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.45.1] - 2026-09-08
+
+**The lamps on a building light the ground it stands on now, instead of the floor underneath it.**
+They went in with the weather and shipped throwing their light where nobody could see it: the pool
+used the same soft disc as the lamp itself, and that disc has a falloff of `(1-d)^2.6` -- right for
+a point of light seen from a distance, and exactly wrong for a circle laid on the dirt, because the
+only part of a pool anybody ever sees is the part outside the walls. At half its radius it is down
+to a sixth, and the margin it was given past the footprint was 1.3 tiles, well inside the dead part
+of the curve. So every building bigger than the crafting bench threw the whole of its pool onto the
+tiles it was standing on, where the hull sits on top of it, and a base at midnight was a dark field
+with a bright dot on one roof.
+
+**A pool is a different shape from a lamp.** It has its own sprite now: flat through the middle and
+then a long soft edge with something still in it three quarters of the way out. That makes the
+spill mean what it says, so it is six tiles rather than two and a half -- full brightness across the
+footprint and fading over the three tiles beyond the wall. The lamp over the roofline is wider and
+brighter to match, and a building stands in a clearing of its own light rather than on a dark plain.
+
+Nothing about when they come on has changed: still off the daylight rather than the clock, so the
+same lamps still come up at midday under a storm, and still out with the grid.
+
+![The base after dark](docs/screenshots/v1.45.1/84-lamps.png)
+
+![Midday, under a storm, with the lamps up](docs/screenshots/v1.45.1/85-storm-lamps.png)
+
+---
+
 ## [1.45.0] - 2026-09-08
 
 **There is wind on this planet, and until now the only things that knew were the clouds and the
