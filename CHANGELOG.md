@@ -7,6 +7,50 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.47.0] - 2026-09-08
+
+**The build menu was a ring you had to aim at.** Sectors cut out of an annulus, picked by the
+angle and distance of the cursor from the middle -- which is a fine control for four things and a
+skill test for eleven. It also ran out of room at about nine options before the labels began
+overlapping, and the answer to that was drawers: a ring of five categories, each opening a ring of
+its own, so reaching a wall cost two presses and a guess about which drawer it lived in.
+
+**It is a grid now.** Tiles in rows, grouped under Stations, Machines, Power, Logistics and
+Building, the whole list on one page. A tile is a rectangle and the cursor is a point, so pointing
+is what the layout already does rather than something computed from an angle -- and a grid does not
+run out of room until the panel does, so the drawers are gone with the ring. The survey menu is the
+same control, because it always was.
+
+**The bar along the bottom is yours to fill.** It used to be four equipment slots, which is a
+picture of a container nobody rearranges in the field -- two of them empty all game, taking the
+width of the screen to say which of two tools was out. It is nine keys now, each holding whatever
+building you put on it: point at something in the build menu, press a digit, and that digit builds
+it from anywhere from then on. One key per building, so binding it to 2 takes it off 1, and the
+menu stays up while you do it -- laying out a row is one gesture repeated, not a reopen each time.
+The row starts empty, because what belongs on it is a question only the person playing can answer.
+It is saved with the run.
+
+**Equipment moved onto the mouse wheel**, with one line above the row saying what is in hand. The
+wheel steps over the slots that have something in them rather than all four, so somebody carrying
+a pistol and a scanner gets the other one on one notch instead of one in four. Zoom is `Ctrl` and
+the wheel.
+
+The capture pass measured the old ring for being drawn around its own hub and for answering when
+pointed at. It asks the grid the two things a grid can get wrong instead: whether any tile hangs
+off the side of the panel, and whether any tile cannot be clicked. It also binds a key, checks the
+building came off whatever key held it before, checks the cursor is still on the tile it was on,
+and then presses the key to see a ghost come up.
+
+![The build menu, everything on one page](docs/screenshots/v1.47.0/65-build-menu-full.png)
+
+![A building bound to a key](docs/screenshots/v1.47.0/67-build-shortcut.png)
+
+![The build row, and what is in hand above it](docs/screenshots/v1.47.0/66-laying-blocks.png)
+
+![The survey menu is the same control](docs/screenshots/v1.47.0/07-scan-menu.png)
+
+---
+
 ## [1.46.1] - 2026-09-08
 
 **A base built shoulder to shoulder is as bright as one lamp.** Sixteen storage boxes on sixteen
