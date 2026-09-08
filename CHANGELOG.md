@@ -7,6 +7,53 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.50.0] - 2026-09-08
+
+**Somebody who logs off lies down where they stood, and their pack can be tipped out.** The pod
+scatters exactly the Main Station recipe, no more and no less, so one player pocketing a stack of
+iron and going to bed used to end the opening for everybody still standing there. Their character
+was never deleted — a pack has somebody's afternoon in it — but it stopped being drawn, and nothing
+in the game could reach what it was carrying.
+
+Now it is drawn, asleep. That is its own picture rather than the standing one dimmed: every
+character here is a drawing stood up to face the camera, and a person lying down is seen from
+above, so a sleeper on a billboard would be a body floating upright with its eyes shut. It lies
+flat with the pools and the shadows, keeps a heading in the world, and the camera walks around it.
+
+Walk up to one, hold the key, and what they were carrying is on the floor beside them — thrown the
+way the wreck throws its salvage, so every machine spawns the same stacks in the same places. It
+refuses a sleeper who is awake, on another floor, out of reach, carrying nothing, or who is you.
+
+![Asleep on the ground](docs/screenshots/v1.50.0/sleeper.png)
+
+**Mute, kick and ban — and who is allowed to say so.** The host, always, and anybody the host hands
+the rights to. The host can never be muted, kicked or banned: not by a moderator, not by another
+moderator, and not by themselves, which is the case somebody finds by accident and then cannot
+undo. A moderator may not act on another moderator either — only the host can — because two friends
+locking each other out of somebody else's world is a fight the host should not have to referee.
+
+All of it is keyed on the person rather than on their seat, since a seat lasts as long as the
+session, and all of it is written into the save with the world: a ban that is forgotten when the
+host makes a cup of tea is not a ban, and a ban on this factory is not a ban on a different one.
+
+Two ways to reach it. `/mute /unmute /kick /ban /unban /mod /unmod`, and `/mods` to see who has
+them — typing a slash lists the ones you may actually use, which for somebody with no rights is
+nothing at all. Or right-click a player: the same commands, offered as a menu on the person you are
+pointing at, listing only what would be allowed.
+
+![Right-clicking a player](docs/screenshots/v1.50.0/player-menu.png)
+
+**And the chat is a panel like everything else.** It was the one screen nobody had designed: loose
+white text on the dirt and a grey box to type in, under an interface made of dark panels with thin
+borders and a tick in each corner. It has the ground, the border and the corners now; a line is the
+speaker in the accent and the sentence in plain text, so the eye can find who said what down a
+column; and the game talking about itself — somebody arriving, a pack going on the floor — is
+dimmed, because a room full of comings and goings should not read as loudly as a conversation.
+
+![The chat, and the commands](docs/screenshots/v1.50.0/chat.png)
+
+---
+
 ## [1.49.1] - 2026-09-08
 
 **The store's readout comes down two rows.** It was drawn at the top of the door — which on the
