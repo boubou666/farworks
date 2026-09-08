@@ -7,6 +7,20 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.51.2] - 2026-09-08
+
+**A bush gives three to ten leaves instead of four to eight.** It was always a roll rather than a
+fixed number — `Random.Range(DropMin, DropMax + 1)`, thrown fresh at every cut by whoever holds the
+world — but a range of five reads as a fixed number with a bit of noise on it. A range of eight is
+a bush that was worth stopping for and a bush that was not.
+
+The average barely moves, which is the point: filling a burner is still a walk of about thirty of
+them. What changed is that you notice which thirty.
+
+### Changed
+
+- Ash scrub yield: 4–8 leaves → 3–10.
+
 ## [1.51.1] - 2026-09-08
 
 **The Biomass Burner carries a whole first base.** It shipped at 90 kW yesterday, on the argument
