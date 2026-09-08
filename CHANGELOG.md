@@ -7,6 +7,33 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.47.2] - 2026-09-08
+
+**The main menu came up dead in the editor.** Its join page built a text field and a note in
+MonoBehaviour field initializers, and UI Toolkit refuses that: a field initializer is part of the
+constructor, so it threw there, left both fields null, and then threw again from `BuildJoinPage`
+the moment anything read them. The main menu is the first screen, so the world generated behind it
+and nothing else worked.
+
+**Nothing shipped to anyone was affected.** The refusal is compiled into the editor and not into a
+player, so a built player ran the same code perfectly. That is also why it lasted: it went in on
+2026-09-05 and rode out four releases with a green capture pass behind every one of them, because
+the capture pass is a player driving itself and a player cannot see this. Only pressing Play shows
+it.
+
+**So it is checked now.** `tools/check-ui-fields.sh` looks for any MonoBehaviour field that builds
+a UI Toolkit element, and `tools/compile-check.sh` runs it, which puts it in the eight-second check
+rather than in somebody's memory. It counts brace depth, so building an element inside a method or
+a nested type is left alone, and it collects the project's own `VisualElement` subclasses off the
+source rather than from a list, so a new element class is covered the day it is written. It covers
+a MonoBehaviour's own fields; a field holding a plain class that builds elements in *its*
+initializers would still get through, and pressing Play remains the real check.
+
+Three lines under the two offending fields was a comment explaining this exact rule, left behind
+when the same bug was fixed for a different field in 0.23.0. A comment is not a check.
+
+---
+
 ## [1.47.1] - 2026-09-08
 
 **A lit building is a building with power, and now something says so.** The crafter carries more on
