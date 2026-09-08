@@ -7,6 +7,38 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.48.0] - 2026-09-08
+
+**The drone carries a light.** Every lamp in the game so far is bolted to a building and lights the
+ground that building was put down on. The cutter is the one thing that moves, so it is the one thing
+that can carry a light out to where there isn't one: it hangs off the aim, sweeps as you turn, and
+travels with you across a planet that is otherwise pitch dark between bases. Walking out to a
+deposit at midnight was walking into a black screen with a status panel in the corner.
+
+It is the same two pieces a building gets -- a pool on the floor it is flying over, and the source
+on the hull -- but the pool cannot be hung on the drone. The drone wears a billboard so it can face
+the camera, and a child of a billboard is a pool stood up on its edge; it hangs off the character
+instead, and is put where it belongs each frame from the storey its own shadow is already being
+thrown onto.
+
+**Cold, where a base is warm**, so the two are never confused at a distance and the one that moves
+is the one that is yours. It began as the suit's own cyan, which on dark ground came out mint --
+the colour this game paints its interface in -- and a pool of mint on the floor reads as something
+selected rather than as something lit. A cold white with a blue cast reads as a lamp.
+
+It goes out faster than a building's, at a third of a second against four fifths. This one is
+switched by the cutter being sent out and called back as much as by the hour, and a light that takes
+the best part of a second to die stays hanging in the air after the machine holding it has gone.
+
+Underneath it, the hour and the weather now come from one figure -- `Lighting.Lamplight` -- rather
+than from a curve living inside the buildings. Everything in the game that burns reads it, which is
+what lets a thing that is not a building come on with the rest of them, and what will let all of
+them be retuned at once.
+
+![The work light on the walk out](docs/screenshots/v1.48.0/13c-drone-at-night.png)
+
+---
+
 ## [1.47.3] - 2026-09-08
 
 **A machine between jobs is not a machine that has lost power.** The lamps on a building asked
