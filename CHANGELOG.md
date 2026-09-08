@@ -7,6 +7,46 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.43.2] - 2026-09-08
+
+Everything else that stands up and turns to face you gets what the character got in 1.43.1.
+
+**The drone is a hull now, not a plate with a fan on it.** The same treatment: a relief painted
+alongside the drawing, and the light reading that instead of the outline. One roll from keel to
+spine does the whole chassis, dark border and lit face together -- that border was never a line
+drawn round the machine, it is the hull turning away, and giving it the falling edge the paint
+already implies is what says so. The fan cowl is a disc seen edge on, so it is thinner than the body
+it sits over and set back accordingly, which is what puts a seam along the top of the chassis where
+before the two were one flat mass. And the cutting head stands proud of the arm carrying it and
+drops its own shadow across the mount: on a machine twenty-four pixels across, that single dark
+pixel is the difference between a head slung under a nose and a circle painted on a bracket.
+
+![The drone at work on an iron deposit](docs/screenshots/v1.43.2/10-mining.png)
+
+**A crown standing on its trunk rather than beside it.** Flora is the last billboard and it does not
+want the relief model -- a canopy is not a stack of plate, and the lighting it already carries was
+arrived at by looking at trees rather than by lighting a surface. What it was missing was never
+shading. It is the most obvious thing a crown does, which is stand between the sun and the trunk
+holding it up: timber the same value in the open as it is under two tons of leaves reads as a crown
+placed beside a trunk rather than grown on top of one, and no amount of work on either piece says
+otherwise, because what is absent is the relation between them. So the crown throws, and the shadow
+falls off down the timber rather than stopping on a line. It goes cold as it goes dark, which is the
+same two lights the character is lit by with one of them taken away.
+
+![A wood on the plateau](docs/screenshots/v1.43.2/14-terrain.png)
+
+Which pixels are crown is not painted alongside the drawing the way a figure's relief is. A canopy
+is a hundred overlapping blobs with a broken edge, and any description of it that is not the drawing
+itself is a second drawing to keep in step -- so the cell is copied before the crown goes on and
+compared after, and whatever changed is the crown.
+
+**Also:** `Pixels.Roll` takes an axis, because a chassis is a limb a quarter turn round. And the art
+dump writes the drone and every plant, and writes a sprite's own rectangle rather than the whole
+texture it sits on -- which it could get away with while every sprite had a texture to itself, and
+could not once the flora sheet had nine of them side by side.
+
+---
+
 ## [1.43.1] - 2026-09-08
 
 The character had shape and no depth. The light knows what is in front of what now.
