@@ -7,6 +7,57 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.49.0] - 2026-09-08
+
+**The build menu opens on the kinds of thing there are.** Two screens now: the kinds, then the
+things. The grid that replaced the ring held the whole list at once, on the argument that choosing
+what to build should never cost two presses — but the whole list on one screen is not one press, it
+is one press and a search. Two dozen tiles under six headings are read by finding the heading
+first, which the eye was doing anyway. Made a press, the second screen holds four or five things
+and can be taken in whole.
+
+The press is refundable at both ends. Escape steps back out of a drawer before it closes the menu,
+so opening the wrong one costs nothing, and a lone drawer opens itself — for the whole of the
+opening the build list is a station and a bench, and a screen holding a single tile marked STATIONS
+is a press asking to be got out of the way. Kinds with nothing in them yet are left out rather than
+greyed: early on most of them are empty, and six locked doors is a worse first impression than the
+two that open.
+
+![The kinds of thing there are](docs/screenshots/v1.49.0/04-build-menu.png)
+
+![And one of them opened](docs/screenshots/v1.49.0/06b-bench-in-menu.png)
+
+**Cable.** Three copper wire, bundled and sheathed, made at the station or the crafter. A power pole
+costs two iron rods and one of these instead of the three loose wires it used to. It closes the one
+place in the game where a part went from the drawing bench straight into a building without ever
+becoming a thing — and the span between two poles is the most visible piece of made material on the
+map, so it ought to be something somebody made.
+
+**Nothing grows in a lake any more.** The generator plants the woods before it fills the rivers and
+the water takes back whatever it covered afterwards, which has been right about rivers all along and
+wrong about lakes since the pass was written. Ground says whether it can be built on, that flag
+defaults to yes, the river overrode it and the lake never did — nothing noticed, because building
+refuses solid ground on its own account and a lake is solid. Then the drowning pass asked the
+buildable question without asking the solid one, believed the answer, and left a wood standing in
+the water. Fifty-six thousand tiles of water on the standard seed, and a count that says none of
+them are planted runs on every capture from here.
+
+![A lake with its trees on the bank](docs/screenshots/v1.49.0/14c-lake.png)
+
+**And a lamp lights what is standing in it rather than replacing it.** The pool a building throws
+was composited as a maximum in 1.46.1 — the brighter of itself and what was already there — to stop
+a packed base summing its pools into a hole cut in the planet. It does stop that, and it cannot be
+used: a pool is drawn over the whole pile rather than only over the floor, because it sits above the
+wash that makes it night. Hulls write depth so the light is rejected over them, but sprites do not,
+so it lands on the character — and a maximum replaces them with flat lamp colour. Walking into a
+pool of light rubbed you out. It adds again, which brightens instead; what holds the density down
+now is that a pool is sized off the building throwing it, so a crate lights four tiles where the
+station lights seven.
+
+![Standing in the light](docs/screenshots/v1.49.0/pool-on-the-player.png)
+
+---
+
 ## [1.48.1] - 2026-09-08
 
 **The work light has a switch.** `L`, listed on the controls page with everything else and
