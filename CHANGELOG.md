@@ -7,6 +7,24 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.47.1] - 2026-09-08
+
+**A lit building is a building with power, and now something says so.** The crafter carries more on
+its side that is a light than anything else in the game -- a window with the rollers turning behind
+it -- and nothing had ever photographed it after dark. It is also standing, at the point in the
+game where it is first built, on no grid at all, and that turned out to be the more useful half of
+the picture: the shot was written asserting the windows were burning, and it failed, correctly,
+because an unpowered machine is dark.
+
+So the scene asks both questions in a row. At midnight with no grid the crafter has no power and
+its windows read nought; then the treadwheel goes up beside it, the way a crafter is actually run
+at that point, and they come to one. The rule that a base going dark is a grid that has gone down
+was written into the lamps from the start and had never been tested.
+
+![The crafter working through the night](docs/screenshots/v1.47.1/34a-crafter-after-dark.png)
+
+---
+
 ## [1.47.0] - 2026-09-08
 
 **The build menu was a ring you had to aim at.** Sectors cut out of an annulus, picked by the
