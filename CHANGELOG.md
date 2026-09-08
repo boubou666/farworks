@@ -7,6 +7,47 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.47.3] - 2026-09-08
+
+**A machine between jobs is not a machine that has lost power.** The lamps on a building asked
+`HasPower`, and a network gives power only to whoever asks for it — so a drill with a full stack
+and a smelter with nothing left to melt were both marked unpowered and went dark. A yard where the
+two idle machines are black and the rest are lit reads as a fault, and there is none; it reads as
+one precisely because a dark building is how this game says a grid has gone down. A building is lit
+now if it needs no power, or is being given power, or is asking for nothing while standing on a
+grid that could have answered. What stays dark is the machine that asked and was refused, which is
+the brownout — the one thing here worth seeing from across the map.
+
+**Two fittings that were too small to be anything.** The store's readout was a single lit pixel and
+the drill's work lamp was two. The store carries a framed readout strip over the seam of its doors,
+readable across a dark yard without opening anything, and the drill has a lamp housing with a lens
+in it, high on the frame and clear of the ram. Nothing cuts rock in the dark by feel.
+
+**The editor-only guard was looking for the wrong half of its own rule.** `check-ui-fields.sh`
+shipped in 1.47.2 hunting for UI elements built in MonoBehaviour field initializers, because that
+is how the trap had bitten twice. Opening the editor found a third instance the same afternoon,
+which the guard had been running green over: `LoadingView` drew its tip with `Random.Range` in a
+field. Not an element at all — a field initializer is part of the constructor, and Unity forbids
+much of its own API there, not just UI Toolkit.
+
+So it is `tools/check-mono-fields.sh` now, and it looks for the rule rather than the one symptom:
+constructing an element, or reaching `Random`, `Resources`, `Instantiate`, `new GameObject`,
+`Find*`, `Camera.main`, `Shader.Find`, `SceneManager`, `Physics`, `Time`, `Application`, `Screen`,
+the input devices, `AddComponent` or `GetComponent`, from a field at a MonoBehaviour's own brace
+depth. `const` and `static` are skipped, neither running in the instance constructor, and so is
+`=>`, which is a property body or a lambda and runs when called. The list of entry points is
+curated and Unity does not publish the real one, so it is a net rather than a proof — pressing Play
+is still the check, and the script says so. Both historical bugs were put back to confirm it names
+them.
+
+The loading screen picks its tip in `Begin` now, which is still the call that makes the component.
+
+![The drill and the stores at midnight, idle and lit](docs/screenshots/v1.47.3/55a-miner-after-dark.png)
+
+![The store's readout, burning across a dark yard](docs/screenshots/v1.47.3/70a-storage-after-dark.png)
+
+---
+
 ## [1.47.2] - 2026-09-08
 
 **The main menu came up dead in the editor.** Its join page built a text field and a note in
