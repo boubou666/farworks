@@ -7,6 +7,48 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.45.0] - 2026-09-08
+
+**There is wind on this planet, and until now the only things that knew were the clouds and the
+rain.** A storm slanted the rain across the view, dragged the cloud shadows over the base and left
+every tree on the map standing perfectly still, which reads as weather drawn over a photograph.
+What grows here bends in it now: barely, on a clear afternoon, and hard enough in a storm to be
+the loudest thing on the screen after the lightning.
+
+**A plant bends, it does not lean.** A tree hinged at its roots is a signpost in a gale, because
+the whole of it goes over together. What actually happens is that the foot holds, the trunk gives
+a little and the crown does nearly all of the travelling -- and how loose a plant is turns out not
+to be a fact about how tall it is. An ironbark is ten times the height of a rime bristle and
+nothing like ten times as loose. So each kind now says how far its top travels in a full gust and
+how much of that bend is held out of its base: all of it for a trunk, almost none for a tuft,
+which goes over whole the way grass does.
+
+**The gust is a wave crossing the map rather than a clock every plant reads on its own.** Three
+waves at three wavelengths, two running along the wind and one across it, so what goes through a
+wood is a front -- the near trees go over, then the ones behind them, and no two plants are quite
+in step without a single one of them being told anything. It costs nothing per plant: a plant asks
+where it is standing and that is its place in the wave, which is what keeps a couple of hundred of
+them on screen at the price they were before.
+
+**And the shadows bend with them.** Flora lays a real silhouette on the ground, and a tree waving
+over a tree-shaped hole that never moved would have been worse than not moving at all. A shadow is
+its plant laid flat along the light, so it takes the part of the travel that runs across the ground
+rather than across the screen, and it asks the wave about the patch of dirt its trunk is standing
+on rather than the one its crown is lying over.
+
+How hard it blows comes off the same three figures everything else downstream of the sky reads,
+weighted the way somebody standing out in it would weight them: cloud a little, rain most of it,
+thunder the rest. A clear day is a quarter of a gale rather than nothing at all -- still air is as
+unnatural as a hurricane, and reads as the feature being switched off -- and a storm is nearly five
+times a clear day. The wind only shows as far as it is blowing across the view, which is the rule
+the rain has always followed: a picture stood up to face you can only move sideways, so turning the
+camera a quarter turns a wood leaning to the right into a wood blowing towards you, and it goes
+quiet.
+
+![The wood in a storm](docs/screenshots/v1.45.0/83-storm-close.png)
+
+---
+
 ## [1.44.0] - 2026-09-08
 
 **The loading screen is a panel now, not four words adrift in the dark.** It was the one screen in
