@@ -7,6 +7,27 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.48.1] - 2026-09-08
+
+**The work light has a switch.** `L`, listed on the controls page with everything else and
+rebindable like the rest. It comes up with the hour regardless, so the key is not what turns the
+light on — it is what lets you keep it off. A lamp held a metre from the character is the brightest
+thing on your own screen, and a base laid out in pools of its own light is worth being allowed to
+look at without one.
+
+It says so out loud when pressed. At noon there is nothing to see — the lamp is only ever as far up
+as the hour calls for — so a key pressed in daylight would otherwise appear to do nothing at all.
+
+![The cutter with its light switched off](docs/screenshots/v1.48.1/13d-drone-light-off.png)
+
+**And the download is eleven megabytes lighter.** The package that lets a running Editor be driven
+from the command line was shipping inside the players, along with the Roslyn compiler and the IL
+interpreter it pulls in — a game carrying a C# compiler it never calls. It is held back for the
+length of a player build and put straight back afterwards, so the Editor keeps it and the download
+does not. Windows 98 MB to 87, Linux 92 to 81.
+
+---
+
 ## [1.48.0] - 2026-09-08
 
 **The drone carries a light.** Every lamp in the game so far is bolted to a building and lights the
