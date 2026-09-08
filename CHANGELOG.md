@@ -7,6 +7,92 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.51.0] - 2026-09-08
+
+**Something to Burn — the last task of the first milestone, and the first power that works while
+you are somewhere else.** Every machine in the base has run on a wheel somebody had to be standing
+at. This is the rung that was missing from the ladder out of doing it by hand: it arrives with the
+first milestone, well before there is any ore worth burning, and what it costs you is a walk
+instead of your afternoon.
+
+**The Biomass Burner.** A firebox with a boiler over it and a dynamo on the back. Two tiles square,
+one box for fuel, no output, a port on the west edge so a belt can eventually feed it, and its own
+pole — so the first one put down works standing alone beside the machine it is there to run.
+
+It is deliberately worse than the wheel at everything except the one thing that matters. The wheel
+makes 240 kW on demand and never runs out; this makes 90 and has to be fed. Ninety is one machine's
+worth and deliberately not two — a smelter is 60 and a crafter 45 — so a first base of both is two
+burners, which is the intended answer rather than a shortfall.
+
+It is crude in three ways, each on purpose. It does not follow load: a fire is not a throttle, so
+whether the grid wants five kilowatts or ninety it burns at the same pace and the difference is
+thrown away. It stops when there is nothing at all to power, because wasteful is a design goal and
+punishing is not. And its fuel box is one stack, so you come back to it.
+
+![A burner carrying a smelter with the wheel cold](docs/screenshots/v1.51.0/89-the-burner-lit.png)
+
+**Leaves, cut off the bushes that were already everywhere.** Walk into an ash scrub, hold the
+interact key, and it gives up four to eight leaves. No tool, and no new verb: a prompt on a plant is
+the same gesture as a prompt on a machine, and the game has exactly one of those.
+
+Every plant on the planet is offered by a single entry in the interactable register — the one within
+arm's reach, worked out on demand — because registering tens of thousands of bushes would be the
+most expensive thing in the game in order to say something about one of them.
+
+![Cutting an ash scrub for leaves](docs/screenshots/v1.51.0/88-cutting-a-bush.png)
+
+**Fuel quality is duration, and only duration.** What an item is worth on a fire is a number of
+kilojoules, and the only thing a better fuel buys is a longer time between visits. Keeping the rate
+fixed is what makes a grid's supply a fact about the machines on it rather than about whatever is
+in a box this minute.
+
+Leaves are the poorest fuel there will ever be, and the figure everything after them is judged
+against: a full stack is about a quarter of an hour of one machine turning. Long enough to walk off
+and build something and forget about it; short enough that a base run on leaves alone is a base you
+keep having to come back to. The burner says how long it has left on its screen and on the prompt
+you read walking past, and it says so out loud once — the moment it goes out.
+
+**A cut bush grows back.** Four minutes, on the same tile. Flora is not in the save — it is laid out
+from the seed like the rest of the planet — so what is written down instead is the short list of
+tiles the player has interfered with, and the wood around them is still free.
+
+Building over a bush is the same event as cutting one, which is what makes the awkward case fall
+out rather than needing a rule of its own: a foundation poured over a bush is a tile whose clock
+runs down underneath it and whose plant cannot come back because the ground is taken. Take the
+foundation up and the bush returns on the next sweep. Nothing had to notice the building going
+away.
+
+Only the bush comes back. A wood growing back through a base would be a base at war with the
+planet, and the planet arranging itself — the bare landing pad, the trees drowned when the rivers
+fill, the scrub cleared off a deposit as it surfaces — is not remembered at all.
+
+![The fire out, and the smelter with it](docs/screenshots/v1.51.0/89b-the-burner-out.png)
+
+### Added
+
+- **Biomass Burner**, 2×2: 90 kW while it is burning, one stack of fuel, an input port on the west
+  edge, and a pole of its own. Unlocked by *Something to Burn*, the fifth task of the Shelter
+  milestone, which also issues one and enough leaves to light it.
+- **Leaves**, cut from ash scrub. 450 kJ each, stacks of 200.
+- **Foraging**, an unlockable ability rather than a thing you hold: a bush within reach offers a
+  prompt, and holding the key cuts it.
+- **Regrowth.** Ash scrub returns to its own tile after four minutes, unless something is standing
+  on it — and then as soon as that thing is taken up.
+- A `burner` capture scene: the prompt at a bush, the leaves off one, a smelter carried by a fire
+  with every wheel cold, the smelter going dark when the fire does, and a slab laid over a bush and
+  taken up again four minutes later.
+- The save round trip now carries a cut bush and a half-burnt grate, and asserts both come back.
+
+### Changed
+
+- A machine's boxes are found through the building rather than through its machine, so anything
+  with an input and no machine — a burner — can be loaded by hand and by belt. The miner's output
+  could not be dragged out of before this either.
+- The interactable register asks how far away a candidate is before it asks anything else, because
+  for one of them that is the question which decides what the other two are about.
+- `MachineStatus` gained `NoDemand`: a generator that is fuelled and idle, which is a halt that
+  belongs to a generator rather than to a consumer.
+
 ## [1.50.0] - 2026-09-08
 
 **Somebody who logs off lies down where they stood, and their pack can be tipped out.** The pod
