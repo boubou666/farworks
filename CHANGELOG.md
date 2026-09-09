@@ -7,6 +7,56 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.54.0] - 2026-09-09
+
+**Three parts your hands cannot make, and a door they open.** Every recipe in this game until now
+has been offered by the Main Station as well as by a machine, which made the factory a convenience
+rather than a requirement: a patient enough player could hand-build the entire thing. The Pipe
+Section, the Turbine Rotor and the Field Coil are offered by the Simple Crafter and by nothing
+else.
+
+They gate the second milestone, and the gate is deliberately the machine rather than the material.
+The milestone they open is about a base that keeps running while you are elsewhere, and it would be
+a strange thing to be let into by hand.
+
+**One input each, off three different lines.** A machine has one input box, so a recipe a machine
+offers can name exactly one kind of thing — and that falls out well here. Pipe comes off the plate
+line, rotor off the rod line, coil off the copper line, so the gate asks you to have all three of
+your production lines actually running rather than one crafter fed by hand.
+
+**Each recipe is paid out by a different task of the first milestone**, so the other five tasks are
+the way in, whatever order they are taken. A player who picks the gate first is not stuck — they
+simply cannot make what it asks for yet, and the tiles behind them say why.
+
+For now that is all these three do. They are each a part of something the factory is about to want,
+none of which exists yet, and their descriptions say so rather than pretending otherwise.
+
+### Added
+
+- **Pipe Section** (3 iron plate), **Turbine Rotor** (4 iron rod) and **Field Coil** (5 copper
+  wire), each made at a Simple Crafter and nowhere else.
+- **Nothing By Hand**, the sixth task of Shelter: 16 pipe sections, 12 rotors, 12 coils. Its reward
+  is being let through.
+- The art dump writes every item icon and every build-menu tile. Those were the one piece of art in
+  the game with no cheap way to look at it — thirty-two pixel squares that could only be seen by
+  building a player and opening a panel.
+- The `milestones` scene checks the gate really is one: that none of the three can be made by hand,
+  that all three can be made by a crafter, that the gate asks for them, and that three different
+  tasks pay them out.
+- The `saveread` scene checks that every finished milestone task has actually handed over what it
+  authorises.
+
+### Fixed
+
+- **A milestone reward paid into a full hold vanished.** No toast, nothing on the floor, from the
+  one screen whose whole purpose is handing things over. The remainder is laid at your feet now,
+  which is what emptying the delivery boxes has always done with the same problem.
+- **A task finished before its reward existed never paid it.** A save records which tasks are done
+  and, separately, what you know how to make; the two agree until a task is given something new to
+  hand over. A run that had already finished two of the three tasks now carrying these recipes
+  would have come back unable ever to make what the gate asks for. Loading re-applies what a
+  finished task authorises — recipes, buildings and screens, never material or cargo slots.
+
 ## [1.53.0] - 2026-09-09
 
 Consolidation rather than content: the first two things a technical audit of the project asked for,
