@@ -7,6 +7,49 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.66.1] - 2026-09-10
+
+**The unlock sheet, wider and with pictures on it.**
+
+Yesterday's sheet was a narrow column of text with one icon per reward. It said the right things
+and it was a poor advertisement for them, which for a screen whose entire job is to make you want
+what you just earned is most of the job missed.
+
+![Wider, and two rewards to a row](docs/screenshots/v1.66.1/17-unlock.png)
+
+**Twice as wide, and two rewards to a row.** They are peers -- no one of them is read before
+another -- so they are cards in a grid rather than a stack, and the line length of a description
+comes down to something an eye can track back from.
+
+**The Main Station over the top of it.** Every piece of progression in this game is handed in at
+that one building, so the sheet reporting one is a sheet from it. It grows a piece of equipment
+with every upgrade, which makes it the one picture on here that is different by the end of the game
+than it was at the start.
+
+**What the new thing is made of, and what it costs.** A recipe you have just earned is a recipe you
+cannot use until you know what it wants, and finding out meant opening the fabricator and reading a
+list -- the same walk this screen exists to save. Recipes now carry their ingredients, structures
+their build cost, an ore what it yields, and the supplies row the kit it just issued: icon and
+figure, the same chips the milestone board uses.
+
+**The pack, drawn.** A cargo slot is the one reward with no picture of its own, and "nine stacks"
+is a number nobody weighs. It is a row of squares now, one per stack, with the ones just gained
+lit.
+
+**And the rock instead of the chunk.** An ore reward showed the ingot it drops. What the player is
+being sent to find is an outcrop on the ground, so that is the picture, with the yield underneath.
+Foraging shows a bush, for the same reason -- it is the one ability with something in the world to
+point at.
+
+![The next chapter, as a shopping window](docs/screenshots/v1.66.1/60b-chapter-closed.png)
+
+**What is coming, with the things themselves.** The taste of the next milestone was a list of task
+names. It is a two-column grid now, each line carrying the building, part or seam that task pays
+out. A list of names is a list of names; a column of the actual things is a shopping window, and
+that is the difference between reading what is next and wanting it.
+
+---
+
 ## [1.66.0] - 2026-09-10
 
 **What you just earned gets a screen, and you are the one who closes it.**
