@@ -7,6 +7,46 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.55.0] - 2026-09-09
+
+**Eight item icons redrawn, and the fault they shared was one fault.** Iron Bar, Iron Plate,
+Reinforced Plate, Scrap Metal, Hull Plating and Concrete were all the same rounded rectangle in six
+greys and tans, with a light band across the top and a dot or two. At the size a slot actually is,
+against a dark panel, that is one item six times over.
+
+The rule that comes out of it: **a silhouette belongs to one item, and colour is not a difference.**
+Colour still tells iron from copper and quartz from titanium, which is right — those genuinely are
+the same object in another material. It cannot be what tells a sheet from a lump.
+
+So the cheap distinctions got spent before any detail did. A plate is drawn on the tilt and is two
+pixels thick, because it is a sheet you could bend; an ingot has a top face and a mould lip, because
+it is a lump you could not. Concrete is a cube with three faces at three values. Cable is a ring,
+which is the most distinctive outline available and there is now exactly one of them.
+
+**Three of them needed no invention at all — only reading their own description.** Hull Plating has
+said *"ablative panel, scorched on one side"* since the pod was written and was drawn as clean
+plate; it is charred down one edge now, with the burn bitten back into the outline. Reinforced Plate
+has said *"braced and bonded"* and was plate in a darker grey; it has the brace on it. Scrap Metal
+has said *"torn alloy"* and was drawn as a cast ingot; it is torn.
+
+**And the cable's hole had never been cut.** It opened the middle of its coil by painting with a
+fully transparent colour, which does nothing at all — `Pixels.Blend` returns early on an alpha of
+zero. The ring stayed solid and a coil of cable read as a leather pouch for as long as anybody
+looked at it. The same mistake had already been made once in the foliage.
+
+### Added
+
+- `Pixels.EraseDisc`, the round counterpart to `Erase`. Painting with transparent takes nothing
+  away; these two are what do.
+- `docs/design/icons.md` — the silhouette rule, the axes worth spending before detail, and the
+  transparent-paint trap.
+- Three icon shapes split out of ones they were borrowing: `Scrap`, `Ablative` and `Braced`.
+
+### Changed
+
+- Leaves are lifted out of the dark. They were the lowest-value thing in the list and read as a
+  smudge; they read as leaves now.
+
 ## [1.54.1] - 2026-09-09
 
 **The three gated parts are flight stock, not components.** They shipped an hour ago as a Pipe
