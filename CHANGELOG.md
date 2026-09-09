@@ -7,6 +7,34 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.54.1] - 2026-09-09
+
+**The three gated parts are flight stock, not components.** They shipped an hour ago as a Pipe
+Section, a Turbine Rotor and a Field Coil, and that was the wrong call: those are all parts with an
+obvious job, and a part with an obvious job is one the player looks at and asks where it goes. The
+honest answer was nowhere, which is a bad thing for a pipe to have to say about itself.
+
+They are an **Airframe Panel**, a **Truss Spar** and a **Signal Loom** now — made to a standard only
+somewhere with no ground under it needs. A panel pressed straighter than any wall requires, a spar
+bored out to save a weight nothing here has to lift, a loom with every strand tagged when there is
+nothing yet with anything to say. The question they raise is not where does this go but what is this
+for, and that one has an answer: they are the first rung of the ladder this game ends on, and the
+last rung of it is a rocket.
+
+Same recipes, same inputs, same gate, same three tasks paying them out. What changed is what they
+are, what they are called and what they look like — the panel in particular, which was a grey
+rectangle beside the grey rectangle it is pressed from, and two grey rectangles in one inventory are
+one item as far as the eye is concerned.
+
+Nobody had these in a save: 1.54.0 was cut minutes before, so the three item numbers are reused
+rather than retired.
+
+### Added
+
+- `docs/design/flight.md` — what this line is for, why nothing in a base ever wants any of it, the
+  rule that every tier is made from the tier below, and the multi-input machine that tier two is
+  waiting on.
+
 ## [1.54.0] - 2026-09-09
 
 **Three parts your hands cannot make, and a door they open.** Every recipe in this game until now
