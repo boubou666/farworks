@@ -7,6 +7,74 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.60.0] - 2026-09-09
+
+Coal is worth less, the shell of a base is earned later, and there is a window that draws the whole
+progression and tells you when it is broken.
+
+**A lump of coal was five leaves. It is two.** Five was too much of a good thing: one lump ran a
+burner for twenty-five seconds and a full box for the better part of an hour and a half, which made
+the fuel line something a base solved once and then stopped thinking about. A pocketful covered
+anything a player was likely to build, and the belt that was supposed to bring coal in was a
+convenience rather than a supply line.
+
+At twenty-four hundred kilojoules a lump is ten seconds of a burner and six of a steam plant running
+flat out. A row of five plants at their rating burns most of a coal drill's whole output, arriving
+steadily, on a belt. That is the shape a fuel line is meant to have.
+
+The step over a leaf is deliberately modest now, because it was never the point. Both stack to two
+hundred, so a box of coal is two boxes of leaves and no more. What a lump actually buys is that a
+drill can stand on the seam and a belt can bring it in; a leaf will always be a walk to a bush.
+Nothing about the early game moves — a leaf is worth what it always was and the burner runs at what
+it always did.
+
+**Building Blocks and Upstairs move to The Works.** The first milestone was called Shelter and four
+of its six tasks were about building one; the shell of a base is now something the second milestone
+opens, and the first is about not doing everything by hand. It is called **Footing**: somewhere to
+put things, a deeper pack, a fire that runs while you are elsewhere, and the three parts that gate
+what comes next.
+
+**The two recipes those tasks were carrying stayed behind**, and that is the whole of the care this
+needed. Airframe Panel came with the blocks and Signal Loom with the roof — and the task that asks
+for all three is in the first milestone. Moving them as they were would have put two thirds of a
+gate on the far side of itself: a run nobody could finish. They are paid out by the store task and
+the fire task now, so the rule the gate rests on is untouched — each of the three by a different
+task of the same milestone.
+
+Task ids are unchanged, so a save in progress keeps everything it had finished. `shelter-blocks` is
+still called that wherever it lives.
+
+**And a window to see it in.** `Factory > Milestones` draws the whole ladder — every task, what it
+asks for, and every building, recipe, ore, ability, hand-out and cargo slot it pays back — and then
+checks it. The checks are the point rather than the list: the near-miss above is one line in its
+Problems pane, and it was written by re-introducing that mistake and watching it appear.
+
+It asks whether anything is wanted before it can be had — a part whose recipe is unlocked later, an
+item whose ore has not come up, leaves before foraging — whether two tasks grant the same thing, and
+whether the words a task shows the player still match what it hands over. `Copy as text` puts the
+lot on the clipboard, and `-executeMethod Factory.EditorTools.MilestoneWindow.DumpFromCommandLine`
+runs the same checks with no screen at all.
+
+### Changed
+
+- `ItemId.Coal` is 2400 kJ, down from 6000.
+- The first milestone is `Footing`; The Works opens with Building Blocks and Upstairs.
+- `shelter-stores` pays out Airframe Panel and `shelter-fire` pays out Signal Loom.
+- The `milestones` scene takes the block task wherever it now lives, and runs after `stores` — the
+  order is load-bearing, because reaching the block task finishes the milestone the store task is
+  in and a task cannot be handed in twice.
+- The `milestones` scene asserts the step from leaves by the lump rather than by the box. Coal and
+  leaves stack to the same two hundred, so the box had nothing of its own to say.
+
+### Fixed
+
+- `savewrite` put its storage box three tiles east of the player and hoped. That scene rolls a
+  random seed, so three tiles east is a rock or a river often enough to matter — and when it was,
+  the box never went down, the writing scene said nothing, and the failure surfaced in the *next
+  process* as a save that had come back without its store. It looks for clear ground now, and says
+  so on the spot if it cannot find any. A check that reports somebody else's problem is worse than
+  no check.
+
 ## [1.59.0] - 2026-09-09
 
 The Steam Plant. Coal in one side, water in the other, and only as much power out as is being taken.
