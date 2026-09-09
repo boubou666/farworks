@@ -7,6 +7,38 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.63.1] - 2026-09-09
+
+**An iron outcrop stops looking like a copper one.**
+
+Iron is a grey metal, so the lumps of ore drawn into an outcrop could not be grey: painted the
+colour of the bar you get out of it, they were white pebbles in grey rock, and an iron deposit, a
+limestone bed and a plain boulder were three pictures of the same thing. The answer at the time was
+that iron in the ground is rust, and rust is warm — which fixed that and quietly caused this one.
+A warm rust is copper's own colour with the brightness turned down a stop. The two deposits were
+grey rock and tan rock holding the same orange stones, and the rock is the part the eye reads last.
+
+So the ore in an iron outcrop is **hematite** now: a deep red that an orange cannot be mistaken for
+at three tiles, dark where copper is bright and red where copper is amber. The rock around it has
+not moved — a copper outcrop is still the warmer stone — but the difference no longer has to be
+carried by the background.
+
+![An iron deposit found by the scanner](docs/screenshots/v1.63.1/09-blips.png)
+
+And a lump of ore takes its lit face from that ore's own highlight rather than from a paler version
+of its body. Lighting a stone by whitening it draws the same stone twice; what a metal does to
+light is half of *which metal* it is. Hematite gives back a steel glint off a dark red stone, and
+copper gives back more copper — which also makes a copper outcrop read warmer than it did.
+
+### Changed
+
+- Iron ore is drawn in hematite red rather than warm rust, which copper had a prior claim on.
+- Ore lumps take their highlight from the ore's own highlight colour, so each metal catches the
+  light in its own way. Copper, coal and limestone all pick this up; quartz and titanium are drawn
+  as crystals and already did.
+
+---
+
 ## [1.63.0] - 2026-09-09
 
 **Rivets, and the first machine in this game that can hold two materials at once.**
