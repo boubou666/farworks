@@ -7,6 +7,50 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.61.0] - 2026-09-09
+
+A window that draws every recipe in the game with the icons on — and the bug it found within a
+minute of existing.
+
+**You could build four power poles, ever.** A pole costs two rods and one cable; the objective set
+that unlocks poles hands over four poles' worth of both, so the grid goes up, spreads out and works
+exactly as intended. **The recipe for cable was never handed out by anything.** Not by an objective
+set, not by a milestone, and not from the start — it sat in the recipe list, available, marked as
+craftable at the Main Station and the Crafter, and unreachable for the whole run.
+
+So the fifth pole is the one that cannot be built, an hour past the screen that would have explained
+why, in front of a build menu offering a building made of a material the game never taught you to
+make. The set that unlocks poles hands out the cable recipe now — it is the set whose whole subject
+is the cable, and whose hand-in prompt is *"deliver the wire the grid will be strung with"*.
+
+Nothing caught it because nothing could. The capture pass builds poles by adding their cost straight
+to the pack, which is the right thing for a scene about grids and exactly what hides this.
+
+**`Factory > Recipes`** draws the lot: what goes in, what comes out, and the real icons of both,
+grouped by the machine that makes them, searchable, with craft times. Beside each line it answers
+the two questions a recipe list cannot answer about itself — **where it is unlocked**, walked out of
+the objective sets and the milestone tasks, and **what its output goes on to feed**, which is how
+you tell whether a material is earning its place in the game at all.
+
+And it checks three things, one of which was already false:
+
+- a recipe that is available and that nothing ever unlocks — the cable;
+- a recipe offered by no bench, so nothing can make it;
+- a recipe wanting an input that nothing makes, no ore drops and no bush gives.
+
+`Copy as text` puts the lot on the clipboard, and
+`-executeMethod Factory.EditorTools.RecipeWindow.DumpFromCommandLine` runs the same checks with no
+screen at all.
+
+### Added
+
+- `Factory > Recipes`, and `RecipeWindow.DumpFromCommandLine` beside it.
+
+### Fixed
+
+- The `grid` objective set hands out the cable recipe. Without it a run had exactly four power
+  poles in it and no way to make a fifth.
+
 ## [1.60.0] - 2026-09-09
 
 Coal is worth less, the shell of a base is earned later, and there is a window that draws the whole
