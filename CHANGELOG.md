@@ -7,6 +7,44 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.66.0] - 2026-09-10
+
+**What you just earned gets a screen, and you are the one who closes it.**
+
+A finished upgrade used to announce itself with a card near the top of the screen that left again
+after five seconds, and a short run of messages down the corner. Both are the wrong shape for the
+moment they were reporting. At a hand-in the player is looking at the station panel they handed in
+through -- which is the middle of the screen, not the top of it -- and five seconds later the panel
+is still open and the card is gone. The one screen in the game whose whole purpose is to say what
+the walk back bought was the one screen nobody read.
+
+![Everything one upgrade earned, on one sheet](docs/screenshots/v1.66.0/17-unlock.png)
+
+So it is a sheet now, in the middle, over everything, and nothing takes it away but a press.
+Everything one hand-in earned is on it together rather than arriving as a queue of cards several
+seconds apart: the slot the hold gained, the kit that was issued, and every recipe, structure and
+ore that came with it -- each with its picture, what it is, and where it now lives.
+
+**Two rewards it never used to mention at all.** Abilities and ores paid out by a milestone task
+went unannounced -- the map and foraging simply started working, and a seam simply appeared. They
+are on the sheet, said in full, with where to go and use them.
+
+![The chapter that closed, and the one that opens](docs/screenshots/v1.66.0/60b-chapter-closed.png)
+
+**And finishing a milestone shows you the next one.** The sheet that closes a chapter is titled
+after the chapter rather than after whichever task happened to be last, and carries a taste of what
+comes after it: the next milestone's name, what it is for, and the first few pieces of work in it.
+None of that is a secret -- the whole list has been readable from the start -- but the list is a
+screen you have to go and open, and the moment somebody is most willing to read what is next is the
+moment they have just finished something. A taste, not the whole list: four lines and a count of
+the rest.
+
+The last station upgrade gets the same treatment, because it is the same kind of moment: the
+station stops asking, the milestone board takes the boxes over, and being told none of that reads
+as the game running out of work.
+
+---
+
 ## [1.65.1] - 2026-09-09
 
 **A seam with a factory on it is yours, and a foundation is enough to say so.**
