@@ -7,6 +7,58 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.53.0] - 2026-09-09
+
+Consolidation rather than content: the first two things a technical audit of the project asked for,
+both measured before and after.
+
+**A whole world now fits comfortably in one message.** Joining a game is being sent the host's save,
+and that save travels inside a single message with a ceiling on it — Valve's is half a megabyte, and
+a send over it does not fail loudly, it simply does not happen. It is the one message in the game
+that grows with how long somebody has played.
+
+It is deflated now, the same way the fog-of-war record inside a save already was. Measured over two
+real processes joining each other: 2801 characters of planet squeezed to 1300 and opened back to
+2801 on the other side. On a real base of a hundred and sixty buildings the offline figure is
+**eleven and a half times smaller** — the ceiling moves from about two thousand buildings to a
+number nobody will reach.
+
+Worth being plain: **nothing was breaking.** The measurement that prompted this said a base of 163
+buildings sends 43 kB of a 512 kB allowance. This is a cheap way of making sure it never can break,
+not a rescue — and it is not a substitute for fragmenting the message the day something other than a
+save needs sending.
+
+*A joiner running 1.52.1 or older cannot read a snapshot from a 1.53.0 host.* The reverse works: a
+1.53.0 joiner reads an older host's uncompressed snapshot, because JSON starts with a brace and
+base64 never does. There has never been a version handshake, so mixed-version co-op was undefined
+before this too.
+
+**The code is in two assemblies instead of one.** `Factory.Runtime` holds the game, `Factory.Editor`
+holds the tools, is compiled for the editor only, and references the runtime rather than the other
+way round. `Assembly-CSharp` is gone. Nothing now keeps editor-only code out of the shipped player
+by convention alone, a change to a build tool no longer recompiles the game, and there is somewhere
+to put tests the day they are wanted.
+
+The capture pass deliberately stays in the runtime assembly. Its whole value is that it is the
+shipped player driving itself, and `GameRoot` reaches for it — giving it an assembly of its own
+means inverting that dependency first, which is a job rather than a file move.
+
+### Added
+
+- `Net/Snapshot.cs` — deflate and base64 for the one message that grows, with an opener that hands
+  back an already-plain snapshot untouched so an older peer still works.
+- The `savewrite` scene asserts the whole round trip: that a packed save opens back to exactly what
+  went in, that it still parses as a save, that an uncompressed one survives the opener, and that
+  the message is inside the transport's ceiling — with the ratio in the log, so a growing base can
+  be watched growing.
+- `docs/PROJECT-AUDIT.md` and `docs/PROJECT-AUDIT-REVIEW.md`, the audit and the reply to it.
+
+### Fixed
+
+- `tools/compile-check.sh` referenced the project's own freshly built assemblies while compiling
+  their sources, which defined every type twice and buried real output under `CS0436`. It reads the
+  names to skip out of the assembly definitions now, so a third assembly cannot bring it back.
+
 ## [1.52.1] - 2026-09-09
 
 Nothing here changes the game. It is the capture pass — the scripted playthrough that takes the
