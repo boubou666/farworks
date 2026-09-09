@@ -7,6 +7,33 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.65.1] - 2026-09-09
+
+**A seam with a factory on it is yours, and a foundation is enough to say so.**
+
+Building on a guarded seam has emptied it for good since yesterday, but the test was the ore's own
+tiles -- which turned out to be too narrow to mean anything. A miner covers one tile of a three
+tile outcrop. A yard built round a seam -- belts, a box, a smelter, a poured floor -- put nothing on
+the rock itself, so four minutes later a lodeback walked back into the middle of somebody's
+factory.
+
+It is the whole range the herd uses now: the deposit widened by the animal's own roam, which is
+exactly the ground those animals would have been standing on. Anything inside it retires the seam,
+at any storey, and **foundations count** -- pouring a floor over the ground beside a seam is taking
+that ground, whatever ends up standing on it.
+
+Asked on the way in as well as on the refill clock, so a seam that ended up inside a base does not
+stand a herd up the next time somebody walks past, whether or not anything was ever killed on it. A
+herd already standing when the first foundation goes down is left alone until the site sleeps;
+animals blinking out of existence as a floor is poured under them would read worse than either
+answer.
+
+Taking ground by putting your factory on it is the factory answer to a fauna problem, and it is the
+one this feature is built to reward. The way to reach it should be building a factory, not covering
+one particular tile.
+
+---
+
 ## [1.65.0] - 2026-09-09
 
 **Something lives on the far seams, and it was standing on your copper the whole time.**
