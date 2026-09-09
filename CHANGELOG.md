@@ -7,6 +7,76 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.63.0] - 2026-09-09
+
+**Rivets, and the first machine in this game that can hold two materials at once.**
+
+Reinforced Plate spent one release being made of iron plate and nothing else, and that was honest
+about the constraint rather than good: a plate made of plates is a plate. It took exactly what an
+Airframe Panel takes, at the same bench, for the same four seconds — two recipes with the same
+input, the same time and the same machine are one recipe wearing two hats.
+
+So the second ingredient is back and it is the right one. A **rivet** is what plate is actually
+joined with; it comes off the rod line rather than the plate line, so the recipe pulls on both
+halves of the iron chain instead of one; and a machine makes four at a time from a single rod, so
+the eight a plate needs are a belt rather than a chore. Reinforced Plate is three plates and eight
+rivets, which is four iron bars — exactly what it has cost all along.
+
+Rivets stack five hundred to a box, because a rivet is not a thing anybody counts. It is the first
+item here whose unit is *a supply of* rather than *one*, and the stack size is where that gets said.
+
+![The assembler, its two hoppers and its outfeed](docs/screenshots/v1.63.0/34b-the-assembler.png)
+
+**The Assembler.** Two inputs meant no machine could run the recipe — a machine had one input box,
+and that rule at the top of the recipe list is why every recipe a machine could run named exactly
+one material. This is the machine that lifts it, and it is a whole building rather than a flag
+because that is what the second box is worth: everything a base can make out of two things at once.
+
+Three by three, two hoppers, one press, ninety kilowatts. Its inlets are on the west and the south
+and its outfeed on the east — three ports on three sides, because two lines that come from different
+places should arrive from different places. Both hoppers on one flank would be a knot at every
+assembler on the base.
+
+**A belt does not choose a box and neither do you.** The recipe already says which ingredient is
+which, so the item says where it goes: hand an assembler an iron plate and it lands in the plate
+box, hand it a rivet and it lands in the rivet box, hand it copper ore and it is refused. That is
+the whole of the sorting rule and there is deliberately nothing else to it.
+
+**And the station can still do it by hand**, from the moment the recipe arrives. That ordering is
+the point rather than a gap: a patient player can hand-press every plate the Steam Plant needs
+before the Assembler exists, and the Assembler is the thing that stops them having to — which is
+what every machine in this game has always been.
+
+### Added
+
+- `ItemId.Rivet` and the `rivet` recipe: one rod into four, at the Main Station or a crafter.
+- `StructureKind.Assembler`, `Workbench.Assembler`, and `BuildingDef.InputBoxes`.
+- **Two Things At Once**, the fourth task of The Works: sixty rivets, thirty plate and twenty
+  concrete, and it hands back enough to stand one up. It asks for the thing the task before it
+  unlocked, which is the shortest way to teach what a rivet is.
+- The `crafter` scene stands an assembler up, loads both boxes, steps the world and asserts what
+  it consumed: three plate for every eight rivets, which is the recipe. It also asserts a one-box
+  crafter is *not* offered a two-material recipe, because a machine that could never satisfy one
+  would sit at `LOAD IRON PLATE` for ever.
+
+### Changed
+
+- `Machine` holds as many boxes as its building has, checks every one of them, consumes every one
+  of them, and names the box that is actually at fault — "load iron plate" while the plate box is
+  full and the rivet box is empty sends the player to the wrong belt.
+- Taking a machine apart hands back every box. With one box that was always the same thing; with
+  two it would have quietly binned half of what was inside.
+- `BuildingSave.Input2`, absent from older saves and empty in them, which is correct: nothing in
+  them had a second box.
+
+### Fixed
+
+- The `burner` scene asserted that cutting a bush raised the *planet's* count of tiles owed a
+  plant by one. The planet is putting bushes back the whole time, so in a run where an earlier
+  scene had built over some greenery, one coming back during the same settle cancelled the cut out
+  and the check failed for a reason that had nothing to do with cutting. It asks about the tile,
+  which was always the claim.
+
 ## [1.62.0] - 2026-09-09
 
 **Reinforced Plate no longer burns coal to exist, and a machine can finally make it.** Two faults,
