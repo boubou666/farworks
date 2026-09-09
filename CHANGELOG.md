@@ -7,6 +7,43 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.63.3] - 2026-09-09
+
+**Limestone is chalk again — lighter than the rock it is bedded in.**
+
+Third of the three, and the last ore that could be mistaken for the stone around it. A lump of ore
+is normally painted in the ore's own colour, with one exception: an ore whose colour has nothing to
+say against grey rock — little saturation, no great difference in brightness — borrows its fleck
+instead. That rule exists because iron is a grey metal, and it was measuring "no great difference"
+against a flat mid grey.
+
+The stone of a deposit is not mid grey. It comes out around 0.53 whichever ore it holds, and
+limestone's pale cream sits a quarter above that: it had plenty to say. Judged against 0.5 it fell
+inside the band anyway and gave up its cream for a fleck that was darker *and* duller — so a
+limestone bed was grey stones with slightly warmer grey stones sitting on them.
+
+The rule now measures against the stone, which is what it was always trying to say. And the chalk
+itself is a stop lighter: the matrix of a deposit is mixed from the ore it holds, so a pale ore
+lifts its own rock nearly as far as it lifts the lump, and the two had arrived at the same place.
+Lighter ore, and the gap between them opens.
+
+![The bed the deep survey mapped](docs/screenshots/v1.63.3/50-limestone-bed.png)
+
+The fleck stays where it was, darker than the stone. Specks in chalk are the grit in it, and a
+speck lighter than the rock it is scattered through is a hole rather than a grain.
+
+That is all four ores on the planet saying their own thing from across a valley: hematite red, coal
+black, copper amber, limestone chalk.
+
+### Changed
+
+- Limestone deposits: chalk-coloured lumps, a stop lighter than before, on rock that no longer
+  matches them.
+- `MarkOf` judges an ore's brightness against the stone of an outcrop rather than against mid grey.
+  Iron still borrows its rust; nothing else changes hands.
+
+---
+
 ## [1.63.2] - 2026-09-09
 
 **A coal seam stops looking like the rock it is in.**
