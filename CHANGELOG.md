@@ -7,6 +7,113 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.59.0] - 2026-09-09
+
+The Steam Plant. Coal in one side, water in the other, and only as much power out as is being taken.
+
+**It follows the load, and that is the whole machine.** The fire is handed the kilowatts its grid
+actually has to do with — what the machines on it are asking for, plus room in any store — and makes
+the smaller of that and its rating. Fuel goes at the pace of what it makes, so an idle base costs a
+trickle of coal and a busy one costs the lot.
+
+The burner in the same position makes its full two hundred and forty and throws the difference away.
+That waste was written into it deliberately, from the day it landed, as the argument for building
+this — and the argument is now measurable: with nothing on its grid but a pump asking for thirty
+kilowatts, the plant makes thirty. Put a flat cell beside it and the same plant goes to its rating,
+because **a store with room is load without a ceiling**: a generator that only followed the machines
+would leave every accumulator on the base flat, which is the opposite of what one is for.
+
+![The plant, the run and the pump](docs/screenshots/v1.59.0/94-the-steam-plant.png)
+
+**Four hundred kilowatts, which is not quite two burners, and the smallness is the decision.** A
+plant is a block of power rather than an answer to it. It was rated at nine hundred first, where one
+of them carried five machine chains — and at that rating the entire system it costs was a formality
+after the first one. The lake, the run, the coal belt: all paid for once and then never thought
+about again.
+
+At four hundred a base of any size wants a **row** of them, and a row wants coal arriving on a belt
+and enough water to keep every one of them wet. **The grid follows the factory:** build another
+block of machines and you are short again, and being short is a thing you fix by laying something
+out on the map rather than by clicking a bigger building.
+
+What the plant buys over a burner was never the rating anyway. It is that it burns what is used, and
+that the coal comes out of the ground where a drill can stand on it.
+
+**One pump keeps three plants wet**, so twelve hundred kilowatts is one lake frontage. The fourth
+plant needs a second pump, which means a second stretch of shore and a second run in from it.
+
+**And coal has to be found.** Seams are thinned to under half the sites the sweep would otherwise
+lay down, because what a power station costs has to include finding the fuel for it. Seed 1337 went
+from fifty-one seams to seventeen, on a map seven hundred tiles across: that is a survey rather than
+a stroll.
+
+The thinning **removes** sites and never moves one — the roll is taken after everything that decides
+where a site would be, so the survivors are a subset of the tiles this sweep has always produced. A
+seam is either still where it was or gone, which is the one thing a world generator must not do to a
+save. Iron is untouched, at seventy-seven deposits on that seed exactly as before.
+
+Water gains about a hundred tiles out of half a million, because it refuses ground within two tiles
+of a deposit and there are fewer deposits to refuse around. None of it is anywhere a base is likely
+to be: seams near the landing site were already excluded from it.
+
+It is worth being straight about which end of the coal binds. Once a drill is standing on a seam the
+quantity is not the constraint — one drill outruns a yard full of plants. What is scarce is a seam
+near enough to belt from, and that is on purpose: this is a question about the map, not about the
+arithmetic.
+
+**Water is a second kind of thing going into a building**, and it is drawn as one. `PortKind.Fluid`
+is a new kind rather than a flag on the two that existed, because it is a different substance moving
+by different rules: an item arrives on a belt, one at a time, aimed at a tile; water arrives through
+a tube that only has to touch. So a fluid port is not drawn like an item port — a square throat with
+an arrow in it is a hopper, and a round flange with a bore and water standing in it is an inlet. A
+belt aimed at a water inlet and a pipe aimed at a hopper are the two mistakes that drawing exists to
+prevent.
+
+The plant's two lines arrive on two different sides on purpose. Coal comes in at the west on the top
+row, cut exactly as every machine in the game is, so a plant takes a belt of coal off the same lane
+a smelter takes its ore from. Water comes up from the south, because it comes from somewhere else
+entirely and a pipe and a conveyor arguing over the same tiles would be a base nobody could lay out.
+
+**And the socket is where the pipe goes.** Water goes into a *vessel* anywhere — a pipe and a tank
+are all surface — and into a *machine* only at its inlet, which is the rule ore has always followed
+into a smelter's hopper. The pump got an outlet in the same pass, so a run leaves it where the
+rising main is drawn, and the rotate key is how you point that at the shore you are running to.
+
+It costs the player nothing, and that is the only reason it is allowed to be strict: the run tool
+aims its ends at exactly these tiles, the way a belt's tail snaps to a hopper.
+
+**Without water it stops** and says `NO WATER`, which is deliberately not the same word as an empty
+fuel box: both halt the machine and they send you to opposite ends of the base. It is asked after
+whether anything wanted the power at all, because a fire with nothing to power is banked rather than
+dry — being out of water is only a fault when somebody wanted the power.
+
+### Added
+
+- **A Proper Power Station**, the third task of The Works: twenty-four reinforced plate, forty iron
+  plate and forty concrete. It is the first thing in the game that has ever needed reinforced plate,
+  which is what the coal task switched on and what the coal task was for.
+- `PortKind.Fluid`, `BuildingDef.Fluids` and `Building.PlumbedAt` — the socket, and the rule that
+  both halves of a joint have to agree to it.
+- `BuildingDef.Throttles`, `MachineStatus.Dry` and `OreDef.Scarcity`.
+- The `fluids` scene now raises steam: that it follows the load, that a flat cell brings it to
+  rating, that its inlet is binding, and that cutting the water halts it with its coal untouched.
+
+### Changed
+
+- `Burner.Tick` takes kilowatts rather than a yes or a no, and `Burner.Output` is what it made
+  rather than what it is rated for. A boiler with a governor and a firebox with none are the same
+  class with one flag between them — a second class would have hidden that.
+- A machine's screen shows what its plumbing is holding beside what its grid is getting.
+- The interact prompt asks whether there is anything to open rather than whether the building is
+  plumbed, so the plant offers its screen instead of its water level.
+
+### Fixed
+
+- The capture pass named the thing it had just put down by asking for the first of its kind on the
+  planet, which in a run where an earlier scene had already built one was a different building
+  forty tiles away on another grid. It reported, correctly, that the pump had not come onto that
+  fire's grid. Four places did it; all four now ask what is standing on the tile they built on.
+
 ## [1.58.0] - 2026-09-09
 
 Pipes are drawn as runs, there is something to keep water in, and a length of pipe finally looks
