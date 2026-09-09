@@ -7,6 +7,83 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.62.0] - 2026-09-09
+
+**Reinforced Plate no longer burns coal to exist, and a machine can finally make it.** Two faults,
+and they were the same fault.
+
+Coal is fuel. Its whole identity is a thing you burn, whose worth is a number of kilojoules and
+whose point is that it comes out of the ground where a drill can stand on it. Spending it as a
+crafting material made it compete with itself: every lump in a plate is a lump not in a boiler,
+which is not an interesting tension — it is a tax on the one job coal already has.
+
+And naming three inputs meant **no machine could run the recipe**. A machine has one input box, so a
+three-part recipe is a recipe only a pair of hands can make. That put twenty hand-pressed plates in
+front of the Steam Plant, inside the milestone whose entire subject is a base that works while you
+are somewhere else. The coal is what forced the third input, so removing it fixes both.
+
+It is four iron plates now, and a Simple Crafter can run it. Four rather than three because three
+is what an Airframe Panel takes, at the same bench for the same four seconds — two recipes with the
+same input, the same time and the same machine are one recipe wearing two hats, and a flight coupon
+and a structural plate should not be the same press. Four is also exactly the iron the old recipe
+cost, so the plant is no cheaper for having lost its coal: twenty-four plates for the task and
+twenty for the machine is a hundred and seventy-six iron plate, or three hundred and fifty-two ore.
+
+**Coal is now purely fuel.** Nothing in the game consumes it as a material, which is the cleaner
+statement and the one its whole design was written around.
+
+### Changed
+
+- `reinforced-plate` is `4 × Iron Plate → 1`, offered by the Main Station and the Crafter.
+- The `milestones` scene checks a crafter can actually run it. The recipe existing was never the
+  claim worth making; the claim is that the plant is not twenty hand-pressed plates away.
+- `Factory > Recipes` counts what a material is *built into*, not only what it is cooked into. It
+  said "Feeds: nothing yet" about reinforced plate while twenty of them stood up a Steam Plant.
+
+## [1.61.0] - 2026-09-09
+
+A window that draws every recipe in the game with the icons on — and the bug it found within a
+minute of existing.
+
+**You could build four power poles, ever.** A pole costs two rods and one cable; the objective set
+that unlocks poles hands over four poles' worth of both, so the grid goes up, spreads out and works
+exactly as intended. **The recipe for cable was never handed out by anything.** Not by an objective
+set, not by a milestone, and not from the start — it sat in the recipe list, available, marked as
+craftable at the Main Station and the Crafter, and unreachable for the whole run.
+
+So the fifth pole is the one that cannot be built, an hour past the screen that would have explained
+why, in front of a build menu offering a building made of a material the game never taught you to
+make. The set that unlocks poles hands out the cable recipe now — it is the set whose whole subject
+is the cable, and whose hand-in prompt is *"deliver the wire the grid will be strung with"*.
+
+Nothing caught it because nothing could. The capture pass builds poles by adding their cost straight
+to the pack, which is the right thing for a scene about grids and exactly what hides this.
+
+**`Factory > Recipes`** draws the lot: what goes in, what comes out, and the real icons of both,
+grouped by the machine that makes them, searchable, with craft times. Beside each line it answers
+the two questions a recipe list cannot answer about itself — **where it is unlocked**, walked out of
+the objective sets and the milestone tasks, and **what its output goes on to feed**, which is how
+you tell whether a material is earning its place in the game at all.
+
+And it checks three things, one of which was already false:
+
+- a recipe that is available and that nothing ever unlocks — the cable;
+- a recipe offered by no bench, so nothing can make it;
+- a recipe wanting an input that nothing makes, no ore drops and no bush gives.
+
+`Copy as text` puts the lot on the clipboard, and
+`-executeMethod Factory.EditorTools.RecipeWindow.DumpFromCommandLine` runs the same checks with no
+screen at all.
+
+### Added
+
+- `Factory > Recipes`, and `RecipeWindow.DumpFromCommandLine` beside it.
+
+### Fixed
+
+- The `grid` objective set hands out the cable recipe. Without it a run had exactly four power
+  poles in it and no way to make a fifth.
+
 ## [1.61.0] - 2026-09-09
 
 A window that draws every recipe in the game with the icons on — and the bug it found within a
