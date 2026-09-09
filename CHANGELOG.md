@@ -7,6 +7,111 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.65.0] - 2026-09-09
+
+**Something lives on the far seams, and it was standing on your copper the whole time.**
+
+The planet has animals on it. The **lodeback** is a heavy six-legged grazer that eats the mineral
+crust off an outcrop -- which is why it is standing on your ore, and why it wears a stripe of the
+stuff along its back. It never leaves the seam it lives on.
+
+![Three lodebacks on an iron seam](docs/screenshots/v1.65.0/97-a-herd-on-the-seam.png)
+
+That last part is the whole design, and it is worth saying plainly because the usual version of
+this feature is the opposite one. Nothing here comes for your base, at any setting. There are no
+waves, no raids, no turrets, no ammunition and no building damage -- a factory game that adds those
+becomes a game about defending a factory, and this one is about scarcity and distance. Fauna is one
+more statement about *where you may expand*, which is the pressure the planet was already built
+around: a surveyed deposit used to be a walk, and some of them are now a walk and a decision.
+
+### Which seams
+
+Rolled from the planet's own seed alongside the ore, so a guarded seam is guarded on every machine
+and in every session, and none of it is written down. Never inside the 48-tile ring the opening
+happens in, and never the starter node. More likely the further out you go, more likely on a rich
+seam, and leaning heavily on titanium and quartz -- difficulty belongs where the game is already
+asking something of you. A planet where every good seam was occupied would be a planet with one
+mechanic, so a fat unguarded find is still a find.
+
+They cost nothing until you are near one. A site stands its herd up when somebody comes within
+forty-four tiles and drops it again past sixty, which is the same bet the flora makes: only what
+somebody could actually see exists at all.
+
+### What they make of you
+
+A new world asks. **Provoked**, which is what it starts on, means they hold their ground, and an
+animal that notices you inside four and a half tiles stops, plants its feet, turns square on and
+watches. That is the whole of what it does. **Aggressive** means they come for anyone within nine
+tiles of the seam and go home again afterwards. **None** is an empty planet.
+
+![A lodeback warning somebody off the ore](docs/screenshots/v1.65.0/98-warned-off-the-ore.png)
+
+Hit one and it minds under every setting, and so do the others standing near it -- which is the
+whole reason a herd of three is worse than one animal three times. A blow is twelve against your
+hundred, with a wind-up of over half a second before it lands, and they move at four and a half
+against your walk of five point two. **Backing off always works.** That is deliberate: it is what
+lets somebody decline a fight they wandered into.
+
+And a chase is on a leash. Eight tiles past its own ground and it turns round and goes home --
+without that, a chase that starts at a copper seam ends at your smelter, and the game has quietly
+become base defence through the back door.
+
+### The stick
+
+The **Scrap Maul**: two rods and three scrap at the crafting bench. A swing is a cone rather than a
+point, so two animals stood together take one swing between them, and a lodeback takes three. It
+leaves **Alien Meat**, two to five of it, which burns in a biomass burner at rather better than
+leaves -- cooking is a machine that does not exist yet.
+
+There is no gun and there is not going to be one for a while. A weapon that eats a manufactured
+round is a production tree, a belt run and a reason for the base to exist, and that is the single
+biggest step toward the game this is not.
+
+### Health, and dying
+
+You have health now, and one door every point of damage in the game goes through -- written that
+way on the first day so that a shield can be a second pool behind it later without anything else
+in the game being told. The readout above your hands has room for two bars and draws one; it hides
+itself while you are whole.
+
+It comes back on its own six seconds after the last hit, at two and a half a second, all the way to
+full. What a fight costs is the walk, the swings and the half minute of standing about afterwards.
+
+Dying puts you back at the Main Station, and what happens to your pack is the other thing a new
+world asks: **kept**, **gone**, or **waiting in a Storage Box where you fell** -- an ordinary box,
+so it saves with the world, opens like any other, and gives its plates back when taken apart. It
+does not tick away. Under all three rules your tools stay on you: losing the pistol would mean you
+cannot mine, so you cannot make a pistol, so the run is over and the game never says so.
+
+### A screen before the planet
+
+`NEW GAME` used to drop you straight onto a world. It asks first now -- the fauna setting, the
+death rule and a seed, or nothing for a planet nobody has seen. Both settings are also on the pause
+menu under `THIS WORLD`, because a difficulty nobody can change their mind about is one people set
+wrong and then stop playing. They travel with the save rather than with the machine, and in co-op
+they will belong to the host.
+
+Turning the fauna off does not move the ore. The seed places the occupied seams under every
+setting, including None, and the setting only decides whether anything is standing on them -- which
+is what lets it be switched twice. **A world saved before this update comes back with no animals on
+it**, faithfully, rather than with three standing on the seam its miner is on. Switch them on from
+the pause menu when you want them.
+
+### Coming back
+
+Killing one is booked against the seam rather than forgotten with the animal, and four minutes
+later something walks back onto it. Never while anybody is near enough to see it happen, and never
+onto ore that has been built on -- a miner, a foundation or a lit yard takes that seam for good,
+which is a factory answer to a fauna problem and the shape the whole feature is meant to have.
+
+An animal that loses its quarry walks back to its own ground and mends there, so clearing a seam
+is a fight rather than a war of attrition run two swings at a time.
+
+The design, including the long list of things deliberately left out, is in
+[`docs/design/fauna.md`](docs/design/fauna.md).
+
+---
+
 ## [1.64.0] - 2026-09-09
 
 **A line can divide, and three lines can become one — and both fittings go down on a belt that is
