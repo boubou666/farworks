@@ -7,6 +7,65 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.56.0] - 2026-09-09
+
+The second milestone opens, and it opens on coal.
+
+**Something Better to Burn.** Every coal seam this planet was built with has been reserved and
+dormant since the day it was rolled; the first task of The Works brings them up. One lump is
+twenty-five seconds of a burner against five for a handful of leaves, and a full box is an hour and
+a half rather than a quarter of an hour — but the step that matters is not the number. Coal comes
+out of the ground, where a drill can stand on it and a belt can fetch it, and the visit stops being
+yours at all.
+
+**It is paid for in leaves,** which is the joke and the point: a hundred and fifty of them is a
+proper walk, and it is the last one this particular errand ever asks for.
+
+It also switches on **Reinforced Plate**, which has been sitting in the recipe list unavailable
+since it was written, because the one thing it needs is coal.
+
+**A late ore no longer moves the ore before it.** This is the part worth reading. Ores added after
+the field was designed are laid down by a second sweep, so that adding one never shifts a deposit
+an existing save is standing on — and that sweep picked from a weighted pool of *all* late ores. It
+protected the first pass and did the very thing it exists to prevent to itself: with limestone alone
+in the pool every eligible cell was limestone, and adding coal made a share of those cells roll coal
+instead. Limestone beds would have moved out from under bases built on them.
+
+It is one sweep per ore now, each with a salt of its own, in the order the ores appear in the table.
+A later ore only lands where the earlier ones left a gap. The first late ore keeps the salt the
+single sweep used and is offered a pool of exactly itself, so its beds come out on precisely the
+tiles they always have.
+
+Measured on three seeds including a real save's, before and after: surfaced deposits identical
+(77 / 78 / 71), dormant sites rising as the coal is reserved (100 → 151, 114 → 167, 120 → 179).
+Water retreats very slightly, because it refuses any tile within two of a deposit — and it can only
+ever retreat, so ground somebody has built on stays ground.
+
+**And you can build out over water.** A foundation or a roof goes down on a lake or a river now:
+a slab is what you lay to make somewhere to stand, and the place that most needs one is the place
+there is none. It is also how a base will reach the lake it is going to draw from.
+
+Nothing else stands in water, and nothing at all stands in a river — that is the one piece of
+terrain crossed on foot, and a base grown across a ford takes away the only thing a river is for.
+What may go where is a property of the building rather than of the ground, so the intake that comes
+with the pipes will simply say it belongs in a lake.
+
+### Added
+
+- `MilestoneTask.RewardOres`. The objective sets have been able to hand over an ore since copper;
+  the milestones could not, and unlocking one is the largest thing a task can pay out — the reward
+  is not a line in a menu, it is the map changing.
+- `BuildingDef.Water`, saying what water a building may be put down in: none, any, or standing
+  water only.
+- The `terrain` scene checks a slab may be laid on both kinds of water and that something wanting
+  dry land may be laid on neither; the `milestones` scene checks the coal task brings seams up, that
+  coal is a real step over leaves, and that Reinforced Plate came with it.
+
+### Changed
+
+- `works-stock` is gone. It asked for parts and paid back parts, and served neither the milestone
+  it was in nor the player.
+
 ## [1.55.0] - 2026-09-09
 
 **Eight item icons redrawn, and the fault they shared was one fault.** Iron Bar, Iron Plate,
