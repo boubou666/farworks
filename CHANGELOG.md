@@ -7,6 +7,51 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.63.2] - 2026-09-09
+
+**A coal seam stops looking like the rock it is in.**
+
+Coal was drawn twice over in the same colour. The stone of an outcrop is pulled a little way toward
+the ore it holds — so a copper outcrop is warmer than an iron one — and coal's ore is black, which
+pulled its rock a quarter darker than every other deposit on the planet. Then the lumps were laid
+on it in black. A black lump on a near-black stone is a stone, and the one picture that exists to
+say *coal* said nothing at all.
+
+Three things, and each of them is the same idea from a different side: **the ore has to be darker
+than the rock, and the rock has to be light enough for that to mean something.**
+
+- The stone keeps the tint the ore lends it and gets back the brightness it took away. Below a
+  floor the matrix is lifted toward plain stone grey. Coal is the only ore that reaches it — the
+  next darkest is copper's, and the floor is set just under that so nothing but the black ore moves.
+- A lump takes its lit face from the ore's own highlight rather than from a paler version of its
+  body. Whitening lifts a dark ore much further than a bright one: the lit facet of a lump of coal
+  came out at exactly the brightness of the rock behind it, so the lump had a hole in it. Iron and
+  copper are lit as they were; coal now stays dark and catches a glint.
+- A coal outcrop shows more coal. A seam is a band in the rock rather than three nodules caught in
+  it, and a dark ore needs the room — iron is seen by being brighter than the stone, which coal can
+  never be, so it is seen by covering enough of the stone to read as a shape rather than a shadow.
+
+![The seam the deep survey brought up](docs/screenshots/v1.63.2/89c-a-coal-seam.png)
+
+The specks scattered through the stone are soot now as well. Left unset, a fleck fell back to the
+ore's highlight, so a coal seam was dusted with grit lighter than the rock.
+
+And the burner scene stands at the seam it just brought up and takes its picture, which is the only
+way this class of thing can be checked: whether a deposit can be told from a boulder is not a
+question a log line can answer.
+
+### Changed
+
+- Coal deposits: lighter matrix, blacker and more numerous lumps, sooty flecks.
+- Ore lumps take their lit face and their glint from the ore's highlight rather than from white.
+- `OreDef.Bulk` — how much of an outcrop is visibly ore. One for every metal, 1.6 for the coal seam.
+
+### Added
+
+- `89c-a-coal-seam` in the burner capture scene.
+
+---
+
 ## [1.63.1] - 2026-09-09
 
 **An iron outcrop stops looking like a copper one.**
