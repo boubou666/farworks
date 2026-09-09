@@ -7,6 +7,97 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.64.0] - 2026-09-09
+
+**A line can divide, and three lines can become one — and both fittings go down on a belt that is
+already running.**
+
+Everything a base moved until now moved down one lane. A smelter fed one crafter; a crafter fed one
+box; a line that had spare capacity had it in exactly one place, and the only way to send some of
+what was on it somewhere else was to build a second line all the way back to the source. Which is
+the fault a factory game is measured by: the base you can imagine is bigger than the base you can
+wire.
+
+Two fittings, one tile each, and they are the same machine read in opposite directions.
+
+**Splitter** — one line in on the west, and out of the other three sides. What arrives goes out of a
+different mouth each time, so one belt feeds three.
+
+**Merger** — three lines in, one out on the east. Taken a line at a time, so no line into it can
+starve another out.
+
+![A splitter spliced into a running line](docs/screenshots/v1.64.0/95-a-splitter-in-the-line.png)
+
+### Going down on a live belt
+
+The part worth having is where you put one. Every other building in the game goes down on ground
+nothing has claimed; a junction goes down **on the line**. Point at a tile of a belt that is already
+carrying, and the ghost turns itself to face the flow — a fitting on a running line has exactly one
+sensible way round, and asking somebody to work out which of four turns that is while they are
+looking at a belt whose direction they can see would be a puzzle with one answer. Click, and the run
+is cut in two around it: what is behind feeds its lone mouth, what is ahead is fed by the mouth
+opposite, and both halves stay runs you can take up on their own afterwards.
+
+Nothing is lost to the cut. What was riding the belt keeps riding it, at the same distance along
+whichever half it was on; the one or two things actually passing over the fitting's own tile go into
+your pack, along with the tile of belt it is now standing on.
+
+It refuses where either half would be left too short to be a run — a belt needs two tiles, so there
+have to be two behind and two ahead. The ghost goes red rather than leaving a stub nothing could be
+laid on.
+
+### The share, and the overflow
+
+A mouth holds exactly one item. That is all the buffering there is, deliberately: a fitting with a
+hopper in it would smooth over a line that cannot keep up, and a line that cannot keep up is the one
+thing a factory has to be able to see. Three items sitting in a splitter is a splitter whose three
+lines are all backed up, and it looks like it.
+
+**A backed-up mouth is passed over rather than waited for.** So a splitter is an overflow as well as
+a share: send a line into one, take the main run off the far side and a spur off a flank, and the
+spur only fills when the main run cannot take any more. It picks the main run back up the instant it
+clears. A merger works the same way from the other end — a line with nothing on it is skipped, not
+waited on.
+
+A mouth with no belt on it is skipped too. Otherwise the first thing to reach it would sit there for
+the life of the base.
+
+![Three lines into one](docs/screenshots/v1.64.0/96-a-merger-in-the-line.png)
+
+### Earned in The Works
+
+A new task in the second milestone, **Where a Line Divides**: forty iron rod, thirty copper wire and
+twenty plate, and it pays out both fittings plus enough material to stand two of each up. Nothing it
+asks for comes off the coal line, so it can be taken first — the tasks of a milestone are chosen
+rather than queued, and a task that quietly needed another one done first would make that choice a
+lie.
+
+### Added
+
+- **Splitter** and **Merger**, one tile each, in the Logistics drawer. Eight iron plate, eight iron
+  rod and six copper wire apiece — one bill for both, because they are the same box of parts wired
+  one way round or the other.
+- Either can be placed on a tile of a running belt, which cuts the run in two around it and
+  reattaches both halves. The ghost takes its turn from the flow.
+- `Junction`, the works inside both: a mouth per port, and a cursor at each end that moves on only
+  when something actually moved.
+- A `junctions` capture scene, which splices both fittings into a live run and asserts the share,
+  the overflow and the merge by stepping the simulation rather than by watching it.
+
+### Changed
+
+- A junction's plan is drawn a quarter of a tile wider than the tile it stands on, so a fitting one
+  tile square has room for a casing worth looking at. The four throats are cut back out to the edge,
+  so the overhang is corner casing and never a lip in front of a mouth.
+- A belt names the tile it is asking from when it takes from or gives to a building. Everything with
+  one mould or one front shelf answers the same whichever side you stand at; a junction has three
+  mouths and they hold three different things.
+- What a junction is holding is written into the save — at most four numbers, and a base that lost
+  three items off every fitting on it each time somebody closed the game would be a base that
+  quietly leaks.
+
+---
+
 ## [1.63.3] - 2026-09-09
 
 **Limestone is chalk again — lighter than the rock it is bedded in.**
