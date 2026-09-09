@@ -7,6 +7,87 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.57.0] - 2026-09-09
+
+Water, and the pipes it moves through.
+
+**A network is one tank.** Every length of pipe on a run and every vessel joined to it is a share of
+one body of water, and there is no upstream, no pressure and no travel time. That is the decision
+the whole system rests on, and it is the right one because a pipe is opaque: nothing is travelling
+for anybody to watch, so a queue of invisible parcels inside a tube buys nothing a pool does not.
+
+What the fluid model is, then, is `PowerNetwork` in different units — and it is written beside it on
+purpose, `FluidNetwork` next to the one it copies. The behaviour that was asked for falls out of the
+capacity rather than being written: **a full network stops its pumps** because there is no room, so
+the push is capped at nothing. Which is the same thing a belt does when the far end will not take
+another plate, arrived at by subtraction.
+
+![A pump moored in a lake](docs/screenshots/v1.57.0/90-the-pump-moored.png)
+
+**The Water Intake** stands in standing water and nowhere else — a river is the one piece of terrain
+crossed on foot, and a base grown across a ford takes away the only thing a river is for. It pumps
+six cubic metres a second, which is two steam plants with a little over, and one per base is the
+intended shape: the interesting decision is where the lake is relative to everything else, and it
+stops being interesting the moment the answer is "build four more pumps".
+
+It draws thirty kilowatts, so the base's water is downstream of the base's power and a grid that
+falls over stops the boilers twice. It also **stops asking for power the moment its run is full**,
+which is the same sentence as a smelter with nothing left to melt: a machine with nowhere to put
+what it makes asks the grid for nothing.
+
+**Pipes are joined by touching.** Two things whose footprints share an edge are on the same network,
+and a pipe is what you lay to make two distant things touch. Corners do not count. That is
+deliberately not what a power grid does — a grid is poles reaching across open ground because the
+interesting decision there is where a mast goes, and there is no interesting decision about a tube.
+
+**Length is volume.** Two cubic metres a tile, so a generous run between a pump and a plant is a
+buffer that rides out a hiccup, and a short one is not. That gives pipe length a meaning without a
+line of pressure arithmetic, and it is why a tile of pipe costs one plate: a run priced to be
+thought about is a run nobody lays generously.
+
+They span any water, like a slab, so a run reaches a moored pump without a causeway laid under every
+tile of it. And they are walked over rather than round, like a belt — a run of tube that fenced a
+base in half would be the reason nobody ever laid one through it. Which does mean a run laid across
+a lake can be walked along. That is a pipe bridge, and it is what one looks like.
+
+![Standing on the run, reading it](docs/screenshots/v1.57.0/91-water-in-the-pipes.png)
+
+**And you can read one.** Stand at a length of pipe and it says what its run is holding and what is
+happening to it, with no key beside it, because there is nothing to press. It reports the whole
+network rather than its own share — that is the model rather than a dodge: a network is one tank, so
+"the water in this pipe" and "the water on this run" are the same quantity asked about from two
+places.
+
+Anything you can actually use beats a readout when the game decides what you are standing at, so a
+pipe threaded past a machine never takes the prompt off the machine. That was the thing worth
+getting right: an inspection that stole the prompt off the plant you were standing at would be worse
+than no inspection at all.
+
+**One thing here is worse than it should be.** A pipe is laid a tile at a time, like a wall, rather
+than drawn as a run like a belt. The two-click tool is the better fit and it is not a small change —
+it plans lifts, cliff crossings and the ports at either end — so it is a job of its own rather than
+one done badly on the way past. It is the next thing.
+
+### Added
+
+- `FluidNetwork` and `IFluidNode` in `Items`, `FluidGrid` in `Interaction`. One tank, one flood
+  fill, one tick, deliberately shaped like the power pair beside them.
+- **Draw From the Lake**, the second task of The Works: thirty plate, twenty wire and thirty
+  concrete for the pump, the pipe, and the plate to reach the water with. It asks for nothing coal
+  can make, on purpose — the tasks in a milestone are chosen rather than queued, and a task that
+  quietly required another one first would make that choice a lie.
+- `IInteractable.JustLooking`, for a thing with something to tell you and nothing to do.
+- The `fluids` scene: a pump moored, a run laid ashore, a fire lit beside it, and the six claims
+  the model rests on — including that taking a length out of the middle of a run splits the network
+  in two, and that the water stays where it physically was.
+
+### Changed
+
+- `BuildingDef` carries `Volume`, `Drain`, `Thirst` and `IsPipe`; `BuildingSave` carries `Water`,
+  absent from older saves and read as an empty pipe.
+- A pipe finishing does not announce itself. Twenty notices for twenty tiles would teach the player
+  to stop reading them, which is what the belt has always understood.
+
 ## [1.56.0] - 2026-09-09
 
 The second milestone opens, and it opens on coal.
