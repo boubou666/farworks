@@ -7,6 +7,78 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.58.0] - 2026-09-09
+
+Pipes are drawn as runs, there is something to keep water in, and a length of pipe finally looks
+like a length of pipe.
+
+**Two clicks, the same as a belt.** Picking a pipe out of the build menu now starts the run tool:
+click where it begins, click where it ends, and the ghost shows the L it would lay with the price
+under it before anything is committed to. The turn key flips which way round the L goes, the tail
+snaps onto the hull of a pump or a tank, and the whole thing goes down as one act — one price, one
+flight of material out to it, one notice.
+
+That was the piece of the last release that was worse than it should be. Laying a run a tile at a
+time is fine for a wall and absurd for something you lay thirty of between two machines.
+
+![Drawing a run of pipe](docs/screenshots/v1.58.0/91-drawing-a-run.png)
+
+**What the two runs share, and what they do not.** Everything the player touches is one tool now —
+`RunPlacer` — and what each kind may do with the path it is handed is its own business:
+
+- A belt is flat, so where the ground steps `BeltPlan` cuts the run in two and drops a lift between
+  the halves.
+- **Water does not care about height**, so `PipePlan` does nothing at all about a step. A run that
+  walks up a cliff is a length at the bottom and a length at the top, touching, and touching is
+  already one network.
+
+That is the no-pressure decision paying for itself a second time. It was made to avoid simulating
+anything, and what it actually bought was a whole class of machinery that never had to be written.
+
+**The Water Tank.** Two hundred cubic metres on four tiles, which is a hundred tiles of pipe and
+costs rather less than a hundred tiles of pipe. That bargain is deliberate: a long run is a buffer
+you get for free by taking the scenic route, and the tank is the one you build on purpose when the
+scenic route is not long enough. It joins a run by standing against it, like everything else, and
+reads its network the way a pipe does.
+
+![A tank on the run](docs/screenshots/v1.58.0/92-a-tank-on-the-run.png)
+
+**And the pipes look like pipes.** The first pass came out as a guardrail: a pale band nearly the
+width of the tile, a dark rib at every boundary, and a quarter tile of flank with a shadow under it.
+Three things were wrong and all three are worth writing down, because each is a rule about drawing
+anything round in this game.
+
+It was too wide. A tube has to be narrow enough that the ground shows either side of it or there is
+nothing for the eye to read the roundness against — a quarter of a tile, not two thirds.
+
+Its section was symmetrical, so it read as a strip of tape. What says *round* is the highlight
+sitting a third of the way in from the lit edge with a long fall away behind it, and the shaded edge
+going much darker than the lit one ever does. That cannot come from the form shading, which works
+off the silhouette — and the silhouette of a straight length is two parallel lines whatever shape is
+between them. So the section is painted into the plan.
+
+And it had a height, which is what actually made it a wall: a hull with one gets a flank extruded
+down to the ground and a shadow thrown the length of it. Both are right for a thing standing up. A
+pipe lies down, and so it has no height at all, exactly as a belt has none.
+
+### Added
+
+- `IRunPlan` and `RunPlan`: what a drawn path is allowed to be, and the parts every kind of run
+  answers the same way. `BeltPlan` implements it and `PipePlan` is new.
+- `StructureKind.WaterTank`, unlocked by **Draw From the Lake** along with the pump and the pipe.
+- `ProceduralArt.PipeSection`, the cross section every cylinder in the game is now painted from —
+  the pipe, its menu tile, and the tank's.
+- The art dump writes all sixteen joins of a pipe, the same way it writes a wall's.
+
+### Changed
+
+- `BeltPlacer` is `RunPlacer`, `GameRoot.Belts` is `GameRoot.Runs`, and `ActionKind.LayBelt` is
+  `LayRun` with the kind riding in `Structure`. An action that names nothing is a belt, which is
+  what every run was until there were two.
+- A pipe is no longer refused for being under your feet. It is stepped over, so standing on one is
+  a thing you do rather than a thing that stops you — and a run drawn through where you happen to
+  be standing was being refused for a reason nothing on the screen could explain.
+
 ## [1.57.0] - 2026-09-09
 
 Water, and the pipes it moves through.
