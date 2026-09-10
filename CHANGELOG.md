@@ -7,6 +7,71 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.70.0] - 2026-09-10
+
+**Nobody misses the opening now, everybody can turn it off, and the hauler is plated.**
+
+Four things the film needed once it was actually being watched.
+
+### The interface was sitting on top of it
+
+The tutorial card, the message line and the build row were all drawn over the wormhole. A UI Toolkit
+panel is drawn over every camera in the scene, and the film's own panel is transparent everywhere it
+is not drawing -- so once the set became a real camera rather than a sheet of interface, everything
+the game had on screen came through the gaps.
+
+The whole document stands down while the film runs. Hiding it one element at a time would have
+worked exactly until the next thing was added to the screen.
+
+### The loading screen waits for you
+
+Rolling a planet takes a second and a half, which is long enough to look away -- and a film that
+starts itself into an empty room has spent the one chance the game gets to explain how somebody came
+to be standing next to a wreck.
+
+So the page finishes its bar and then holds: **PLANETFALL READY -- PRESS ANY KEY TO BEGIN**. The run
+begins when a person says so.
+
+Only when there is a film after it. A loading screen that goes when the loading is done needs no
+key, and asking for one would be a step added to every landing for nothing.
+
+### And you can turn it off
+
+**OPENING -- PLAY IT / SKIP IT**, on the new-game screen, beside the fauna and the death rule.
+
+It is not a world setting -- the planet is identical either way -- but that screen is where a new
+game starts and the only place the question means anything. It belongs to the person at the
+keyboard, so it is remembered across planets rather than written into the save, and with it off a
+new game goes straight to the dirt with no key to press.
+
+### The hauler was too smooth
+
+It was, beside the machines it is meant to have been built in the same yard as. Four changes, all
+of them borrowed from how those machines are drawn.
+
+**It is plated with the game's own hull sheet** -- the one every wall on the planet is walled with,
+with its stiffener ribs and a course every half tile, each of them a dark line with a lit line
+beside it. A sheet of its own would have been a second answer to a question already answered.
+
+**Every mass is a plate laid on a shadow.** In two dimensions that is a dark rectangle with a
+lighter one painted inside it; in three it is not, and the first attempt at it turned the whole ship
+black, because a smaller box inside a larger one is a box nobody can see. The shadow is the whole
+box now, and the plate is six quads laid on its faces, held in from the edges. What shows between
+them is a dark lip round every face and all the way round the silhouette.
+
+**Roofs go up and undersides go down**, past what the angle alone gives -- the same 0.90 and 0.52
+the game's own hulls are extruded with.
+
+**And every face has a gradient down it.** One flat value per face is a facet; a value that falls
+from the top of a face to the bottom is a surface with a shape. The game's hulls get that from their
+relief. A box has none, so it is put in by hand, and it is the single biggest reason the first pass
+came out looking soft.
+
+The fill light was also pointing the wrong way -- along the camera's own forward axis, which lights
+every face the camera cannot see. It comes over the lens now.
+
+---
+
 ## [1.69.1] - 2026-09-10
 
 **The film shouted at the log for the last second of itself.**
