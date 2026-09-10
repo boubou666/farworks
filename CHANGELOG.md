@@ -7,6 +7,111 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.68.0] - 2026-09-10
+
+**How you got here, and a way out of every window.**
+
+The game has opened on a wreck and a line of text saying there had been an emergency landing since
+there was a game. This release shows the landing. It also puts a cross in the corner of every
+screen that can be closed, which is the thing everybody looks for and the one thing this interface
+has never had.
+
+![The cargo hold, with the way out where people look for it](docs/screenshots/v1.68.0/01-a-way-out.png)
+
+### A cross in the corner
+
+Every window that can be closed now has one in its top right: the cargo hold, the Main Station
+screen, a machine, the map, the build and survey pickers, the stack splitter, the sheet a milestone
+opens, the menu `Escape` opens, and the panel a right-clicked player gets.
+
+It does exactly what the key does. `Escape` always worked, and clicking the dimmed ground around
+most panels always worked, and **neither of those is visible** -- somebody who has not been told
+about the key is somebody looking for the way out, and the place everybody looks is that corner.
+
+Three of them are deliberately not the gesture beside them. On a **machine** and in the **hold**, a
+click on the dimmed ground with a stack in hand throws the stack on the floor; the cross closes the
+window and puts the stack back, because the way out of a screen must never be a way to drop what
+you are carrying. On the **build menu**, `Escape` steps back out of an open drawer before it closes
+anything; the cross does not step anywhere -- it is the way out of the window it is drawn on. And
+on the **pause menu** it leaves altogether rather than stepping back a page.
+
+It is red only under the cursor. A permanent red mark on every screen in the game would read as a
+warning rather than as a door.
+
+### The opening
+
+A new game opens on half a minute of film. **Any key skips it.**
+
+![Into the throat](docs/screenshots/v1.68.0/02-into-the-throat.png)
+
+A hauler crossing on a wormhole, in freight colours and with one lit window on the bridge. It goes
+in.
+
+![The bridge, once the transit starts coming apart](docs/screenshots/v1.68.0/03-the-bridge.png)
+
+Then the bridge, from the chair: the throat outside the glass, the instruments reading normal for a
+good two seconds, and then the klaxon. The drive is overdrawn, the hull starts falling, and the
+counter says how long until the ship is thrown back out into ordinary space -- which it is, hard,
+with a planet underneath it that nobody has a name for.
+
+![The ship goes](docs/screenshots/v1.68.0/04-the-ship-goes.png)
+
+Two charges, and then the ship.
+
+![Thrown clear](docs/screenshots/v1.68.0/05-thrown-clear.png)
+
+One escape pod comes out of the middle of it and goes for the planet -- **the same pod that is
+lying in the dirt when the film ends**, with the same orange band round its nose.
+
+![Coming down](docs/screenshots/v1.68.0/06-coming-down.png)
+
+And the last shot is from inside it: one window with the air burning past, a wall of ribbed plate,
+smoke off a panel that is no longer a panel, and the bus bars behind it arcing every second or so.
+The altitude counts down, the skin temperature climbs, the hull stops saying SEALED. Then black,
+and then the planet.
+
+**It is drawn out of the same pixels as everything else.** Nothing here is a video file or a
+timeline asset: the hauler, the throat, the planet, the fire and the pod's interior are generated
+by `ProceduralArt` like every other picture in the game, from the same hull grey and the same signal
+orange the wreck on the ground is painted in. The cockpit's instruments are the interface's own
+telemetry rows, because the console a pilot reads and the console a player reads should be the same
+console.
+
+**It only ever plays on a landing.** Continuing a save is somebody coming back to a planet they came
+down on already, and joining a friend's world is somebody who never came down on it at all. A
+headless host and the capture pass never see it either.
+
+**The world's clock stops while it runs.** Blocking the keyboard is not enough: the planet has
+animals on it that do not need a keyboard, and half a minute of somebody standing still with their
+hands off the controls is half a minute in which something could walk up and kill them behind the
+film. The film runs on the unscaled clock and does not notice; the speed the player had set is put
+back exactly as it was.
+
+**And it can always be walked out of.** Any key, any mouse button, any pad. Somebody starting their
+fourth planet has seen it, and a film that cannot be skipped is a film that gets resented on the
+second viewing rather than on the tenth.
+
+### Sound
+
+Six new cues, all silent like the other fifty-two: the throat of the wormhole and the klaxon on the
+bridge, both loops; the charges and then the ship itself; a panel arcing in the pod; and the air
+against a heat shield. They are on the effects channel rather than on music, because somebody who
+turns the music off to play to their own still wants to hear the hull go. `docs/design/sound.md`
+has the list.
+
+### Under the hood
+
+`ProceduralArtIntro.cs` holds the thirteen pictures the film is cut from -- the hauler, the pod
+under way, four torn pieces of hull, the throat, the planet, a blast, a flame, a puff, a star, the
+ring round the porthole, the wall behind it, and the panel that gave out. `IntroCinematic.cs` is the
+shot list, the layout and the timing.
+
+The planet is painted out of the ground colours the world is actually made of -- regolith, basalt,
+ferric sand, a cap of rime ice -- so the place that grows in the last shot is the place you are
+standing on a minute later.
+
+---
+
 ## [1.67.0] - 2026-09-10
 
 **Meat is food now -- and the only weapon in the game turns out to have been unbuildable.**
