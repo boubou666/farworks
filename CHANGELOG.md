@@ -23,6 +23,8 @@ the game had on screen came through the gaps.
 The whole document stands down while the film runs. Hiding it one element at a time would have
 worked exactly until the next thing was added to the screen.
 
+![The page holds until somebody is watching](docs/screenshots/v1.70.0/01-press-any-key.png)
+
 ### The loading screen waits for you
 
 Rolling a planet takes a second and a half, which is long enough to look away -- and a film that
@@ -43,6 +45,8 @@ It is not a world setting -- the planet is identical either way -- but that scre
 game starts and the only place the question means anything. It belongs to the person at the
 keyboard, so it is remembered across planets rather than written into the save, and with it off a
 new game goes straight to the dirt with no key to press.
+
+![Plated, and lipped, and lit like a machine](docs/screenshots/v1.70.0/02-plated.png)
 
 ### The hauler was too smooth
 
