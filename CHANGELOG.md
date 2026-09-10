@@ -7,6 +7,83 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.75.0] - 2026-09-11
+
+**The pod comes down outside, and a new planet is hostile ground.**
+
+![In the air](docs/screenshots/v1.75.0/01-in-the-air.png)
+
+### The last shot of the film leaves the cabin
+
+The opening ended in a room: a wall of ribbed plate, a porthole with fire drawn behind it, a panel
+shorting, and a console counting down to the ground. It was cheap, and cheap in a way no amount of
+work on it would have fixed -- a film that has just taken a ninety-unit hauler apart in three
+dimensions cannot then cut to a still frame with an animated window in it.
+
+The whole shot is the set now. The capsule falls with its own shock standing on the nose, a sheath
+laid down its body every frame and a trail dropping away behind, and the planet comes up at it until
+there is nothing else in the frame. Then a hard cut to black, in a third of a second, because
+easing that out over a second and a bit reads as the film losing interest rather than as arrival.
+
+![Coming down](docs/screenshots/v1.75.0/02-coming-down.png)
+
+Four things had to be got right and each of them was wrong first:
+
+**It cuts to the daylight.** The hauler came apart on the planet's night side -- that is where the
+wide shot puts it, and the wide shot is built round where the light comes from -- so a pod falling
+from the wreck arrives over ground nobody can see. The film cuts, the way films do, and picks the
+capsule up over the lit face with the terminator still behind it.
+
+**The camera is held, not sprung.** Every other camera in the film chases its subject on a spring,
+which is right for a hauler drifting at a few units a second and hopeless at fifteen hundred: a
+spring lags by speed over grip, so the capsule left the frame entirely and what was on screen was
+its wake, photographed from half a kilometre back.
+
+**Everything thrown off the capsule is given the capsule's own velocity.** A spark handed a
+velocity of its own is standing still the moment it is born, because the thing that made it is
+doing fifteen hundred a second and the spark is not -- so the fire came out as a string of separate
+comets strung across the sky behind an empty frame.
+
+**And the fire has to be smaller than the thing on fire.** The first cut had a shock cap of thirteen
+units and three overlapping tongues of fifteen, all drawn added, round a capsule eleven units long.
+They stacked into one white ball with a pod somewhere inside it.
+
+![The ground](docs/screenshots/v1.75.0/03-the-ground.png)
+
+The surface got a coat of grain to survive being looked at from six hundred units up. Every other
+term in that map is a smooth field sampled on the sphere, so its finest feature is many texels
+across however high the frequency is wound, and the ground stayed a smear at the range the last shot
+reads it at. One texel of noise, laid down per texel, is what makes it ground made of pixels --
+which is what everything else in this game is made of.
+
+The cabin's own pictures went with it: the porthole ring, the ribbed wall, the shorted panel and its
+three bolts are gone, along with the sheet of interface that arranged them.
+
+![The screen a planet is ordered from](docs/screenshots/v1.75.0/00a-main-menu-create.png)
+
+### Fauna starts on AGGRESSIVE
+
+A new world arrived on *provoked*, on the argument that a creature ought to be an obstacle you take
+on at a moment you choose. In practice that makes a guard site scenery: you walk up to it, nothing
+happens, you walk away. The aggro radius and the leash were built precisely so the site itself could
+be dangerous ground without the game turning into base defence -- and they were on a setting nobody
+had to pick.
+
+So a planet arrives on **aggressive**. The two gentler modes are still one press away on the screen
+above, and fauna is deliberately not baked into the planet: the seed places every guard site and its
+herd under all three settings, so the mode can be moved at any point in a run and the ore does not
+shift an inch.
+
+Nothing already played through changes. Nought is still *none* -- the value an old save has to come
+back as -- and every save names its own mode explicitly rather than leaning on the default.
+
+The page a planet is actually ordered from had never had its picture taken, which meant the one
+setting that decides what a whole run feels like could be changed without any pass noticing. It is
+shot now, and the capture reads the fauna row off the live page and fails if it is not what it is
+meant to be.
+
+---
+
 ## [1.74.0] - 2026-09-10
 
 **A lifeboat the size of a lifeboat, and a wreck that behaves like one.**
