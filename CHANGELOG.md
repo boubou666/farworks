@@ -7,6 +7,102 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.69.0] - 2026-09-10
+
+**The opening film, shot instead of drawn.**
+
+1.68.0 put half a minute of film in front of a new game. It was flat sprites on the interface being
+scaled and slid about, and it looked it. This is the same film with a camera in it.
+
+The complaint and the fix are worth writing down together, because they are the same sentence. **A
+picture that only scales cannot say how far away it is.** A ship that tumbles is a picture turning
+on the spot. A wormhole is a spiral getting bigger. An explosion is a soft disc being scaled up.
+None of that is a matter of tuning -- there is no easing curve that puts depth into a drawing that
+has none.
+
+The game has been genuinely three dimensional since 1.27.0, with meshes, materials and a camera
+that can be flown. There was no reason to be faking it.
+
+![Into the throat](docs/screenshots/v1.69.0/01-into-the-throat.png)
+
+### There is a camera
+
+A real one, with a lens, in a real scene forty thousand units above the world -- far enough that
+the film cannot see the planet and the planet cannot see the film, with no layers or culling masks
+to keep in step.
+
+So the camera can do what a camera does. It hangs off the hauler's quarter for three seconds and
+then dives in after it. It comes out of the throat rolling, and settles the way something heavy
+settles -- a damped swing that overshoots twice, rather than a slide back to level. It is kicked by
+each charge and flinches forward. It swings onto the pod's shoulder and then lags behind it,
+because a camera that keeps up perfectly is not a camera, it is a rule.
+
+### The throat is a tunnel
+
+Twenty hoops at twenty depths, all driven by one number. As it rises they come toward the camera,
+and one that passes is put back at the far end. Perspective does the rest: the near ones swell and
+rush, the far ones barely move, and that is the oldest depth cue there is and the only one that
+works at any speed.
+
+![The bridge, once the transit starts coming apart](docs/screenshots/v1.69.0/02-the-bridge.png)
+
+The bridge is the two halves working together. What is outside the window is the set -- the camera
+really is inside the throat -- and the canopy, the struts and the console are the interface, drawn
+over it. The instruments are the game's own telemetry rows, because the console a pilot reads and
+the console a player reads should be the same console.
+
+### The hauler is a hull
+
+Built out of boxes, the way every machine on the planet is built out of slabs: a spine with freight
+strapped along it, tanks and radiators hanging below, a bridge with one lit window, and an engine a
+quarter of the length of the thing. It has a far side and an underside, and it tumbles because it
+is turning in space.
+
+**Nothing in the film is lit by a light.** The game has none and is not getting any. Every face
+carries its own brightness in its vertex colours, worked out once from a fixed sun and a weaker
+fill from behind -- the same rule everything else in the game is painted by, in three dimensions
+instead of two.
+
+![The ship goes](docs/screenshots/v1.69.0/03-the-ship-goes.png)
+
+### The explosions are staged
+
+A charge is two things, not one: a hoop leaving at speed, and a fireball growing behind it. The
+fireball opens almost instantly and then slows, and it cools as it goes -- white, straw, ember, and
+finally the colour of the smoke it is turning into. The ship goes in three of them at once, at
+different places and different phases, because one sprite being scaled is a shape and three
+overlapping churn.
+
+Eleven pieces of hull leave burning, in three dimensions, tumbling about their own axes. Three of
+them come off with the second charge rather than the last, so the ship is visibly shedding before
+it goes.
+
+![Thrown clear](docs/screenshots/v1.69.0/04-thrown-clear.png)
+
+### The planet is a planet
+
+A sphere with a night side, painted out of the ground colours the world is actually made of --
+regolith, basalt, ferric sand, a cap of rime ice -- sampled three ways and blended by facing, so
+the grain is not wrung out into spokes at the poles. The terminator is on the side away from the
+sun no matter where the camera goes, which a painted disc could never manage.
+
+![Coming down](docs/screenshots/v1.69.0/05-coming-down.png)
+
+### And one shot stays interface
+
+The inside of the pod. It is a room seen from a seat, where nothing is ever more than a few feet
+away, and there is nothing for a camera to do in there that a well-drawn frame does not do better.
+It gained a proper drawn arc across the shorted panel -- three of them, so the same bolt is never
+seen twice -- where before it was a white rectangle blinking on a timer.
+
+### Everything else about it is unchanged
+
+It plays on a landing and nowhere else. Any key skips it. The world's clock stops while it runs.
+The set is struck at the last fade, behind a curtain that is by then completely opaque, so what the
+black uncovers is the planet rather than an empty stage.
+
+---
+
 ## [1.68.0] - 2026-09-10
 
 **How you got here, and a way out of every window.**
@@ -101,7 +197,7 @@ has the list.
 
 ### Under the hood
 
-`ProceduralArtIntro.cs` holds the thirteen pictures the film is cut from -- the hauler, the pod
+`ProceduralArtIntro.cs` holds the pictures the film is cut from -- the hauler, the pod
 under way, four torn pieces of hull, the throat, the planet, a blast, a flame, a puff, a star, the
 ring round the porthole, the wall behind it, and the panel that gave out. `IntroCinematic.cs` is the
 shot list, the layout and the timing.
