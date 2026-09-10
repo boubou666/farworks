@@ -7,6 +7,60 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.72.0] - 2026-09-10
+
+**The hauler stops being a bug.**
+
+![Six modules and a sail](docs/screenshots/v1.72.0/02-modules.png)
+
+Two mistakes went into getting here and both are worth writing down, because the second was made
+while fixing the first.
+
+**It was an insect.** Freight stacked on a rack above the spine, tanks slung under it, radiator
+spars poking out sideways with panels hanging off them -- mass bolted on in every direction at
+once. Seen from three quarters astern the spars read as legs and the container stack as a segmented
+body, and what came out was a beetle with an engine.
+
+What reads as a ship is the opposite of all of that: **one dominant axis with the mass along it**,
+few large forms rather than many small ones, and anything that does stand off the hull lying in a
+plane rather than sticking out at its own angle.
+
+**Then it was a slab.** Applying that rule with plain boxes gave a perfectly readable silhouette
+with nothing whatever inside it -- a grey wedge with lines scratched down the sides.
+
+### What it is now
+
+A **chamfered core** -- an eight-sided prism rather than a box -- running the length of the ship,
+with a stepped bow, the bridge sunk into the deck, and a walkway down the spine.
+
+**Six cargo modules**, three a side, each on a short stub off the flank. They are pods with their
+corners cut, which is the single most useful thing borrowed from a hard-surface reference: a cube is
+a crate, and a cube with its long edges chamfered is a pressure vessel that was made in a factory.
+Each carries a hazard band, an outboard hatch, and a three-by-two grid of lit windows -- a grid
+rather than a strip, because a strip of light is a strip of light and six small squares is a deck
+with people on it.
+
+**A black sail** raked back over the drive in three panels, with a red light to port and a green one
+to starboard on the tips.
+
+And the plate is **pale** now. The first hauler was painted at the escape pod's own value, which is
+a colour meant to be seen lying in daylight on a planet -- in space, against a lit wormhole, it made
+the whole ship a silhouette in every shot it appeared in.
+
+![On the way in](docs/screenshots/v1.72.0/01-the-hauler.png)
+
+### Under the hood
+
+The box kit grew two things. `Poly` builds a flat face of any number of corners rather than exactly
+four, which is what an eight-sided end needs. `Pod` builds the chamfered prism on top of it, along
+any axis -- and its outward normals were inside out on the first attempt, which lights every panel
+on every module from the far side of itself.
+
+The nozzle positions now live in one place that both the hull and the drive plumes read, because a
+set of them kept in two files is a set that will not match after the next time the hull is redrawn.
+
+---
+
 ## [1.71.0] - 2026-09-10
 
 **The hauler has a drive that is a solid, and its lights are on.**
