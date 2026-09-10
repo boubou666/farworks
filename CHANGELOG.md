@@ -7,6 +7,69 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.73.0] - 2026-09-10
+
+**Somewhere to have arrived, and somebody getting out in time.**
+
+![The system, before anything happens in it](docs/screenshots/v1.73.0/01-the-system.png)
+
+### A wide shot first
+
+The film used to cut from the collapsing throat straight to a hauler already tumbling. That says
+what happened and never says where -- and where turns out to matter, because everything after it is
+about falling toward the thing in the corner of the frame.
+
+So there is a beat of somewhere first: the star, the planet with its back to it, and nothing else.
+A second and a half of it. Then the throat tears open out in that empty space and spits the ship
+through, which only startles because the audience has had a moment to decide the space was empty.
+
+**A star and a planet cannot both be in one frame with the planet lit from the front** -- they are
+on opposite sides of the camera by definition. What can be is a planet lit from *behind*: a dark
+disc with a burning rim and the star clearing its limb. The whole shot is worked out from the
+direction the film is lit from rather than typed in, because the terminator on that planet is baked
+and will not move to suit a camera.
+
+The rim is a new thing: one thin bright ring, drawn with the shock-front picture rather than the
+halo. A halo is brightest in its middle, which on a planet is the part behind the planet -- so all
+that reached the limb was the dim outside of it, and the planet was a hole in the stars.
+
+![Clear of it](docs/screenshots/v1.73.0/02-clear-of-it.png)
+
+### The pod leaves before the ship goes
+
+It was the other way round: the ship exploded and the pod appeared out of the fireball. Which is a
+thing that survived an explosion. **A lifeboat fired off a burning ship, forty metres clear when the
+ship lets go, is somebody getting out in time** -- and that is the difference between an accident
+and a story.
+
+The camera stays on the ship for a beat after it goes rather than swinging onto the pod at once, so
+the two are one shot. And it now stands on the far side of the ship from the planet, so the planet
+is behind the hauler rather than behind the camera.
+
+### The pod is the pod
+
+It was not the one lying in the dirt a minute later. What anybody actually remembers off that wreck
+is four things -- a capsule, an orange band round one end, a big glazed canopy in the middle of it,
+and two landing legs at the other. The film had the band and a porthole on one flank, and three fins
+instead of legs.
+
+It has all four now, in that order of importance, with the beacon still lit on the aerial.
+
+![Coming down](docs/screenshots/v1.73.0/03-coming-down.png)
+
+### And two things that were simply wrong
+
+**A white square flashed on the shorted panel.** The bolt was drawn as a picture on an element that
+still carried a background colour from back when it was a rectangle blinking on a timer -- so what
+actually flashed was a cream square with a bolt somewhere inside it.
+
+**The planet was blurry.** Its surface was painted at 512 across, which over a world the pod falls
+most of the way to makes one texel about the size of a county. It is four times that now, with two
+scales of grit finer than anything it had, and it is point sampled with mipmaps -- crisp texels up
+close, and no crawling on the limb.
+
+---
+
 ## [1.72.0] - 2026-09-10
 
 **The hauler stops being a bug.**
