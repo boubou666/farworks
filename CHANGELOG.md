@@ -7,6 +7,72 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.67.0] - 2026-09-10
+
+**Meat is food now -- and the only weapon in the game turns out to have been unbuildable.**
+
+Alien meat has burned in a biomass burner since the animals arrived, and the design note beside it
+said what it actually wanted to be: the thing that puts you back together. It is that now, and the
+route is the crafting bench rather than a machine that does not exist yet.
+
+![Crude Meals on the personal kit](docs/screenshots/v1.67.0/99-meals-on-the-bench.png)
+
+### Crude Meals
+
+Two Alien Meat at the **crafting bench**, four seconds, one **Crude Meal**. The personal kit and
+nowhere else: everything the factory makes is for the factory, and this is the bench where you make
+something for yourself. The recipe is there from the first minute, with nothing to make it from
+until something on the far seams has been dealt with -- the same tease the maul beside it carries.
+
+They stack twenty to a slot, and they go in your **hand**. That is the price, and it is the only
+one a meal with no cooldown could pay: the hand a meal is in is the hand your maul was in.
+
+![Hurt, with four in hand](docs/screenshots/v1.67.0/99b-hurt-and-holding.png)
+
+### Eating
+
+Hold one and press the button that swings a maul and cuts rock. Twenty-five health, at once, where
+you stand -- **no cooldown, and none coming**.
+
+A wait between mouthfuls only ever bites in the one place food matters, which is a fight going
+badly, and what it produces there is somebody standing still watching a timer with the animal still
+swinging. The cost of a meal is the meal: it took an animal to get it and a bench to make it, and
+somebody who eats four in four seconds has just spent four. At full health the press does nothing
+rather than burning one on a mis-click.
+
+![Whole again, three meals later](docs/screenshots/v1.67.0/99c-whole-again.png)
+
+**The hand refills itself.** When the last of a stack goes, the next stack comes up out of the pack
+by itself. Eating is meant to be something done in the middle of a fight, and a hand that empties
+there would send you into your inventory screen with an animal on you.
+
+**And it says how many are left.** The line above the build row has read out one tool since there
+was a line, because everything that goes in a hand is a tool and a tool is one of them. It carries
+a count now.
+
+### The stick nobody could pick up
+
+The **Scrap Maul** -- the only weapon in the game -- asked for two Iron Rod and three **Scrap
+Metal**. Nothing in this game has produced Scrap Metal since the escape pod's salvage became plate
+and rod. The recipe was offered at the bench, drawn in the browser, priced, described, and could
+not be made by anybody, ever, on any planet.
+
+It is **two Iron Rod and three Iron Plate** now, which is what the opening is made of. The first
+weapon is available from your first iron.
+
+### The checker that agreed with the bug
+
+There is an editor window that walks every recipe and reports anything asking for something nothing
+makes. It did not report this one, because Scrap Metal was written into it by name as a thing the
+ground hands over -- which it was, until the opening changed. A checker that has the answer written
+into it is a way of not checking.
+
+That line is gone, animal drops are counted as a source properly, and the same audit now runs **in
+the player**, on the build, as part of the capture pass: every ingredient of every available recipe
+has to come from a recipe, an ore, a plant or an animal. Twenty ingredients, no holes.
+
+---
+
 ## [1.66.1] - 2026-09-10
 
 **The unlock sheet, wider and with pictures on it.**
