@@ -7,6 +7,58 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.71.0] - 2026-09-10
+
+**The hauler has a drive that is a solid, and its lights are on.**
+
+![Under burn, on the way in](docs/screenshots/v1.71.0/01-under-burn.png)
+
+### The exhaust was a card
+
+One quad with a flame painted on it, stuck on the back of the ship. A flat sprite can be got away
+with for a spark or a puff of smoke, which have no shape of their own -- a rocket exhaust is a
+solid, it is the second largest thing in the shot, and the camera goes round the back of it.
+
+It is three real cones now, one out of each nozzle, with the standing waves down the middle that
+anything at full burn has. Each is drawn twice -- the body, and a narrower core inside it at half
+again the brightness -- and two things fall out of that for nothing. The material is added and
+two-sided, so where the camera looks through both walls the middle comes out brighter than the
+edges, which is what depth in a glowing gas actually looks like without a line of shader. And the
+silhouette is a real one: it narrows, it swells at the beads, and it stays a cone from every angle.
+
+Each nozzle flickers on its own count. Three jets pulsing in step are one jet drawn three times.
+
+![Lit, plated, and standing off its own spine](docs/screenshots/v1.71.0/02-lit-and-plated.png)
+
+### And the ship itself
+
+It read as a stack of dark crates, which is roughly what it was. Four changes.
+
+**The lights are on.** Everything switched on is a mesh of its own, drawn added and never shaded --
+because a light is not a surface: it does not take the sun and it must not go dark when the ship
+rolls away from it. A band of windows round the bridge and both its cheeks, a course of portholes
+down each flank, two strips along the keel, lamps under the freight rack, red to port and green to
+starboard out on the radiator tips, and a strobe on the mast.
+
+This is the change that does the most work. A hull in space with nothing lit on it is scenery; two
+rows of windows and a nav light at each tip is somewhere people are, and it costs a dozen boxes.
+
+**The freight stands off the spine on legs**, with daylight under it. Sat straight on the hull, the
+containers merged into one long block with lines scratched down it -- which is exactly what the
+first hauler was at any distance.
+
+**The bridge is up on a neck** where somebody could actually see out of it, with a mast and a dish
+behind it, and the radiators are proper panels on spars rather than fins tucked under the keel. All
+of it is silhouette: the parts have to come apart when the ship is a hundred pixels wide.
+
+**And two of the five containers are warm rather than grey**, which is the only colour on the ship
+that is not signal orange or cold steel.
+
+The nozzle bells were also on backwards -- narrower at the aft end than at the throat, which is the
+wrong way round for a bell.
+
+---
+
 ## [1.70.0] - 2026-09-10
 
 **Nobody misses the opening now, everybody can turn it off, and the hauler is plated.**
