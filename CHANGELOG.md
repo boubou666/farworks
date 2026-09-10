@@ -7,6 +7,51 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.74.0] - 2026-09-10
+
+**A lifeboat the size of a lifeboat, and a wreck that behaves like one.**
+
+![The wreck, venting](docs/screenshots/v1.74.0/02-tutorial-recycle.png)
+
+### The pod stops smouldering quietly and starts smoking
+
+The thing the run begins beside came down hard enough to strand somebody, and it used to sit there
+perfectly still, breathing a slow glow. It vents now, and every second or two something inside it
+lets go and throws sparks out of the seam.
+
+Two things had to be learnt to get a single wisp of it on screen, and both are written into the code
+so they are not learnt a third time:
+
+**A vent in the middle of a plan emits into the hull.** The map is looked down on at fifty-five
+degrees, so a puff born at ground level under a capsule taller than a person spends its whole life
+inside that capsule's own silhouette -- pale grey on a pale grey hull, which is to say nowhere. The
+vent sits near the back edge now, and the puffs are given a height to start at and a rate to climb
+at, so a column comes up past the shoulder and stands against the ground where it can be seen.
+
+**Soot is the wrong colour for smoke here.** It is the obvious way to say *burning* and it is
+useless: the ground on this planet is dark grey, and dark grey over dark grey is invisible at the
+range the smoke exists to be seen at. What separates a wreck from a working chimney is weight, not
+colour -- bigger puffs, more of them, only slightly dirtier than the pale ones a machine vents.
+
+![Coming apart](docs/screenshots/v1.74.0/02b-pod-coming-apart.png)
+
+### Taking it apart is now something you watch
+
+Recycling the pod used to scale it evenly to nothing over half a second and fade it out, which reads
+as an object being deleted rather than one being stripped. It comes apart in three beats now: it
+shakes while the fastenings are cut, the frame lets go and the capsule settles -- spreading as it
+flattens, with the hull sides sinking so what is left is genuinely lower and not merely smaller --
+and then it goes. Three panels let go on the way down, each throwing sparks.
+
+### And the drop pod is a drop pod again
+
+In the opening film it was built at three times its size, which put a lifeboat of sixty-odd units
+against a hauler of ninety. A lifeboat very nearly as long as the ship it came off is not a
+lifeboat. It is at a bit over half its built size now -- about an eighth of the hauler -- and the
+shot is kept readable by bringing the camera in instead, which is what a camera is for.
+
+---
+
 ## [1.73.0] - 2026-09-10
 
 **Somewhere to have arrived, and somebody getting out in time.**
