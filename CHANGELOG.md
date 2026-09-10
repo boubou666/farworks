@@ -7,6 +7,21 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.69.1] - 2026-09-10
+
+**The film shouted at the log for the last second of itself.**
+
+The set is struck partway through the closing fade -- so that the black the interface goes out on
+is the planet rather than an empty stage -- and the film then carried on trying to advance a scene
+that was no longer there. One null reference per frame for the last second and a bit of the
+opening, several hundred of them in a run, all of it behind a curtain that was by then completely
+opaque.
+
+Nothing was visible and nothing was harmed. It was still an exception a second, and a player log
+full of them is a player log nobody can read the real fault out of.
+
+---
+
 ## [1.69.0] - 2026-09-10
 
 **The opening film, shot instead of drawn.**
