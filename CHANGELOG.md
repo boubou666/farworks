@@ -7,6 +7,38 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.76.0] - 2026-09-11
+
+**The game makes a noise.**
+
+### Seventy-one clips for fifty-eight cues, none of them recorded
+
+Since 1.40.0 the game has had a sound system and no sounds: four channels, a settings page, an ear
+that stands where the camera looks, and fifty-eight moments already asking to be heard from an
+empty folder. The folder is full. `tools/synth-sounds.py` makes every clip from oscillators, noise,
+envelopes and filters -- the way `ProceduralArt` paints every texture rather than shipping one --
+and rebuilds the whole bank, byte for byte, from one seed.
+
+The interface is one instrument: a soft pitched tick for a press, a bell for a confirmation, and
+the same two notes in either order for a panel opening and closing. The world is another: a weight
+landing and a clamp locking when a building is set down, a ratchet for a run of belt, a motor that
+spins up when a machine starts and down when it stops, a knock with grit flying for the tool.
+Anything heard a thousand times -- the tool, a footfall, a machine cycling, a key typed, a
+mouthful, a panel arcing on the wreck -- has two to four takes to pick between, on top of the pitch
+wander it already had.
+
+The beds are stereo and seamless: wind that gusts unevenly, rain with heavier drops in it, a machine
+hum cut to a whole number of cycles so the loop point does not exist. The opening film gets the
+throat of the wormhole, the klaxon, two charges and the ship going, and the air on the heat shield.
+And two loops of music -- pads in D minor under the boot screen, open fifths and a slow pulse under
+a run -- rendered long and folded back onto their own beginning so the room never empties.
+
+The line on the settings page that said nothing was recorded yet is gone, because it is no longer
+true; it comes back by itself if the folder is ever emptied again.
+
+`docs/design/sound.md` has a new section, *The bank*, on how the clips are built and why they are
+synthesised rather than found.
+
 ## [1.75.0] - 2026-09-11
 
 **The pod comes down outside, and a new planet is hostile ground.**
