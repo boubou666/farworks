@@ -7,6 +7,17 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.76.3] - 2026-09-11
+
+**The motor, a fourth time.**
+
+The whine of 1.76.2 was a vacuum cleaner. A heavy machine does not whine: it clunks, and then its
+mains hum -- the same hum the loop carries on with -- climbs from below pitch up to it while the
+gears mesh, metal ticks that come faster and quieter as the speed comes up and are gone once it is
+there. Stopping is the hum falling until it stalls, the ticks coming back as it slows, and a clunk
+as it settles. Nothing above seven hundred hertz except the ticks: a machine is felt in the floor
+more than heard in the air.
+
 ## [1.76.2] - 2026-09-11
 
 **The motor, again.**
