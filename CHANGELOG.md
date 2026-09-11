@@ -7,6 +7,44 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.79.0] - 2026-09-11
+
+**The more coal you burn, the more pollution.**
+
+Coal made power and nothing else. Now every lump that goes on a grate -- a steam plant flat out
+eats ten a minute, a biomass burner on coal six -- puts a unit of smoke into the air over the
+fire, metered off what is actually burnt, so a plant idling under its governor smokes in
+proportion. Only coal does it: leaves and meat burn clean, because the decision the sky is meant
+to be the price of is the coal decision, the one fuel a drill can dig and a belt can bring in.
+
+**The air is a field, not a number.** Cells eight tiles square over the whole map, walked once a
+second. Smoke spreads to its neighbours, leans downwind on the same wind the clouds and the rain
+use, fades on its own with a half-life of about forty minutes, and **rain rinses it out** several
+times faster -- the first thing on this planet the weather has ever done to the factory. A plume
+settles at about sixty tiles across, thickest over the plant that made it and thinning with
+distance, so where a row of plants stands is already a decision rather than a score.
+
+**You see it as a wash.** One more layer of the same mechanism the night and the weather use: an
+ochre grey laid over the world, deliberately neither the weather's slate nor the night's blue, so
+that an afternoon gone dim because of what you built reads as that and not as the hour. It is
+read from the air under the middle of the picture and eased over a couple of seconds -- the base
+looks fouled from inside the base, the hills look clear from the hills, and walking out of a
+plume is a gradient rather than a step.
+
+![The yard at noon under its own smoke](docs/screenshots/v1.79.0/100-coal-smoke.png)
+
+**A word on the instrument panel.** `AIR: CLEAN / HAZY / SMOKY / FOUL`, under the sky's row, read
+at your feet. Saves carry the stain, sparsely; a save from before there was any loads clean.
+
+**Two cheats on the sky rows.** `FOUL THE AIR HERE` drops a row of plants' worth of smoke over
+your head, for watching the air spread it over the next minute; `CLEAR THE AIR` wipes the planet.
+
+**Nothing yet answers it and nothing yet suffers from it.** What it will degrade -- the flora, the
+water, the weather, the light, where the herds graze -- and the captors that turn it into carbon
+are written up in `docs/design/pollution.md` and are the next half of the job. What it will never
+do is call anything: the herds do not mutate and nothing comes to the base because the sky went
+brown.
+
 ## [1.78.0] - 2026-09-11
 
 **Belts go under each other.**
