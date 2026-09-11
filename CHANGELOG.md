@@ -7,6 +7,16 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.76.2] - 2026-09-11
+
+**The motor, again.**
+
+The spin-up in 1.76.1 pulsed a low sawtooth at the shaft speed to say "turning over", and what
+that says to a person is not "motor". Gone. A machine starting is now an electric whine climbing
+from 90 to 420 Hz with the shaft, a band of air and bearing noise climbing with it, and nothing
+beating underneath; a relay clacks just before it. Stopping is the whine falling to idle and a
+brake catching at the end. Both still swell in rather than arrive, and both sit at half level.
+
 ## [1.76.1] - 2026-09-11
 
 **First listen: three sounds retuned.**
