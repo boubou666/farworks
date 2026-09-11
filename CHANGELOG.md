@@ -7,6 +7,46 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.77.0] - 2026-09-11
+
+**The rocket, stage one: the site.**
+
+The first milestone used to end at the station. Its last task asked for sixteen airframe panels,
+twelve truss spars and twelve signal looms -- three parts only a crafter can make, made to a
+standard nothing on this planet needs -- and you dropped them in the boxes, pressed the button,
+and the station took them and did nothing with them. `docs/design/roadmap.md` calls that the most
+borrowed gesture in the game, and the game's only verb.
+
+**The gate is a thing you build now.** The last station upgrade pays out a **Rocket Site** alongside
+the miner: a pad five tiles square, the biggest thing on the map, with a launch mount in the middle
+of it, a flame trench cut south out of the mount, a gantry standing at its north edge, a bunker in
+one corner and floodlights on the other three. Nothing stands on the mount yet. It is priced in
+exactly the three parts the task used to ask for, so it is in the build menu the day the
+milestones open and cannot be afforded until the factory is actually running -- and putting it
+down is what finishes the task. No hand-in. The second milestone opens because the thing it was
+for exists.
+
+![The site, standing](docs/screenshots/v1.77.0/77-rocket-site.png)
+
+**A task can be finished by building.** `MilestoneTask.BuildStructure` names the building; the
+tile prices it at the building's cost, the overview counts that cost against the hold rather than
+against boxes there are not, the station board says *build the Rocket Site* instead of asking for
+a delivery, and placing the building awards the task down the same path a hand-in does, so the
+sheet, the rewards and the save are unchanged. The sheet carries a card for the stage.
+
+![The task on the milestone screen](docs/screenshots/v1.77.0/75-rocket-task.png)
+
+![The sheet, with the stage on it](docs/screenshots/v1.77.0/76-rocket-site-sheet.png)
+
+**The rocket goes up in stages**, one per milestone, and each stage is a building. `Core/Rocket.cs`
+holds the column -- one row today -- and the site reads it when walked up to: which stage stands,
+what comes next. There is nothing to open at the site, because there is nothing to do there but
+build the next stage, and that is done from the build menu like everything else.
+`docs/design/rocket.md` is the design for the rest: the stages, what each is made of, how a stage
+stands on the stage below, and why the rocket itself will be geometry rather than a hull.
+
+A save written before this comes back with the site in the build menu.
+
 ## [1.76.3] - 2026-09-11
 
 **The motor, a fourth time.**
