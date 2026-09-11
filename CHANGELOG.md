@@ -7,6 +7,30 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.76.1] - 2026-09-11
+
+**First listen: three sounds retuned.**
+
+The first six clips anybody heard came back with three notes, and each is a few lines in
+`tools/synth-sounds.py`.
+
+**A machine now starts like a machine.** It came in at full volume on the first sample, with the
+shaft already spinning, and it made the person standing next to it jump. It turns over slowly
+first -- a chug with each revolution that smooths out as the speed comes up -- and swells in over a
+third of a second, at two-thirds the level. Stopping is the same motor the other way: the chug
+comes back as it slows.
+
+**An unlock is a swell rather than a jingle.** The rising four-note arpeggio with a shimmer on top
+read as a prize won in a cartoon. It is a low chord swelling under the screen now, with one muted
+note over it once it is there: something has been opened up, not won.
+
+**The wind is turned down**, to a little over half of what it was. It is a bed, and a bed that can
+be heard over the machines is not one.
+
+Also: the script reseeds its noise from each clip's name as it goes, so retuning one sound rewrites
+one file rather than every file after it. This release is the one that pays for that -- every clip
+is re-rolled once -- and the ones after it will not.
+
 ## [1.76.0] - 2026-09-11
 
 **The game makes a noise.**
