@@ -7,6 +7,26 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.85.0] - 2026-09-12
+
+**The weather worsens over a fouled planet.**
+
+The sky is one sky over the whole map, so what it answers to is the whole map's smoke. The chain
+that picks the next spell -- clear, fair, overcast, drizzle, rain, downpour, storm, each allowed
+to follow only its neighbours -- is now leaned by how fouled the planet is as a whole: a step
+toward worse weather weighs up to three times what it did, a step toward clearer weighs less.
+From a fair sky a clean planet goes worse about half the time; a planet with a plant that has
+run all day goes worse four times in five. A pair the table forbids stays forbidden, so a fouled
+sky still walks and never jumps from clear to storm.
+
+**It is the loop that keeps the sky from staying brown.** A fouled planet rains more, and rain
+is what rinses the smoke out -- so the planet run on coal all day gets its downpour, the downpour
+takes the smoke, and the sky comes back. Nothing is called and nothing arrives; the weather is
+simply further along its own order.
+
+The `SKY` row says `RAIN  •  FOULED` once the planet is fouled past a quarter, so an
+afternoon of drizzle reads as what it is. The sheet that explains the sky says so too.
+
 ## [1.84.0] - 2026-09-12
 
 **The water goes bad under the smoke.**
