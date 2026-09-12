@@ -7,6 +7,17 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.81.2] - 2026-09-12
+
+**The plume is ochre, and lighter.**
+
+The first cut of the plume on the ground was a dark olive-brown, which on a dark planet read as
+mud or shadow rather than as air. Smoke lying on the ground is a haze over it, and a haze is
+paler than what it lies on: the colour is a light ochre now and it goes to six tenths at its
+heaviest rather than eight. Nothing about the field or the readout changed.
+
+![The plume, lighter](docs/screenshots/v1.81.2/100c-the-plume.png)
+
 ## [1.81.1] - 2026-09-12
 
 **The cutter works its way across the outcrop.**
