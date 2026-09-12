@@ -7,6 +7,24 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.87.0] - 2026-09-12
+
+**The herds move off under the smoke.**
+
+The fifth thing the pollution degrades, and the only one that walks. A seam whose air has gone
+past HAZY -- a lower bar than the scrub and the pump stop at, because an animal is the one thing
+on the planet that can leave, and it leaves before the ground is ruined -- empties: the herd is
+gone the next time you come back to it, out of sight, the way a cleared seam fills. It stays
+gone while the air is bad. When the plume has moved off, the seam's clock runs the way a cleared
+one's does, four minutes an animal, and they walk back on when nobody is looking.
+
+**Where you may expand changes with it.** A seam beside the plants stands open, and the ore on
+it is yours for the taking without a fight; a seam upwind of them does not, and the meat that
+came off the herds is further away than it was. They do not mutate and they do not swarm.
+Nothing is called and nothing arrives. They go.
+
+The sheet that explains the sky says so.
+
 ## [1.86.0] - 2026-09-12
 
 **The light dims under the smoke.**
