@@ -7,6 +7,35 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.83.0] - 2026-09-12
+
+**The scrubber, and carbon.**
+
+The answer to the coal decision, and the good half of the idea: waste that becomes stock makes
+burning coal a trade rather than a punishment. **The Scrubber** is a fan pulling the air through
+a wet baffle with a press behind it. It stands in a cell of the pollution field and takes a share
+of what is in that cell every second -- eight percent -- and hands it over as **Carbon**, two
+lumps' worth of smoke pressed into one block. The filthier the air, the faster it runs; in clean
+air it stands idle and draws nothing. It is a drill for the sky: all output, no input, the same
+screen, the same forty-five kilowatts as a crafter.
+
+![A scrubber beside the fire](docs/screenshots/v1.83.0/100d-the-scrubber.png)
+
+**What it takes, the sky no longer has.** A scrubber beside a burner on coal leaves the cell
+thinner than the fire alone had it, so the plume downwind of a scrubbed yard is shorter, the
+ground under it clears sooner, and the bushes there start coming back. It is not a full answer
+on its own -- one scrubber takes about as much as the air spreads -- and a row of them beside a
+row of plants is the layout the whole system was built to ask for.
+
+**Carbon is the first thing on this planet that is captured** rather than mined, grown or
+salvaged, and the only material whose supply goes *up* the worse you have been. What it is for is
+still being decided; the sky is cleaner for it either way. Counted with what the machines make.
+
+**Earned in the second milestone**, *Clearing the Air*: thirty plate, twenty-four wire and twenty
+concrete, nothing off the coal line, so it can be taken before the plant -- a burner on coal
+smokes too. It pays out one scrubber's worth of parts, so the first one goes down beside whatever
+has been smoking.
+
 ## [1.82.0] - 2026-09-12
 
 **Nothing grows back under the smoke.**
