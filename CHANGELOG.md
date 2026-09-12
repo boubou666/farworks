@@ -7,6 +7,21 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.82.0] - 2026-09-12
+
+**Nothing grows back under the smoke.**
+
+The first thing on this planet the pollution actually does, and deliberately the gentlest. A
+bush cut for its leaves has always come back on a clock; the clock now runs at the pace the air
+allows. Clean air is the pace it always was. Under a hazy sky it runs slow, in proportion; at the
+top of SMOKY -- a coal burner's own cell, and everything downwind of a plant -- it stops, and the
+bush stays cut until the air clears. Nothing standing is hurt: what is there stays. The cost is
+felt only by the player who takes, which is the player who was burning, and the base that ran on
+leaves finds the leaves further off each time it goes out for them.
+
+Upwind of the fire the scrub comes back as it always did. Where a row of plants stands has now
+cost something, and the sheet that explains the sky says so.
+
 ## [1.81.2] - 2026-09-12
 
 **The plume is ochre, and lighter.**
