@@ -7,6 +7,38 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.81.0] - 2026-09-12
+
+**The plume is drawn on the ground.**
+
+The smog was one colour over the whole screen, read from the air under the middle of the picture.
+It said how bad the air was here and nothing about where it came from -- and where it came from is
+the whole reason pollution is a field. Now the field itself is drawn: the stain lies on the map,
+thickest over the plant that made it, thinning with distance, leaning downwind, and the camera
+slides over it. Stand upwind of your plants and the ground under you is clean; walk into the
+plume and it is not.
+
+![The plume from above](docs/screenshots/v1.81.0/100c-the-plume.png)
+
+**The cloud shadows' trick, turned on the field.** One quad in front of the camera, every point
+of it followed down the line of sight to the ground, and the pollution field sampled there -- as
+a ninety-by-ninety float texture sent to the card once a second, when the simulation has swept
+it. Between sweeps it is the same bilinear blend across the cells the panel's `AIR` row uses, so
+what the row says and what the ground shows agree. A turn of the cloud noise, blown along on the
+wind, is laid through it so the edge of the plume is ragged the way smoke is rather than the way
+a grid is; it takes a little away or gives a little back and never changes what the simulation
+said.
+
+**And the plume is tighter.** The field spread at five percent a second to each neighbour, which
+made a plume a hundred tiles across -- a shape on paper and none on any screen a player stands in.
+It is two percent now: a burner's own cell settles at about 1.3, two cells downwind at 0.75, two
+cells upwind at 0.1. Upwind of your fire the ground reads clean; downwind it reads smoky; the
+haze curve was rescaled with it so a burner still says SMOKY over itself and a plant FOUL.
+
+**What went.** The flat smog wash, and nothing else: the four tells from 1.80.0 -- the rate on
+the fire's screen, the ochre chimney, the first-time sheet, the amber row -- all stand, and the
+sheet's `THE AIR ROW SAYS HOW BAD` is now also `and the ground shows where`.
+
 ## [1.80.0] - 2026-09-12
 
 **The sky says why it went brown.**
