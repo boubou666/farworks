@@ -7,6 +7,39 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.80.0] - 2026-09-12
+
+**The sky says why it went brown.**
+
+1.79.0 put the smoke in the air and drew it, and nothing told the player it was theirs: a slow
+tint, and one word on the instrument panel. Now the coal decision is said at every place it is
+made and seen.
+
+**The source says so.** Coal's description says it burns filthy. A burner or a plant that is lit
+carries `6 SMOKE / MIN` -- or `10`, or `0` beside a box of leaves -- on the same line as the
+kilowatts, because they are the same decision and the way a player learns leaves are clean is by
+reading a nought there.
+
+**The chimney shows it.** A fire on coal puts up a heavier column than a fire on leaves: more
+puffs, bigger, and tinted the same ochre the smog is drawn in, so the thing rising off the roof
+and the colour the afternoon is turning are visibly the same stuff. Feed it leaves again and the
+pale wisps come back.
+
+Which turned up a bug as old as the 3D world: **no chimney on the map has smoked since 1.27.0.**
+The puffs were still being made, on the building's plan at ground level -- inside it, once it
+stood up as a solid, with its own roof between them and the camera. They are born on the roof
+now and climb from it, so a smelter, a drill and a burner at work put up the wisp they always
+were meant to.
+
+**The first bad air puts up a sheet.** The moment the air under your feet stops being clean, the
+game stops once and says what the smoke is, where it goes, and that the rain rinses it -- on the
+same screen a milestone uses. Once a run; saved.
+
+![The sky explained, the first time it goes bad](docs/screenshots/v1.80.0/100b-the-air-sheet.png)
+
+**The row goes amber**, and the wash is franker: one plant reads on its own now, without a clean
+picture beside it to compare against.
+
 ## [1.79.0] - 2026-09-11
 
 **The more coal you burn, the more pollution.**
