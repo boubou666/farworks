@@ -7,6 +7,22 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.84.0] - 2026-09-12
+
+**The water goes bad under the smoke.**
+
+The second thing the pollution degrades, and it lands on the one machine that stands in the
+lake. Soot rains out of the air into the water and the intake's screens clog on it: a pump under
+the plume delivers a share of its rating -- the same curve the scrub stops growing back on, so a
+player who has learnt where the bushes stop has learnt where the pump does -- and at the top of
+SMOKY it chokes outright. Its line says so: `FOULED WATER - 40% FLOW`, then `FOULED WATER - PUMP
+CHOKED`. A pump on a shore upwind of the plants delivers what it always did.
+
+Which is the whole point of it: the steam plant wants coal on one side and water on the other,
+and the water comes from a shore. Where that shore is, relative to where the smoke goes, is now a
+decision rather than a walk to the nearest lake -- and a scrubber beside the plants buys the
+pump back some of its flow. The sheet that explains the sky says so.
+
 ## [1.83.0] - 2026-09-12
 
 **The scrubber, and carbon.**
