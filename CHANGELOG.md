@@ -7,6 +7,29 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.86.0] - 2026-09-12
+
+**The light dims under the smoke.**
+
+The fourth thing the pollution degrades. The smoke keeps up to three quarters of the direct sun
+where the air is as bad as it gets, joined into the daylight the same way the weather is -- one
+multiply -- so everything that already answers a dim day answers a dirty one without being told
+there is such a thing: the shadows soften, the wash thickens, and the lamps come up. A single
+burner's yard at noon is dimmer for it and its shadows go soft, but its lamps stay off; a plant's
+yard is as dim as a rainy one and every lamp on it comes up in the middle of the day. Walk out of
+the plume and they go back off.
+
+**Each lamp reads the air over its own roof.** The smoke is a field and the lamps are all over
+it: a machine in the plume and a bench upwind of it stand under two different skies, and each
+comes up for its own. The screen-wide figures -- the wash, the shadows -- read the air under the
+middle of the picture, which is close enough for anything that is one picture.
+
+**What it does not do is cost power.** The roadmap said it should, and lamps do not draw here on
+purpose: a burner burns at its rate or not at all and stops when nothing is asking, and a lamp
+that asked would keep a base's fire burning all night to light four bulbs. The lamps stay free,
+and the cost of a dim yard is what it always was -- reading the base by its lamps means the base
+under the plume reads as night at noon.
+
 ## [1.85.0] - 2026-09-12
 
 **The weather worsens over a fouled planet.**
