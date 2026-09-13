@@ -7,6 +7,42 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
+
 ## [1.87.0] - 2026-09-12
 
 **The herds move off under the smoke.**
@@ -491,6 +527,41 @@ meant to be.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.74.0] - 2026-09-10
 
 **A lifeboat the size of a lifeboat, and a wreck that behaves like one.**
@@ -536,6 +607,41 @@ shot is kept readable by bringing the camera in instead, which is what a camera 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.73.0] - 2026-09-10
 
 **Somewhere to have arrived, and somebody getting out in time.**
@@ -599,6 +705,41 @@ close, and no crawling on the limb.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.72.0] - 2026-09-10
 
 **The hauler stops being a bug.**
@@ -653,6 +794,41 @@ set of them kept in two files is a set that will not match after the next time t
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.71.0] - 2026-09-10
 
 **The hauler has a drive that is a solid, and its lights are on.**
@@ -705,6 +881,41 @@ wrong way round for a bell.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.70.0] - 2026-09-10
 
 **Nobody misses the opening now, everybody can turn it off, and the hauler is plated.**
@@ -774,6 +985,41 @@ every face the camera cannot see. It comes over the lens now.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.69.1] - 2026-09-10
 
 **The film shouted at the log for the last second of itself.**
@@ -789,6 +1035,41 @@ full of them is a player log nobody can read the real fault out of.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.69.0] - 2026-09-10
 
 **The opening film, shot instead of drawn.**
@@ -885,6 +1166,41 @@ black uncovers is the planet rather than an empty stage.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.68.0] - 2026-09-10
 
 **How you got here, and a way out of every window.**
@@ -990,6 +1306,41 @@ standing on a minute later.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.67.0] - 2026-09-10
 
 **Meat is food now -- and the only weapon in the game turns out to have been unbuildable.**
@@ -1056,6 +1407,41 @@ has to come from a recipe, an ore, a plant or an animal. Twenty ingredients, no 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.66.1] - 2026-09-10
 
 **The unlock sheet, wider and with pictures on it.**
@@ -1099,6 +1485,41 @@ that is the difference between reading what is next and wanting it.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.66.0] - 2026-09-10
 
 **What you just earned gets a screen, and you are the one who closes it.**
@@ -1137,6 +1558,41 @@ as the game running out of work.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.65.1] - 2026-09-09
 
 **A seam with a factory on it is yours, and a foundation is enough to say so.**
@@ -1164,6 +1620,41 @@ one particular tile.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.65.0] - 2026-09-09
 
 **Something lives on the far seams, and it was standing on your copper the whole time.**
@@ -1269,6 +1760,41 @@ The design, including the long list of things deliberately left out, is in
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.64.0] - 2026-09-09
 
 **A line can divide, and three lines can become one — and both fittings go down on a belt that is
@@ -1360,6 +1886,41 @@ lie.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.63.3] - 2026-09-09
 
 **Limestone is chalk again — lighter than the rock it is bedded in.**
@@ -1397,6 +1958,41 @@ black, copper amber, limestone chalk.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.63.2] - 2026-09-09
 
 **A coal seam stops looking like the rock it is in.**
@@ -1442,6 +2038,41 @@ question a log line can answer.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.63.1] - 2026-09-09
 
 **An iron outcrop stops looking like a copper one.**
@@ -1474,6 +2105,41 @@ copper gives back more copper — which also makes a copper outcrop read warmer 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.63.0] - 2026-09-09
 
 **Rivets, and the first machine in this game that can hold two materials at once.**
@@ -2474,6 +3140,41 @@ dimmed, because a room full of comings and goings should not read as loudly as a
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.49.1] - 2026-09-08
 
 **The store's readout comes down two rows.** It was drawn at the top of the door — which on the
@@ -2487,6 +3188,41 @@ handles rather than above them.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.49.0] - 2026-09-08
 
 **The build menu opens on the kinds of thing there are.** Two screens now: the kinds, then the
@@ -2538,6 +3274,41 @@ station lights seven.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.48.1] - 2026-09-08
 
 **The work light has a switch.** `L`, listed on the controls page with everything else and
@@ -2559,6 +3330,41 @@ does not. Windows 98 MB to 87, Linux 92 to 81.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.48.0] - 2026-09-08
 
 **The drone carries a light.** Every lamp in the game so far is bolted to a building and lights the
@@ -2591,6 +3397,41 @@ them be retuned at once.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.47.3] - 2026-09-08
 
 **A machine between jobs is not a machine that has lost power.** The lamps on a building asked
@@ -2632,6 +3473,41 @@ The loading screen picks its tip in `Begin` now, which is still the call that ma
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.47.2] - 2026-09-08
 
 **The main menu came up dead in the editor.** Its join page built a text field and a note in
@@ -2659,6 +3535,41 @@ when the same bug was fixed for a different field in 0.23.0. A comment is not a 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.47.1] - 2026-09-08
 
 **A lit building is a building with power, and now something says so.** The crafter carries more on
@@ -2677,6 +3588,41 @@ was written into the lamps from the start and had never been tested.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.47.0] - 2026-09-08
 
 **The build menu was a ring you had to aim at.** Sectors cut out of an annulus, picked by the
@@ -2721,6 +3667,41 @@ and then presses the key to see a ghost come up.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.46.1] - 2026-09-08
 
 **A base built shoulder to shoulder is as bright as one lamp.** Sixteen storage boxes on sixteen
@@ -2756,6 +3737,41 @@ change to a lamp is measured against it rather than argued about.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.46.0] - 2026-09-08
 
 **A machine's own fittings stay lit after dark.** Its side is drawn -- a fire under the smelter's
@@ -2788,6 +3804,41 @@ while its lamp answered another would read as two buildings standing in the same
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.45.1] - 2026-09-08
 
 **The lamps on a building light the ground it stands on now, instead of the floor underneath it.**
@@ -2815,6 +3866,41 @@ same lamps still come up at midday under a storm, and still out with the grid.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.45.0] - 2026-09-08
 
 **There is wind on this planet, and until now the only things that knew were the clouds and the
@@ -2857,6 +3943,41 @@ quiet.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.44.0] - 2026-09-08
 
 **The loading screen is a panel now, not four words adrift in the dark.** It was the one screen in
@@ -2888,6 +4009,41 @@ because a timer said it should -- but it now says the figure out loud beside the
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.43.2] - 2026-09-08
 
 Everything else that stands up and turns to face you gets what the character got in 1.43.1.
@@ -2928,6 +4084,41 @@ could not once the flora sheet had nine of them side by side.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.43.1] - 2026-09-08
 
 The character had shape and no depth. The light knows what is in front of what now.
@@ -2970,6 +4161,41 @@ posed off its phase never goes wrong on the frame you would have thought to ask 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.43.0] - 2026-09-08
 
 The sky does something, and the base lights up when it stops giving light.
@@ -3051,6 +4277,41 @@ rather than merely being darker.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.42.0] - 2026-09-08
 
 The trees grew up, and started standing on the ground.
@@ -3107,6 +4368,41 @@ read well standing next to it was a row of cabbages seen from across the valley.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.41.0] - 2026-09-07
 
 A floor is one floor, and a wall gets out of the way by ducking.
@@ -3172,6 +4468,41 @@ stair.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.40.1] - 2026-09-07
 
 Sound put in its place: where a noise comes from, and how far it carries.
@@ -3208,6 +4539,41 @@ past it comes back at nothing.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.40.0] - 2026-09-07
 
 Everything a sound needs except the sounds.
@@ -3262,6 +4628,41 @@ belt ambience, ducking, and footsteps that know what they are landing on.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.39.0] - 2026-09-07
 
 A cheat page, in the pause menu of every run.
@@ -3304,6 +4705,41 @@ now, and the keys stayed behind the guard where they belong.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.38.0] - 2026-09-07
 
 The building blocks, reworked: what may stand on what, where you are allowed to put it, and what
@@ -3372,6 +4808,41 @@ prompt instead, which is the information it was for.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.37.4] - 2026-09-07
 
 The miner's drill bit has not been visible since the world went 3D.
@@ -3398,6 +4869,41 @@ pale mass with the form shading that made it read as metal thrown away.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.37.3] - 2026-09-07
 
 The last block was standing next to the smoke.
@@ -3428,6 +4934,41 @@ three releases starting at 1.37.0 were for.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.37.2] - 2026-09-07
 
 The escape pod is standing on its feet.
@@ -3452,6 +4993,41 @@ capsule's own bulk stands in front of anything small on its flanks.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.37.1] - 2026-09-07
 
 The belt was the flattest thing left on the planet.
@@ -3486,6 +5062,41 @@ reason to make them brighter still. Every machine has a flank of its own, so not
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.37.0] - 2026-09-07
 
 Every building was a prism.
@@ -3594,6 +5205,41 @@ of the release pass, since it is nine pictures of one building.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.36.0] - 2026-09-07
 
 A rock is not one height.
@@ -3668,6 +5314,41 @@ what is left of the sweep, in the order a thing is actually put up.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.35.0] - 2026-09-06
 
 A walk, and a suit to walk in.
@@ -3715,6 +5396,41 @@ on the chest, and the orange is down to a belt.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.34.0] - 2026-09-06
 
 The character again, and this time as equipment.
@@ -3766,6 +5482,41 @@ The figure in the equipment panel is the same suit, redrawn with the space that 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.33.1] - 2026-09-06
 
 Everybody else climbs it too.
@@ -3796,6 +5547,41 @@ under the character somebody is watching is the ground under where they are watc
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.33.0] - 2026-09-06
 
 A climb you walk up, and somebody worth watching do it.
@@ -3868,6 +5654,41 @@ now, drawn with the space that panel has, with the boxes led to the part of the 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.32.3] - 2026-09-06
 
 The host holds onto what Steam would not take.
@@ -3895,6 +5716,41 @@ the same appetite.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.32.2] - 2026-09-06
 
 Three faults from one evening of two people playing, and they are all the same shape underneath:
@@ -3935,6 +5791,41 @@ ends. The wire is now read once a frame.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.32.1] - 2026-09-06
 
 Everybody else throws a shadow too.
@@ -3959,6 +5850,41 @@ not go when the body does. Somebody leaving now takes theirs with them in the sa
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.32.0] - 2026-09-06
 
 Everybody else walks.
@@ -3992,6 +5918,41 @@ which is exactly what it could not do.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.31.1] - 2026-09-06
 
 The second of two checks that had been failing on their own account rather than the game's.
@@ -4013,6 +5974,41 @@ which matters more than the check does, being somebody's own list of their own f
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.31.0] - 2026-09-06
 
 The network door is a button now, on both ends, so testing two players no longer means a command
@@ -4037,6 +6033,41 @@ keypress cannot drift apart.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.30.0] - 2026-09-06
 
 Two players, by yourself.
@@ -4074,6 +6105,41 @@ See "Two players, by yourself" in README.md.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.29.2] - 2026-09-06
 
 The capture pass has been failing its recycled-pod check for some time, and the game was innocent.
@@ -4095,6 +6161,41 @@ amount of coasting reaches. The resting distance is still logged, so the coast s
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.29.1] - 2026-09-06
 
 The drop pod is always reachable.
@@ -4123,6 +6224,41 @@ seed. The pod does not need flat ground. It needs ground the player can walk to.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.29.0] - 2026-09-06
 
 A host that goes takes the run with it.
@@ -4156,6 +6292,41 @@ slot would be taking a copy of somebody else's planet home.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.28.0] - 2026-09-06
 
 Two people can now actually play, rather than merely connect.
@@ -4191,6 +6362,41 @@ action -- the stack leaves the hand when the host says it did, not when the mous
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.27.6] - 2026-09-06
 
 Joining works.
@@ -4217,6 +6423,41 @@ departed guests left their handles open.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.27.5] - 2026-09-06
 
 A run that ended took nothing with it.
@@ -4245,6 +6486,41 @@ what it pointed at is gone.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.27.4] - 2026-09-06
 
 A read back over the whole of joining rather than over the part that was failing, on the grounds
@@ -4282,6 +6558,41 @@ the send simply would not have happened -- so it is now checked, and says so lou
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.27.3] - 2026-09-06
 
 The relay connection comes up now. The joiner reaches the host's machine and then waits, so what
@@ -4313,6 +6624,41 @@ screen, and the host sat wondering who had not turned up.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.27.2] - 2026-09-06
 
 The last release got a joiner as far as the host's doorstep. It found the game, read who was
@@ -4349,6 +6695,41 @@ that never answered.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.27.1] - 2026-09-06
 
 The first time two people who were not both this machine tried to play together, neither route in
@@ -4388,6 +6769,41 @@ other.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.27.0] - 2026-09-06
 
 The last release applied one rule to everything: a thing is drawn as tall as it is. It was the
@@ -4480,6 +6896,41 @@ pretending.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.26.0] - 2026-09-06
 
 The terrain has always obeyed one rule: a surface a storey up is drawn a storey up, with its side
@@ -4754,6 +7205,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.23.0] - 2026-09-05 — "Fit To The Screen"
 
 ### Added
@@ -4806,6 +7292,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.22.1] - 2026-09-05
 
 ### Fixed
@@ -4831,6 +7352,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.22.0] - 2026-09-05 — "Narrow It Down"
 
 ### Added
@@ -4854,6 +7410,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.21.3] - 2026-09-05
 
 ### Fixed
@@ -4866,6 +7457,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.21.2] - 2026-09-05
 
 ### Fixed
@@ -4886,6 +7512,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.21.1] - 2026-09-05
 
 ### Fixed
@@ -4905,6 +7566,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.21.0] - 2026-09-05 — "Faces In The List"
 
 ### Added
@@ -4940,6 +7636,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.20.0] - 2026-09-05 — "Our Own Picker"
 
 ### Added
@@ -4971,6 +7702,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.19.1] - 2026-09-05
 
 ### Fixed
@@ -4996,6 +7762,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.19.0] - 2026-09-05 — "The Guest List"
 
 ### Added
@@ -5030,6 +7831,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.18.1] - 2026-09-05
 
 ### Added
@@ -5047,6 +7883,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.18.0] - 2026-09-05 — "A Ring Round It"
 
 ### Added
@@ -5076,6 +7947,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.17.0] - 2026-09-05 — "Two Machines"
 
 ### Added
@@ -5102,6 +8008,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.16.0] - 2026-09-05 — "Somebody Else"
 
 ### Added
@@ -5146,6 +8087,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.15.0] - 2026-09-05 — "Six Characters"
 
 ### Added
@@ -5206,6 +8182,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.14.0] - 2026-09-05 — "A Name To Keep"
 
 ### Changed
@@ -5233,6 +8244,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.13.0] - 2026-09-05 — "Through The Relay"
 
 ### Added
@@ -5276,6 +8322,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.12.1] - 2026-09-05
 
 ### Fixed
@@ -5293,6 +8374,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.12.0] - 2026-09-05 — "Who Rolled It"
 
 ### Fixed
@@ -5322,6 +8438,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.11.0] - 2026-09-05 — "Asked, Not Done"
 
 ### Added
@@ -5349,6 +8500,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.10.0] - 2026-09-05 — "Come Back Tomorrow"
 
 ### Added
@@ -5387,6 +8573,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.9.0] - 2026-09-05 — "One Factory"
 
 ### Fixed
@@ -5416,6 +8637,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.8.0] - 2026-09-05 — "Two On The Planet"
 
 ### Changed
@@ -5453,6 +8709,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.7.0] - 2026-09-05 — "Nobody Looking"
 
 ### Added
@@ -5491,6 +8782,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.6.0] - 2026-09-05 — "In So Many Words"
 
 ### Changed
@@ -5519,6 +8845,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.5.0] - 2026-09-05 — "A World Apart"
 
 ### Changed
@@ -5544,6 +8905,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.4.0] - 2026-09-05 — "In Step"
 
 ### Changed
@@ -5572,6 +8968,42 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
+
 ## [1.3.1] - 2026-09-05
 
 ### Fixed
@@ -5599,6 +9031,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.3.0] - 2026-09-05 — "A Planet Behind The Menu"
 
 ### Added
@@ -5631,6 +9098,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.2.0] - 2026-09-05 — "Something Growing On It"
 
 ### Added
@@ -5664,6 +9166,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.1.3] - 2026-09-05
 
 ### Fixed
@@ -5679,6 +9216,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.1.2] - 2026-09-05
 
 ### Fixed
@@ -5692,6 +9264,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.1.1] - 2026-09-05
 
 ### Fixed
@@ -5710,6 +9317,41 @@ wrong was everything around it: who got to change it, when, and what the picture
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.1.0] - 2026-09-05 — "Room To Get Lost In"
 
 **A fresh planet is a different planet.** The map is five times the ground it was and the terraces
@@ -5749,6 +9391,41 @@ are cut differently, so an existing save comes back to a world that has moved un
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [1.0.0] - 2026-09-05 — "The Lie Of The Land"
 
 **Existing saves will not load into the planet they left.** A save stores its seed and rebuilds the
@@ -5809,6 +9486,41 @@ it is solid.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.44.0] - 2026-09-05 — "A Day On It"
 
 The planet turns. Ten minutes to a day at normal speed, running on the game clock, so the speed keys
@@ -5855,6 +9567,41 @@ wind it forward with everything else.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.43.0] - 2026-09-05
 
 ### Changed
@@ -5879,6 +9626,41 @@ wind it forward with everything else.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.42.1] - 2026-09-05
 
 ### Fixed
@@ -5909,6 +9691,41 @@ wind it forward with everything else.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.42.0] - 2026-09-05 — "Taller"
 
 Building upward worked in 0.41.0 and looked flat. A storey rose a third of a tile and the wall
@@ -5976,6 +9793,41 @@ as a floor plan drawn slightly out of register. A floor is a room tall now, and 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.41.0] - 2026-09-05 — "Upstairs"
 
 A base has only ever spread sideways. It can now go up, as many storeys as there is material to
@@ -6040,6 +9892,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.40.1] - 2026-09-05
 
 ### Changed
@@ -6052,6 +9939,42 @@ build them out of, and you can see that it has.
   now hatches and there is nothing left to hang off one.
 
 ---
+
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 
 ## [0.40.0] - 2026-09-05 — "Somewhere to Put It"
 
@@ -6095,6 +10018,42 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
+
 ## [0.39.0] - 2026-09-04 — "Rock, Not Puddle"
 
 ### Added
@@ -6136,6 +10095,42 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
+
 ## [0.38.0] - 2026-09-04 — "Standing Up"
 
 ### Added
@@ -6167,6 +10162,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.37.1] - 2026-09-04
 
 ### Fixed
@@ -6191,6 +10221,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.37.0] - 2026-09-04 — "Point At It"
 
 ### Changed
@@ -6218,6 +10283,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.36.0] - 2026-09-04
 
 ### Changed
@@ -6234,6 +10334,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.35.0] - 2026-09-04
 
 ### Added
@@ -6255,6 +10390,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.34.0] - 2026-09-04
 
 ### Added
@@ -6285,6 +10455,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.33.1] - 2026-09-04
 
 ### Fixed
@@ -6304,6 +10509,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.33.0] - 2026-09-04
 
 ### Changed
@@ -6334,6 +10574,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.32.0] - 2026-09-04
 
 ### Changed
@@ -6360,6 +10635,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.31.0] - 2026-09-04
 
 ### Added
@@ -6384,6 +10694,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.30.0] - 2026-09-04 — "Downstream"
 
 ### Added
@@ -6418,6 +10763,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.29.3] - 2026-09-04
 
 ### Fixed
@@ -6439,6 +10819,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.29.2] - 2026-09-04
 
 ### Fixed
@@ -6461,6 +10876,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.29.1] - 2026-09-04
 
 ### Fixed
@@ -6477,6 +10927,41 @@ build them out of, and you can see that it has.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.29.0] - 2026-09-04 — "Somewhere To Be"
 
 The Main Station is upgraded as far as it goes. What comes after it is milestones.
@@ -6514,6 +10999,41 @@ The Main Station is upgraded as far as it goes. What comes after it is milestone
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.28.1] - 2026-09-04
 
 ### Fixed
@@ -6531,6 +11051,41 @@ The Main Station is upgraded as far as it goes. What comes after it is milestone
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.28.0] - 2026-09-04 — "One Long Run"
 
 ### Added
@@ -6570,6 +11125,41 @@ The Main Station is upgraded as far as it goes. What comes after it is milestone
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.27.1] - 2026-09-04
 
 ### Added
@@ -6585,6 +11175,41 @@ The Main Station is upgraded as far as it goes. What comes after it is milestone
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.27.0] - 2026-09-04 — "Skip To It"
 
 Tools, so that trying a change costs minutes rather than an hour.
@@ -6617,6 +11242,41 @@ Tools, so that trying a change costs minutes rather than an hour.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.26.0] - 2026-09-04 — "Straight Through"
 
 ### Changed
@@ -6674,6 +11334,41 @@ Tools, so that trying a change costs minutes rather than an hour.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.25.0] - 2026-09-04 — "Clear Ground"
 
 ### Fixed
@@ -6708,6 +11403,41 @@ Tools, so that trying a change costs minutes rather than an hour.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.24.0] - 2026-09-04 — "Nothing Runs For Free"
 
 A machine that needs power does not turn without it, a building faces any way you like, and
@@ -6770,6 +11500,41 @@ everything that is working shows it.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.23.1] - 2026-09-04
 
 ### Fixed
@@ -6794,6 +11559,41 @@ everything that is working shows it.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.23.0] - 2026-09-04 — "Where You Start"
 
 The game asks what you want before it makes you a planet.
@@ -6880,6 +11680,41 @@ The game asks what you want before it makes you a planet.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.22.1] - 2026-09-04
 
 ### Fixed
@@ -6981,6 +11816,41 @@ An upgrade is a list of things to bring, and the station has the boxes out the w
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.21.0] - 2026-09-03 — "Standing Water"
 
 The list of things to do is now a list of things the station becomes.
@@ -7054,6 +11924,41 @@ The list of things to do is now a list of things the station becomes.
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.20.0] - 2026-09-03 — "Nothing Is Given"
 
 The pod used to hand over the pistol and the scanner. It hands over the metal now.
@@ -7106,6 +12011,41 @@ The bench, and the two things it makes:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.19.0] - 2026-09-03 — "Off Your Hands"
 
 The drill. Everything since the mining pistol has been building toward not needing it.
@@ -7156,6 +12096,41 @@ Its screen — no recipe, no input, just what it is cutting and how fast:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.18.0] - 2026-09-03 — "Foundations"
 
 Limestone, concrete, and — more usefully — a way of adding an ore that does not throw away every
@@ -7200,6 +12175,41 @@ Burning it down into concrete:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.17.1] - 2026-09-03
 
 More than one power grid was already possible — it falls out of the flood fill rather than being
@@ -7242,6 +12252,41 @@ A pole that would weld them together, saying so first:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.17.0] - 2026-09-03 — "By Hand"
 
 The escape pod's cell finally goes flat, and everything you have built stops until you give it a
@@ -7331,6 +12376,41 @@ A pole carrying the grid out to the crafter:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.16.0] - 2026-09-03 — "Thirty a Second"
 
 Machines stop being islands. A belt carries thirty items a second from one to the next, and the
@@ -7400,6 +12480,41 @@ Clogged, because the crafter at the far end has a full input:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.15.0] - 2026-09-03 — "Keep It"
 
 A run survives being closed, there is a second machine to put down, and every machine now says on
@@ -7489,6 +12604,41 @@ The station showing what it draws from, with the tiles no longer colliding:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.14.0] - 2026-09-02 — "The Smelter"
 
 The station makes things while you stand at it. A smelter makes things while you are somewhere
@@ -7580,6 +12730,41 @@ The cost of the Main Station on its way from the player to the frame:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.13.0] - 2026-09-02 — "Smelter"
 
 Ore is not a part. Everything goes through a bar now, the station has a proper screen to make it
@@ -7650,6 +12835,41 @@ The Main Station taken apart into a full hold, its refund on the ground:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.12.0] - 2026-09-02 — "Deep Survey"
 
 Objectives no longer finish themselves. The station is where progression happens now: you walk
@@ -7715,6 +12935,41 @@ A copper deposit that has just surfaced, on ground reserved for it since generat
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.11.1] - 2026-09-02
 
 Three things 0.11.0 shipped broken. The scanner turned out to be two separate faults with the same
@@ -7767,6 +13022,41 @@ The survey menu, opened by a genuine click:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.11.0] - 2026-09-02 — "Survey"
 
 Ore moves out of sight. One deposit sits near the landing pad to get you started; everything else
@@ -7823,6 +13113,41 @@ After the sweep: one deposit named on screen, two pinned to the edge with distan
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.10.0] - 2026-09-02 — "Milestones"
 
 Crafting becomes progression. The tutorial now teaches fabrication as well as mining, a set of
@@ -7883,6 +13208,41 @@ The fabricator with the iron rod now offered:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.9.0] - 2026-09-02 — "Ironworks"
 
 The escape pod gives up iron parts rather than a category of its own, so everything in the opening
@@ -7926,6 +13286,41 @@ The fabricator with both iron recipes, rods short because the plates went into t
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.8.1] - 2026-09-02
 
 ### Fixed
@@ -7957,6 +13352,41 @@ The same character in the open and in the outcrop's shadow:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.8.0] - 2026-09-02 — "Relief"
 
 Sprites stop being flat. Every one of them is lit as though it had volume, and they darken when
@@ -8010,6 +13440,41 @@ The player standing in the station's shadow, visibly dimmed:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.7.1] - 2026-09-02
 
 ### Fixed
@@ -8036,6 +13501,41 @@ The player standing in the station's shadow, visibly dimmed:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.7.0] - 2026-09-02 — "Long Shadows"
 
 A single light for the whole planet. The ground picks up its own relief, everything solid throws a
@@ -8092,6 +13592,41 @@ From above: consistent shadow direction across the whole scene, and slope shadin
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.6.0] - 2026-09-02 — "Open Ground"
 
 The tile grid is gone from the terrain. Ground types now fade into one another instead of meeting
@@ -8140,6 +13675,41 @@ Zoomed out, with the ice sheet fading into regolith rather than butting against 
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.5.0] - 2026-09-02 — "First Steps"
 
 A guided opening. Four tutorial steps teach the basics one at a time, and none of them advance
@@ -8194,6 +13764,41 @@ Step four, counting iron out of an outcrop:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.4.1] - 2026-09-02
 
 ### Fixed
@@ -8212,6 +13817,41 @@ The v0.4.0 screenshots were regenerated against this build so they show the real
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.4.0] - 2026-09-02 — "Outcrop"
 
 Deposits stop being tiles that happen to sit next to each other and become single 3x3 objects, in
@@ -8260,6 +13900,41 @@ Copper, iron and coal outcrops scattered as landmarks:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.3.0] - 2026-09-02 — "Fabricator"
 
 The Main Station becomes a real workshop: walk up to it, press `E`, click what you want and it
@@ -8326,6 +14001,41 @@ Uniform 2x2 deposits scattered across the surface:
 
 ---
 
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 ## [0.2.0] - 2026-09-02 — "Groundworks"
 
 Deposits become permanent, purity-graded sources instead of piles to be used up. The escape pod
@@ -8420,6 +14130,42 @@ Deposits as sparse landmarks rather than an ore carpet:
 [0.2.0]: https://github.com/boubou666/factory/releases/tag/v0.2.0
 
 ---
+
+## [1.88.0] - 2026-09-13
+
+**The factory has become machinery.**
+
+Every buildable object has been rebuilt as procedural world-space geometry: the small bench,
+smelter, crafter and assembler; the miner, scrubber, biomass burner and steam plant; the treadwheel,
+power poles, belts, lifts, tunnels, splitters, mergers, pipes, intake, tank and both stores. Their
+silhouettes now come from separate frames, vessels, guards, motors, ducts, tools and service parts
+instead of relief drawn onto rectangular blocks.
+
+![The rebuilt production line](docs/screenshots/steam-plant-redesign/runtime-full-load-0.png)
+
+**A working machine says what it is doing.** Cutters turn, presses descend, gantries travel, rotors
+spin, flames rise, generators and governors move, water climbs the tank, cargo rides the belts and
+status lamps follow the real simulation. Empty, blocked, dry, unpowered, backed-up and full states
+change the mechanism itself. Build-menu drawings use the same silhouettes, so the thing selected is
+the thing that appears in the world.
+
+**The base has weight around it.** Foundations, walls, doors, roofs and stairs are now structural
+assemblies with concrete edges, steel frames, supports, landings and readable undersides. They keep
+their neighbour joins, four rotations, upper floors, cutaway behaviour and walkable surfaces.
+
+![The rebuilt base architecture](docs/screenshots/architecture-redesign/after-world-open.png)
+
+**One industrial lineage runs from landing to launch.** The escape pod, growing Main Station and
+staged rocket site share pressure-shell forms and service hardware. Ore deposits and fluid pipes
+belong to the same world. The mining drone is now an articulated aircraft, and the standing player
+is a fourteen-part human pressure suit with an opaque visor, moving gait, tool pose and a matching
+equipment figure.
+
+![The pressure suit in the world](docs/screenshots/player-suit-redesign/player-suit-day-0.png)
+
+All existing footprints, ports, recipes, costs, power and fluid rules, obstruction, storeys, saves
+and co-op actor behaviour remain compatible. This is the same factory, now built out of parts you
+can watch work.
 
 ## [0.1.0] - 2026-09-02 — "Landfall"
 
