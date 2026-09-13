@@ -7,6 +7,35 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.88.1] - 2026-09-13
+
+**Shadows and movement follow the machinery.**
+
+Buildings now cast shadows from their hulls and moving parts. The silhouettes follow the sun
+and the building's floor, and overlapping parts form one shadow instead of accumulating dark
+seams. Shadows switch off at night, and the rain mask keeps its own stencil bit.
+
+**The Scrap Maul is in your hand.** Equipping it raises the weapon; swinging turns the torso,
+shoulder and grip through the strike and back to a ready stance. Lodebacks show their wind-up,
+head thrust and recoil when hit.
+
+![The maul's strike and recovery](docs/screenshots/gameplay-polish/combat-poses.png)
+
+**Cargo is easier to recognise.** All 28 item icons have been redrawn at 64 pixels with distinct
+silhouettes for raw minerals, plates, bars, rods, wire, cable, flight parts and personal equipment.
+Their size in the world stays the same.
+
+![The revised item illustrations](docs/screenshots/gameplay-polish/item-icons.png)
+
+**The mining drone works around the stone.** It travels between positions outside the deposit,
+aims its cutter at the current cut, and keeps both ends of the mining beam attached while the
+drone moves or the camera turns.
+
+The progression audit checks all eight station upgrades and thirteen milestone tasks against the
+actual recipes, ore unlocks and crafting benches. It found no material unlock dead ends and
+identified the rocket-site and steam-power orders as the largest cost spikes. Delivery quantities,
+recipe costs and rewards are unchanged; the balance review records suggested playtest adjustments.
+
 ## [1.88.0] - 2026-09-13
 
 **The factory has become machinery.**
