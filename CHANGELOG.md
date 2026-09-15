@@ -7,6 +7,19 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ---
 
+## [1.90.1] - 2026-09-16
+
+**Station cargo stays inside the console.**
+
+The equipment screen's enlarged four-column cargo grid no longer leaks into the Main Station or
+machine interfaces. Their cargo strips once again use compact cells and the width available to
+them, keeping every slot above the footer at expanded hold sizes.
+
+![The corrected Main Station console](docs/screenshots/v1.90.1/main-station-fixed.png)
+
+The focused station capture passes at 1280×720 with no failures, and Unity imports the updated
+stylesheet without warnings or errors.
+
 ## [1.90.0] - 2026-09-14
 
 **One shared factory, with safer saves.**
